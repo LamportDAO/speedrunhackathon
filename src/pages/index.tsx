@@ -22,7 +22,7 @@ export default function Home() {
       <SEO
         title={`${config.general.name}`}
         description={`${config.general.name} is a virtual hackathon organized by LamportDAO .`}
-        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672700017/Frame_147_bxmhpf.png`}
+        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672700754/Frame_145_nwggw9.png`}
       />
       <Container maxW={'8xl'} p='0'>
         <VStack
