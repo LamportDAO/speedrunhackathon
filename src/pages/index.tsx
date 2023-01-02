@@ -21,8 +21,8 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a Quadratic funding platform on Solana Blockchain.`}
-        image={`https://solana.ghost.io/content/images/2022/06/solana-network-upgrades.png`}
+        description={`${config.general.name} is a virtual hackathon organized by LamportDAO .`}
+        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672700017/Frame_147_bxmhpf.png`}
       />
       <Container maxW={'8xl'} p='0'>
         <VStack
