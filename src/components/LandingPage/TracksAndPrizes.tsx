@@ -101,20 +101,23 @@ const TracksAndPrizes = () => {
             <Card
               activeTrackHandler={activeTrackHandler}
               track={{
-                Name: 'Student Prize ',
-                Sponsor: ['Solana University'],
-                PrizeWorth: '5000',
+                Name: 'Superteam Global Prize',
+                Sponsor: ['Superteam'],
+                PrizeWorth: '2000',
                 PizeUnit: 'USDC',
                 PrizeDetails: [
-                  ' 2023 Breakpoint Tickets to the top student team',
+                  ' 2,000 USDC to Most Scalable and Useful Public Good',
                 ],
                 AboutUs:
-                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
+                  'As part of the LamportDAO Sandstorm Hackathon, Superteam is sponsoring a global track for Public Goods. These are protocols that exist on Solana without intention to collect fees and allow other protocols and users benefit from additional features on Solana for free.',
                 Description:
-                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
-                Ideas: ['String[]'],
+                  'As part of the LamportDAO Sandstorm Hackathon, Superteam is sponsoring a global track for Public Goods. These are protocols that exist on Solana without intention to collect fees and allow other protocols and users benefit from additional features on Solana for free.',
+                Ideas: [
+                  'Anything without protocol fees.',
+                  'This is a global prize and every hackathon submission is automatically enrolled into this prize.',
+                ],
                 Requirements: '',
-                Links: [' '],
+                Links: ['https://twitter.com/LamportDAO'],
                 Judges: [],
               }}
             />

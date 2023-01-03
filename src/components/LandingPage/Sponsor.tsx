@@ -28,6 +28,7 @@ import {
   Chainflow,
   Superteam,
   Eclipse,
+  Multicoin,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -91,6 +92,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Poolprops />;
     case 'Lamport DAO':
       return <LamportDAO />;
+    case 'Multicoin':
+      return <Multicoin />;
     default:
       return <></>;
   }
