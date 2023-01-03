@@ -70,7 +70,7 @@ export default function Home() {
             maxW='3xl'
             textAlign={'center'}
           >
-            Virtual Solana Hackathon form{' '}
+            Virtual Solana Hackathon from{' '}
             <Box as='span' textDecor={'underline'}>
               Jan 10 - Jan 23
             </Box>{' '}
