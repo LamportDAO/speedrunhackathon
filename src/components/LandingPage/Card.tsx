@@ -4,6 +4,7 @@ import {
   HStack,
   Stack,
   Text,
+  useMediaQuery,
   VStack,
   WrapItem,
 } from '@chakra-ui/react';
@@ -19,6 +20,7 @@ const Card = ({
   activeTrackHandler: (track: trackType | undefined) => void;
   track?: trackType;
 }) => {
+  const [isMobile] = useMediaQuery('(max-width: 780px)');
   const [hover, setHover] = useState(false);
   const [glarePosition, setGlarePosition] = useState({
     x: -150,
@@ -42,6 +44,7 @@ const Card = ({
     <WrapItem
       onClick={() => {
         console.log('track clicked');
+        if (isMobile) return;
         activeTrackHandler(track);
       }}
     >

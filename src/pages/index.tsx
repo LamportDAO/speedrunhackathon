@@ -29,7 +29,7 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a virtual hackathon organized by LamportDAO .`}
+        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Helius Labs from Jan 10 - 23, 2023.`}
         image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672742830/Frame_145_3_liwqzi.png`}
       />
       <Container maxW={'8xl'} p='0'>
