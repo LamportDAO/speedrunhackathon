@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
-import { Box, Flex, Link, Button, Center } from '@chakra-ui/react';
+import { Flex, Button, Center } from '@chakra-ui/react';
 import { Router, useRouter } from 'next/router';
 import Logo from '../assets/logo/Logo';
-import { BiRightArrowAlt } from 'react-icons/bi';
+
 export default function Header() {
   const router = useRouter();
 

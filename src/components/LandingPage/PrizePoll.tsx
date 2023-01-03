@@ -24,7 +24,6 @@ const PrizePool = () => {
   };
   return (
     <VStack
-      zIndex={'10'}
       onMouseEnter={() => {
         setHover(true);
       }}

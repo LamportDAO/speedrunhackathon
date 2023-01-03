@@ -7,6 +7,7 @@ const sponsorNames = [
   'Helius',
   'Bridgesplit',
   'Openbook',
+  'Eclipse',
   'Hxro Network',
   'Clockwork',
   'Bonk',
@@ -18,7 +19,7 @@ const sponsorNames = [
   'MonkeVentures',
   'BetDEX',
   'Superteam',
-  'Eclipse',
+
   'SolBlaze',
   'Poolprops',
   'Crossmint',
