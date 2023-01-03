@@ -15,6 +15,8 @@ import {
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
 import { Inktrap } from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
+import { FaDiscord } from 'react-icons/fa';
+import { Helius, LamportDAO } from '../components/assets/sponsors/icons';
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
       <SEO
         title={`${config.general.name}`}
         description={`${config.general.name} is a virtual hackathon organized by LamportDAO .`}
-        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672700754/Frame_145_nwggw9.png`}
+        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672703465/Frame_145_2_cx6lsu.png`}
       />
       <Container maxW={'8xl'} p='0'>
         <VStack
@@ -65,40 +67,50 @@ export default function Home() {
           >
             Virtual Solana Hackathon form{' '}
             <Box as='span' textDecor={'underline'}>
-              Jan 10 - Jan 20
+              Jan 10 - Jan 23
             </Box>{' '}
-            presented by LamportDAO and Helius Labs
+            presented by LamportDAO & Helius Labs
           </Text>
           <HStack
             mt='2rem'
             mx='auto'
             w='full'
-            gap='0.5rem'
+            gap={{ base: '0.1rem', md: '0.5rem' }}
             alignItems={'center'}
             justifyContent='center'
-            pt='1rem'
+            pt={'1rem'}
           >
             <Button
-              pt='0.8rem'
-              fontSize={{ base: '14px', md: '18px' }}
+              pt={{ base: '0.7rem', md: '0.8rem' }}
+              display={'flex'}
+              alignItems='start'
+              justifyContent={'center'}
+              fontSize={{ base: '16px', md: '18px' }}
+              lineHeight='24px'
               variant='gradient'
             >
               Sponser
             </Button>
             <Button
-              pt='0.8rem'
+              as='a'
+              href='https://sandstormhackathon.com/discord'
+              target={'_blank'}
+              pt={{ base: '0.7rem', md: '0.8rem' }}
               display={'flex'}
               alignItems='start'
-              fontSize={{ base: '14px', md: '18px' }}
+              justifyContent={'center'}
+              fontSize={{ base: '16px', md: '18px' }}
+              lineHeight='24px'
+              rightIcon={<FaDiscord />}
             >
-              Register {' ->'}
+              Join Discord
             </Button>
           </HStack>
         </VStack>
         <Center>
           <TracksAndPrizes />
         </Center>
-        <Center py='1rem' px={{ base: '1rem', md: '4rem', lg: '5rem' }}>
+        <Center py='1rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
           <SponsorsSection />
         </Center>
       </Container>

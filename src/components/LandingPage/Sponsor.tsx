@@ -26,6 +26,8 @@ import {
   ChainCrisis,
   LamportDAO,
   Chainflow,
+  Superteam,
+  Eclipse,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -35,6 +37,10 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <SolanaU />;
     case 'OtterSec':
       return <OtterSec />;
+    case 'Superteam':
+      return <Superteam />;
+    case 'Eclipse':
+      return <Eclipse />;
     case 'Dispatch':
       return <Dispatch />;
     case 'Flipside':
@@ -52,7 +58,7 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
     case 'Helius':
       return <Helius />;
     case 'ChainFlow':
-      return <Chainflow/>;
+      return <Chainflow />;
     case 'Phantom':
       return <Phantom />;
     case 'Crossmint':
@@ -84,7 +90,7 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
     case 'Poolprops':
       return <Poolprops />;
     case 'Lamport DAO':
-      return <LamportDAO />
+      return <LamportDAO />;
     default:
       return <></>;
   }

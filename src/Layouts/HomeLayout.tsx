@@ -21,6 +21,7 @@ const HomeLayout = ({ children }: ChildInterface) => {
         <Background />
       </Center>
       <Container
+        p='0'
         className={Inktrap.style.fontFamily}
         position={'absolute'}
         maxW={'full'}

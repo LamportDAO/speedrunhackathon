@@ -6,8 +6,8 @@ const Logo = () => {
     <HStack gap='0.2rem' alignItems={'center'} justify='space-between'>
       <Text
         fontWeight={'800'}
-        pb='0.4rem'
-        fontSize={{ base: '22px', md: '32px' }}
+        pt='0.3rem'
+        fontSize={{ base: '18px', md: '32px' }}
       >
         Sandstorm
       </Text>

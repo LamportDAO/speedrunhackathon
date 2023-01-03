@@ -112,14 +112,14 @@ const Card = ({
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
             }
             bgClip={'text'}
-            fontSize={{ base: '3xl', md: '5xl' }}
+            fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
           >
             {track ? track?.PrizeWorth : '00k'}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: 'md', md: 'lg' }}
+            fontSize={{ base: 'sm', md: 'lg' }}
             fontWeight={'600'}
           >
             {track ? track?.PizeUnit : 'USDC'}

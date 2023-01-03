@@ -2,9 +2,9 @@ import { Container, Heading, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react';
 import Sponsor from './Sponsor';
 const sponsorNames = [
+  'Solana Foundation',
   'Lamport DAO',
   'Helius',
-  'Solana Foundation',
   'Bridgesplit',
   'Openbook',
   'Hxro Network',
@@ -17,6 +17,8 @@ const sponsorNames = [
   'UniqueVC',
   'MonkeVentures',
   'BetDEX',
+  'Superteam',
+  'Eclipse',
   'SolBlaze',
   'Poolprops',
   'Crossmint',
@@ -39,7 +41,7 @@ const SponsorsSection = () => {
       justifyContent={'center'}
       alignItems='center'
     >
-      <Heading py='2rem' fontSize='4xl' fontWeight='700'>
+      <Heading py='2rem' fontSize={{ base: '2xl', md: '4xl' }} fontWeight='700'>
         Sponsors
       </Heading>
       <Wrap

@@ -59,7 +59,11 @@ const TracksAndPrizes = () => {
         pt={{ base: '25vh', md: '35vh' }}
         pb='10rem'
       >
-        <Heading py='2rem' fontSize='4xl' fontWeight='700'>
+        <Heading
+          py='2rem'
+          fontSize={{ base: '2xl', md: '4xl' }}
+          fontWeight='700'
+        >
           Tracks & Prizes
         </Heading>
         <Stack
