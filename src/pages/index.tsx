@@ -19,6 +19,12 @@ import { FaDiscord } from 'react-icons/fa';
 import { Helius, LamportDAO } from '../components/assets/sponsors/icons';
 
 export default function Home() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('track');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
       <SEO
@@ -28,7 +34,6 @@ export default function Home() {
       />
       <Container maxW={'8xl'} p='0'>
         <VStack
-          gap='0rem'
           py={['10vh', '5rem', '8rem', '8rem', '6rem']}
           mx='auto'
           maxW={['26rem', '26rem', '40rem', '60rem']}
@@ -59,8 +64,8 @@ export default function Home() {
           </Heading>
           <Text
             px='1rem'
-            pt={'0.5rem'}
-            fontSize={{ base: '18px', md: '24px' }}
+            pt={{ base: '0rem', md: '0.5rem' }}
+            fontSize={{ base: '16px', sm: '18px', md: '24px' }}
             fontWeight='500'
             maxW='3xl'
             textAlign={'center'}
@@ -88,8 +93,9 @@ export default function Home() {
               fontSize={{ base: '16px', md: '18px' }}
               lineHeight='24px'
               variant='gradient'
+              onClick={handleClickScroll}
             >
-              Sponser
+              View Tracks
             </Button>
             <Button
               as='a'
@@ -107,7 +113,7 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
-        <Center>
+        <Center id='track'>
           <TracksAndPrizes />
         </Center>
         <Center py='1rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>

@@ -4,11 +4,25 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <Center position={'absolute'}>
+    <Center
+      position={'absolute'}
+      height={{
+        base: '50px',
+        sm: '100px',
+        md: '150px',
+        lg: '260px',
+        xl: '100px',
+      }}
+    >
       <Center
         zIndex={'-2'}
+        transform={{
+          base: 'translateY(-10%)',
+          md: 'translateY(-20%)',
+          lg: 'translateY(-10%)',
+          xl: 'translateY(4%)',
+        }}
         overflow='hidden'
-        transform='translateY(-20%)'
         h={'fit-content'}
         w={['full']}
       >

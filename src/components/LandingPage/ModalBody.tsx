@@ -35,11 +35,16 @@ const TracksModalBody = ({
       p='2.5rem 2rem 2rem 2rem'
       rounded='2xl'
     >
-      <HStack w='100%' justifyContent={'space-between'} alignItems='center'>
+      <HStack
+        overflow={'hidden'}
+        w='full'
+        justifyContent={'space-between'}
+        alignItems='center'
+      >
         <Heading
           pt='0.5rem'
           fontFamily={Inktrap.style.fontFamily}
-          fontSize={'26px'}
+          fontSize={{ base: '22px', md: '26px' }}
         >
           {track ? track?.Name : 'Hello World'}
         </Heading>
@@ -48,14 +53,10 @@ const TracksModalBody = ({
             onClose();
           }}
           cursor='pointer'
-          _hover={{
-            transition: 'all 0.5s',
-            transform: 'rotate(90deg)',
-          }}
           transition='all 0.5s'
           variant={'unstyled'}
-          width='1.4rem'
-          height='1.4rem'
+          width={{ base: '1rem', md: '1.4rem' }}
+          height={{ base: '1rem', md: '1.4rem' }}
           as={RxCross1}
           aria-label={'cancel'}
         />
@@ -73,12 +74,16 @@ const TracksModalBody = ({
           fontFamily={Inktrap.style.fontFamily}
           bgClip={'text'}
           lineHeight={'70px'}
-          fontSize={'52px'}
+          fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
           {track ? track?.PrizeWorth : '00k'}
         </Heading>
-        <Text fontSize={'18px'} pb='0.8rem' fontWeight={'600'}>
+        <Text
+          fontSize={{ base: '16px', md: '18px' }}
+          pb='1.4rem'
+          fontWeight={'600'}
+        >
           {track ? track?.PizeUnit : 'USDC'}
         </Text>
       </HStack>
@@ -93,7 +98,11 @@ const TracksModalBody = ({
         ) : (
           ''
         )}
-        <Text fontFamily={Inktrap.style.fontFamily} fontSize='md'>
+        <Text
+          fontFamily={Inktrap.style.fontFamily}
+          fontSize={{ base: 'sm', md: 'md' }}
+          pt='0.4rem'
+        >
           {track
             ? track?.Description
             : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
@@ -104,16 +113,19 @@ const TracksModalBody = ({
               fontFamily={Inktrap.style.fontFamily}
               pt='1.4rem'
               fontWeight={'700'}
+              fontSize={{ base: 'md', md: 'lg' }}
             >
               Prizes
             </Text>
             <UnorderedList
               fontFamily={Inktrap.style.fontFamily}
-              fontSize='md'
+              fontSize={{ base: 'sm', md: 'md' }}
               pl='1.5rem'
             >
               {track.PrizeDetails?.map((prizeDetail, index) => (
-                <ListItem key={index}>{prizeDetail}</ListItem>
+                <ListItem maxW='100vw' key={index}>
+                  {prizeDetail}
+                </ListItem>
               ))}
             </UnorderedList>
           </>
@@ -124,12 +136,13 @@ const TracksModalBody = ({
               pt='1rem'
               fontFamily={Inktrap.style.fontFamily}
               fontWeight={'700'}
+              fontSize={{ base: 'md', md: 'lg' }}
             >
               Ideas
             </Text>
             <UnorderedList
               fontFamily={Inktrap.style.fontFamily}
-              fontSize='md'
+              fontSize={{ base: 'sm', md: 'md' }}
               pl='1.5rem'
             >
               {track.Ideas?.map((idea, index) => (
@@ -149,7 +162,7 @@ const TracksModalBody = ({
               rounded={'full'}
               p='0.35rem 1rem 0rem 1rem'
               color='white'
-              fontSize={'sm'}
+              fontSize={{ base: 'xs', md: 'sm' }}
               rightIcon={
                 <FiExternalLink
                   style={{ transform: 'translateY(-4px)', width: '12px' }}
@@ -169,7 +182,7 @@ const TracksModalBody = ({
               rounded={'full'}
               p='0.35rem 1rem 0rem 1rem'
               color='white'
-              fontSize={'sm'}
+              fontSize={{ base: 'xs', md: 'sm' }}
               rightIcon={
                 <FiExternalLink
                   style={{ transform: 'translateY(-4px)', width: '12px' }}
