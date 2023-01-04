@@ -92,7 +92,7 @@ const PrizePool = () => {
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
-          100k
+          175k
         </Heading>
 
         <Text
