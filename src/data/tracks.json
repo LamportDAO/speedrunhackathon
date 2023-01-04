@@ -1,5 +1,35 @@
 [
     {
+        "Name": "LamportDAO Global Prize",
+        "Sponsor": [
+            "Eclipse"
+        ],
+        "PrizeWorth": "2,000",
+        "PizeUnit": "USDC",
+        "PrizeDetails": [
+            "Judges Favorite: $1,500", "Most Popular: $500"
+        ],
+        "AboutUs": "Eclipse offers customizable rollups-as-a-service using the Solana virtual machine. This means you can spin up your own Cosmos chain and pick (1) the bytecode (SVM, EVM, soon Move), (2) the base layer (Celestia, Solana, Polygon, EigenLayer, NEAR), and (3) additional customizations for your execution layer. With your own Eclipse rollup, you can increase value capture for your application by adding MEV auctions, charging gas in your native token, subsidizing governance participation and more.",
+        "Description": "Sponsored by Eclipse, LamportDAO is awarding a Judge's Favorite and Most Popular prize to hackathon participants. These prizes are global and can be won alongside a specific track.\nJudges’ Favorites will be determined by voting among all the Judges.\nMost Popular will be determined by Reacts/Votes left on your Discord submission.\n\nMay the best teams win!",
+        "Ideas": [
+            "New Market Making Scripts/Methodology that takes into consideration on-chain limitations",
+            "Charting or Analytics solutions",
+            "Integrating Derivatives such as Perpetuals or Options"
+        ],
+        "Requirements": "Only open-sourced Github repos will be considered for Judges’ Favorite! Make sure you OS! ",
+        "Links": [
+            "https://eclipse.builders",
+            "https://twitter.com/LamportDAO",
+            "https://discord.gg/ShC7NRE7G5 "
+        ],
+        "Judges": [
+            {
+                "Name": "All judges",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
         "Name": "Building with Orderbooks ",
         "Sponsor": [
             "Openbook"
@@ -436,7 +466,9 @@
     },
     {
         "Name": "Social (web)apps",
-        "Sponsor": ["Spling Labs"],
+        "Sponsor": [
+            "Spling Labs"
+        ],
         "PrizeWorth": "1,500",
         "PizeUnit": "USDC",
         "PrizeDetails": [
