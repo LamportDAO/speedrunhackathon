@@ -83,7 +83,7 @@ const TracksAndPrizes = () => {
               track={{
                 Name: 'Student Prize ',
                 Sponsor: ['Solana University'],
-                PrizeWorth: '5000',
+                PrizeWorth: '5,000',
                 PizeUnit: 'USDC',
                 PrizeDetails: [
                   ' 2023 Breakpoint Tickets to the top student team',
@@ -103,7 +103,7 @@ const TracksAndPrizes = () => {
               track={{
                 Name: 'Superteam Global Prize',
                 Sponsor: ['Superteam'],
-                PrizeWorth: '2000',
+                PrizeWorth: '2,000',
                 PizeUnit: 'USDC',
                 PrizeDetails: [
                   ' 2,000 USDC to Most Scalable and Useful Public Good',
