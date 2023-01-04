@@ -98,13 +98,13 @@
         "Sponsor": [
             "SolBlaze"
         ],
-        "PrizeWorth": "50",
+        "PrizeWorth": "55.55",
         "PizeUnit": "bSOL",
         "PrizeDetails": [
-            "50 bSOL + 5m BLZE"
+            "55.55 bSOL + 5m BLZE"
         ],
         "AboutUs": "SolBlaze is dedicated to building Solana’s ecosystem through the creation of core utilities essential to the network’s growth. One of these utilities is a liquid stake pool (BlazeStake) which helps increase the decentralization of the Solana network by spreading stake out across 100+ validators. Users can take advantage of liquid staking to earn extra yields through bSOL DeFi integrations or unstake instantly. Plus, with Custom Liquid Staking, users can liquid stake directly to their favorite validators through bSOL.",
-        "Description": "Through the Lamport DAO Sandstorm Hackathon, we hope to encourage builders to integrate BlazeStake’s liquid staked SOL (bSOL) into payments systems, NFT mints, staking UIs, rewards protocols, and more. As a reward, we’ll give 50 bSOL (BlazeStake liquid staked SOL) and 5m BLZE (an upcoming token which will have incredible utility) in order to help support developers and push the Solana ecosystem forward!",
+        "Description": "Through the Lamport DAO Sandstorm Hackathon, we hope to encourage builders to integrate BlazeStake’s liquid staked SOL (bSOL) into payments systems, NFT mints, staking UIs, rewards protocols, and more. As a reward, we’ll give 55.55 bSOL (BlazeStake liquid staked SOL) and 5m BLZE (an upcoming token which will have incredible utility) in order to help support developers and push the Solana ecosystem forward!",
         "Ideas": [
             "Payments with $bSOL",
             "NFT mints in $bSOL",
