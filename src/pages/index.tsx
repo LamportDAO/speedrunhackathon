@@ -17,6 +17,7 @@ import { Inktrap } from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
 import { Helius, LamportDAO } from '../components/assets/sponsors/icons';
+import Locations from '../components/Locations/Locations';
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -113,6 +114,9 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
+        <Center id='track'>
+          <Locations />
+        </Center>
         <Center id='track'>
           <TracksAndPrizes />
         </Center>

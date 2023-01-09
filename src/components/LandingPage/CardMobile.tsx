@@ -19,87 +19,20 @@ import { trackType } from '../../../interfaces/track';
 import { FiExternalLink } from 'react-icons/fi';
 import Sponsor from './Sponsor';
 
-const Card = ({
-  activeTrackHandler,
-  track,
-}: {
-  activeTrackHandler: (track: trackType | undefined) => void;
+type PropsType = {
   track?: trackType;
-}) => {
-  const [isMobile] = useMediaQuery('(max-width: 480px)');
-  const [hover, setHover] = useState(false);
+};
+
+const CardMobile = ({ track }: PropsType) => {
   const [clicked, setClicked] = useState(false);
-  const [glarePosition, setGlarePosition] = useState({
-    x: -150,
-    y: -150,
-  });
-
-  const handleMouseMove = (event: {
-    preventDefault: () => void;
-    nativeEvent: { offsetX: any; offsetY: any };
-  }) => {
-    event.preventDefault();
-    setGlarePosition({
-      x: event.nativeEvent.offsetX,
-      y: event.nativeEvent.offsetY,
-    });
-  };
-
-  useEffect(() => {}, []);
-
   return (
     <WrapItem
       onClick={() => {
-        console.log('track clicked');
-        if (isMobile) {
-          setClicked((prevValue) => !prevValue);
-          return;
-        }
-        activeTrackHandler(track);
+        setClicked(!clicked);
       }}
     >
       <VStack
-        onMouseEnter={() => {
-          setHover(true);
-        }}
-        onMouseLeave={() => {
-          setHover(false);
-        }}
-        onMouseOutCapture={() => {
-          setGlarePosition({
-            x: -150,
-            y: -150,
-          });
-        }}
-        cursor={'pointer'}
         overflow='hidden'
-        onMouseMove={handleMouseMove}
-        _before={{
-          content: `" "`,
-          position: 'absolute',
-          top: `${glarePosition.y}px`,
-          left: `${glarePosition.x}px`,
-          transform: 'translate(-2rem, -2rem)',
-          overflow: 'hidden',
-          width: '5rem',
-          height: '5rem',
-          filter: 'blur(70px)',
-          backgroundColor: 'rgba(173, 166, 240, 0.9);',
-        }}
-        _after={{
-          content: `" "`,
-          position: 'absolute',
-          inset: '0',
-          borderRadius: '1.2rem',
-          padding: '4px',
-          background: hover
-            ? 'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
-            : '',
-          WebkitMask:
-            'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
-          WebkitMaskComposite: 'xor',
-          MaskComposite: 'exclude',
-        }}
         w={{ base: '85vw', sm: '38vw', md: '18rem' }}
         alignItems={'start'}
         background={'rgba(88, 82, 139, 0.2)'}
@@ -125,7 +58,7 @@ const Card = ({
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
             }
             bgClip={'text'}
-            fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
+            fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
           >
             {track ? track?.PrizeWorth : '00k'}
@@ -135,12 +68,10 @@ const Card = ({
             fontSize={{ base: 'sm', md: 'lg' }}
             fontWeight={'600'}
           >
-            {track ? track?.PizeUnit : 'USDC'}
+            {track ? track?.PrizeUnit : 'USDC'}
           </Text>
         </HStack>
         {clicked ? (
-          ''
-        ) : !isMobile ? (
           ''
         ) : (
           <Text
@@ -155,7 +86,7 @@ const Card = ({
               : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
           </Text>
         )}
-        {isMobile && clicked && (
+        {clicked && (
           <VStack
             maxW={'full'}
             alignItems={'start'}
@@ -261,4 +192,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default CardMobile;

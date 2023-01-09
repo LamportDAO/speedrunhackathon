@@ -27,7 +27,6 @@ const TracksModalBody = ({
   track: trackType;
   onClose: any;
 }) => {
-  console.log('ideas - ', track.Ideas?.length);
   return (
     <VStack
       maxW={'full'}
@@ -84,12 +83,11 @@ const TracksModalBody = ({
           pb='1.4rem'
           fontWeight={'600'}
         >
-          {track ? track?.PizeUnit : 'USDC'}
+          {track ? track?.PrizeUnit : 'USDC'}
         </Text>
       </HStack>
-
       <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>
-        {track.Sponsor! ? (
+        {track.Sponsor ? (
           <HStack gap='1rem'>
             {track.Sponsor?.map((sponsor, index) => (
               <Sponsor sponsorName={sponsor} key={index} />
@@ -152,46 +150,32 @@ const TracksModalBody = ({
           </>
         )}
         <Wrap py='1rem'>
-          <WrapItem>
-            <Button
-              as='a'
-              target={'_blank'}
-              fontFamily={Inktrap.style.fontFamily}
-              backdropFilter='blur(10px)'
-              backgroundColor='rgba(255, 255, 255, 0.10)'
-              rounded={'full'}
-              p='0.35rem 1rem 0rem 1rem'
-              color='white'
-              fontSize={{ base: 'xs', md: 'sm' }}
-              rightIcon={
-                <FiExternalLink
-                  style={{ transform: 'translateY(-4px)', width: '12px' }}
-                />
-              }
-            >
-              Docs
-            </Button>
-          </WrapItem>
-          <WrapItem>
-            <Button
-              as='a'
-              target={'_blank'}
-              fontFamily={Inktrap.style.fontFamily}
-              backdropFilter='blur(10px)'
-              backgroundColor='rgba(255, 255, 255, 0.10)'
-              rounded={'full'}
-              p='0.35rem 1rem 0rem 1rem'
-              color='white'
-              fontSize={{ base: 'xs', md: 'sm' }}
-              rightIcon={
-                <FiExternalLink
-                  style={{ transform: 'translateY(-4px)', width: '12px' }}
-                />
-              }
-            >
-              Website
-            </Button>
-          </WrapItem>
+          {track?.Links?.map((link, index) => (
+            <WrapItem key={index}>
+              <Button
+                as='a'
+                href={link.Link}
+                target={'_blank'}
+                fontFamily={Inktrap.style.fontFamily}
+                backdropFilter='blur(10px)'
+                backgroundColor='rgba(255, 255, 255, 0.10)'
+                rounded={'full'}
+                p='0.35rem 1rem 0rem 1rem'
+                color='white'
+                fontSize={{ base: 'xs', md: 'sm' }}
+                rightIcon={
+                  <FiExternalLink
+                    style={{
+                      transform: 'translateY(-4px)',
+                      width: '12px',
+                    }}
+                  />
+                }
+              >
+                {link.Title}
+              </Button>
+            </WrapItem>
+          ))}
         </Wrap>
       </VStack>
     </VStack>

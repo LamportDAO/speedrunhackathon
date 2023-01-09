@@ -1,6 +1,5 @@
 import { Container, Heading, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react';
-import { Multicoin } from '../assets/sponsors/icons';
 import Sponsor from './Sponsor';
 const sponsorNames = [
   'Solana Foundation',
@@ -8,11 +7,14 @@ const sponsorNames = [
   'Helius',
   'Multicoin',
   'Phantom',
-  'Openbook',
+  'Orca',
   'Dialect',
-  'Eclipse',
-  'Crossmint',
+  'Reciprocal',
   'Superteam',
+  'Eclipse',
+  'Openbook',
+  'Crossmint',
+
   'Clockwork',
   'Bridgesplit',
   'Switchboard',
@@ -32,6 +34,8 @@ const sponsorNames = [
   'ChainFlow',
   'Dispatch',
   'OtterSec',
+  'Civic',
+  'Frakt',
 ];
 const SponsorsSection = () => {
   return (

@@ -12,6 +12,7 @@ import {
   ModalContent,
   ModalBody,
   useDisclosure,
+  useMediaQuery,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import TracksModalBody from './ModalBody';
@@ -19,8 +20,12 @@ import PrizePool from './PrizePoll';
 import Card from './Card';
 import tracksData from '../../data/tracks.json';
 import { trackType } from '../../../interfaces/track';
+import GlobalPrizes from './GlobalPrizes';
+import CardMobile from './CardMobile';
+import CardDesktop from './CardDesktop';
 
 const TracksAndPrizes = () => {
+  const [isMobile] = useMediaQuery('(max-width: 480px)');
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTrack, setActiveTrack] = useState<trackType | {}>({});
   const activeTrackHandler = (track?: trackType) => {
@@ -53,12 +58,7 @@ const TracksAndPrizes = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-      <Center
-        flexDirection={'column'}
-        maxW={'4xl'}
-        pt={{ base: '25vh', md: '35vh' }}
-        pb='10rem'
-      >
+      <Center flexDirection={'column'} maxW={'4xl'} py='10rem'>
         <Heading
           py='2rem'
           fontSize={{ base: '2xl', md: '4xl' }}
@@ -66,63 +66,7 @@ const TracksAndPrizes = () => {
         >
           Tracks & Prizes
         </Heading>
-        <Stack
-          alignItems={'stretch'}
-          gap={{ base: '0.2rem', md: '1rem' }}
-          justify='space-between'
-          flexDir={{ base: 'column', lg: 'row' }}
-        >
-          <PrizePool />
-          <Stack
-            direction={{ base: 'row', lg: 'column' }}
-            gap={{ base: '0.2rem', md: '1rem' }}
-            alignItems={'stretch'}
-          >
-            <Card
-              activeTrackHandler={activeTrackHandler}
-              track={{
-                Name: 'Student Prize ',
-                Sponsor: ['Solana University'],
-                PrizeWorth: '5000',
-                PizeUnit: 'USDC',
-                PrizeDetails: [
-                  ' 2023 Breakpoint Tickets to the top student team',
-                ],
-                AboutUs:
-                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
-                Description:
-                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
-                Ideas: [''],
-                Requirements: '',
-                Links: [' '],
-                Judges: [],
-              }}
-            />
-            <Card
-              activeTrackHandler={activeTrackHandler}
-              track={{
-                Name: 'Superteam Global Prize',
-                Sponsor: ['Superteam'],
-                PrizeWorth: '2000',
-                PizeUnit: 'USDC',
-                PrizeDetails: [
-                  ' 2,000 USDC to Most Scalable and Useful Public Good',
-                ],
-                AboutUs:
-                  'As part of the LamportDAO Sandstorm Hackathon, Superteam is sponsoring a global track for Public Goods. These are protocols that exist on Solana without intention to collect fees and allow other protocols and users benefit from additional features on Solana for free.',
-                Description:
-                  'As part of the LamportDAO Sandstorm Hackathon, Superteam is sponsoring a global track for Public Goods. These are protocols that exist on Solana without intention to collect fees and allow other protocols and users benefit from additional features on Solana for free.',
-                Ideas: [
-                  'Anything without protocol fees.',
-                  'This is a global prize and every hackathon submission is automatically enrolled into this prize.',
-                ],
-                Requirements: '',
-                Links: ['https://twitter.com/LamportDAO'],
-                Judges: [],
-              }}
-            />
-          </Stack>
-        </Stack>
+        <GlobalPrizes activeTrackHandler={activeTrackHandler} />
         <Wrap
           w='100%'
           py={{ base: '0.5rem', md: '1rem' }}
@@ -131,13 +75,17 @@ const TracksAndPrizes = () => {
           justify={'center'}
           alignItems='center'
         >
-          {tracksData.map((track, index) => (
-            <Card
-              activeTrackHandler={activeTrackHandler}
-              key={index}
-              track={track as trackType}
-            />
-          ))}
+          {tracksData.map((track, index) => {
+            return isMobile ? (
+              <CardMobile track={track as trackType} key={index} />
+            ) : (
+              <CardDesktop
+                activeTrackHandler={activeTrackHandler}
+                key={index}
+                track={track as trackType}
+              />
+            );
+          })}
         </Wrap>
       </Center>
     </>
