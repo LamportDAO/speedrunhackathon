@@ -107,7 +107,6 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         >
           {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
-
         <Text
           fontFamily={Inktrap.style.fontFamily}
           fontSize={{ base: '2xl', md: '4xl' }}
