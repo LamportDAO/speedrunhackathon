@@ -1,6 +1,5 @@
-import { ReactNode } from 'react';
 import { Flex, Button, Center } from '@chakra-ui/react';
-import { Router, useRouter } from 'next/router';
+import { useRouter } from 'next/router';
 import Logo from '../assets/logo/Logo';
 
 export default function Header() {

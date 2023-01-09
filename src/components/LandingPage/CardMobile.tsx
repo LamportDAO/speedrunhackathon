@@ -1,19 +1,15 @@
 import {
   Button,
-  Center,
   Heading,
   HStack,
-  IconButton,
   ListItem,
-  Stack,
   Text,
   UnorderedList,
-  useMediaQuery,
   VStack,
   Wrap,
   WrapItem,
 } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Inktrap } from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import { FiExternalLink } from 'react-icons/fi';

@@ -9,7 +9,6 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import { SolanaFoundation } from '../assets/sponsors/icons';
 import { Inktrap } from '../FontFamily';
 
 function kFormatter(num: number): number {
