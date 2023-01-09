@@ -1,4 +1,4 @@
-import { Center, Container, Heading, Stack } from '@chakra-ui/react';
+import { Container, Heading, Stack } from '@chakra-ui/react';
 import { Inktrap } from '../FontFamily';
 import React from 'react';
 import { NewYorkCard, BelgradeCard, SingaporeCard } from './ImageCard';

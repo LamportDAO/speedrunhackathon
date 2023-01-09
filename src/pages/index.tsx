@@ -1,4 +1,3 @@
-import localFont from '@next/font/local';
 import SEO from '../components/SEO/index';
 import config from '../../config/general.config';
 import {
@@ -16,7 +15,6 @@ import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
 import { Inktrap } from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
-import { Helius, LamportDAO } from '../components/assets/sponsors/icons';
 import Locations from '../components/Locations/Locations';
 
 export default function Home() {
@@ -47,21 +45,7 @@ export default function Home() {
             fontFamily={Inktrap.style.fontFamily}
           >
             Solana <br />
-            {/* <Box
-              as='span'
-              fontFamily={Inktrap.style.fontFamily}
-              fontWeight='200'
-            >
-              &#10100;
-            </Box> */}
             <Box as='span'>Sandstorm</Box>
-            {/* <Box
-              as='span'
-              fontFamily={Inktrap.style.fontFamily}
-              fontWeight='200'
-            >
-              &#10101;
-            </Box> */}
           </Heading>
           <Text
             px='1rem'

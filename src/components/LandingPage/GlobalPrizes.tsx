@@ -1,6 +1,5 @@
-import { Card, Center, Stack, useMediaQuery } from '@chakra-ui/react';
+import { Center, Stack, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
-import { trackType } from '../../../interfaces/track';
 import CardDesktop from './CardDesktop';
 import CardMobile from './CardMobile';
 import PrizePool from './PrizePoll';

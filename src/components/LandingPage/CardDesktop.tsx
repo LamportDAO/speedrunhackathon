@@ -1,23 +1,6 @@
-import {
-  Button,
-  Center,
-  Heading,
-  HStack,
-  IconButton,
-  ListItem,
-  Stack,
-  Text,
-  UnorderedList,
-  useMediaQuery,
-  VStack,
-  Wrap,
-  WrapItem,
-} from '@chakra-ui/react';
+import { Heading, HStack, Text, VStack, WrapItem } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import { Inktrap } from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
-import { FiExternalLink } from 'react-icons/fi';
-import Sponsor from './Sponsor';
 
 function kFormatter(num: number): any {
   return Math.abs(num) > 999
