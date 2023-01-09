@@ -29,6 +29,10 @@ import {
   Superteam,
   Eclipse,
   Multicoin,
+  Frakt,
+  Orca,
+  Reciprocal,
+  Civic,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -92,6 +96,14 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Poolprops />;
     case 'Lamport DAO':
       return <LamportDAO />;
+    case 'Civic':
+      return <Civic />;
+    case 'Reciprocal':
+      return <Reciprocal />;
+    case 'Orca':
+      return <Orca />;
+    case 'Frakt':
+      return <Frakt />;
     case 'Multicoin':
       return <Multicoin />;
     default:

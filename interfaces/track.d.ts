@@ -1,16 +1,19 @@
 export type trackType = {
-  Name: String;
-  Sponsor?: String[];
-  PrizeWorth?: String;
-  PizeUnit: String;
-  PrizeDetails?: String[];
-  AboutUs?: String;
-  Description?: String;
-  Ideas?: String[];
-  Requirements?: String;
-  Links?: String[];
+  Name: string;
+  Sponsor?: string[];
+  PrizeWorth?: number;
+  PrizeUnit: string;
+  PrizeDetails?: string[];
+  AboutUs?: string;
+  Description?: string;
+  Ideas?: string[];
+  Requirements?: string;
+  Links?: {
+    Title: string;
+    Link: string;
+  }[];
   Judges: {
-    Name: String;
-    Twitter?: String;
+    Name: string;
+    Twitter?: string;
   }[];
 };

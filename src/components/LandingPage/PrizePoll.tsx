@@ -3,6 +3,7 @@ import {
   Heading,
   HStack,
   Text,
+  useMediaQuery,
   VStack,
   Wrap,
   WrapItem,
@@ -12,6 +13,7 @@ import { SolanaFoundation } from '../assets/sponsors/icons';
 import { Inktrap } from '../FontFamily';
 
 const PrizePool = () => {
+  const [isMobile] = useMediaQuery('(max-width: 480px)');
   const [glarePosition, setGlarePosition] = useState({ x: 0, y: 0 });
   const [hover, setHover] = useState(false);
   const handleMouseMove = (event: {
@@ -25,13 +27,16 @@ const PrizePool = () => {
   return (
     <VStack
       onMouseEnter={() => {
+        if (isMobile) return;
         setHover(true);
       }}
       onMouseLeave={() => {
+        if (isMobile) return;
         setHover(false);
       }}
       onMouseMove={handleMouseMove}
       onMouseOutCapture={() => {
+        if (isMobile) return;
         setGlarePosition({
           x: -120,
           y: -120,
