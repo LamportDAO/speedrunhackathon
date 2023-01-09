@@ -75,6 +75,7 @@ const NewYorkCard = () => {
           p={{ base: '1rem 2rem', md: '1rem 1.4rem' }}
           alignItems={'start'}
           gap={'0.4rem'}
+          rounded='1.2rem'
         >
           <HStack
             pt={{ base: '0.5rem', md: '0rem' }}
@@ -227,6 +228,7 @@ const BelgradeCard = () => {
           p={{ base: '1rem 2rem', md: '1rem 1.4rem' }}
           alignItems={'start'}
           gap={'0.4rem'}
+          rounded='1.2rem'
         >
           <HStack
             pt={{ base: '0.5rem', md: '0rem' }}
@@ -378,6 +380,7 @@ const SingaporeCard = () => {
           p={{ base: '1rem 2rem', md: '1rem 1.4rem' }}
           alignItems={'start'}
           gap={'0.4rem'}
+          rounded='1.2rem'
         >
           <HStack
             pt={{ base: '0.5rem', md: '0rem' }}

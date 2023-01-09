@@ -1,5 +1,6 @@
 import { Container, Heading, Wrap, WrapItem } from '@chakra-ui/react';
 import React from 'react';
+import { Inktrap } from '../FontFamily';
 import Sponsor from './Sponsor';
 const sponsorNames = [
   'Solana Foundation',
@@ -14,7 +15,7 @@ const sponsorNames = [
   'Eclipse',
   'Openbook',
   'Crossmint',
-
+  'Commet',
   'Clockwork',
   'Bridgesplit',
   'Switchboard',
@@ -36,6 +37,7 @@ const sponsorNames = [
   'OtterSec',
   'Civic',
   'Frakt',
+  'Light Protocol',
 ];
 const SponsorsSection = () => {
   return (
@@ -47,7 +49,14 @@ const SponsorsSection = () => {
       justifyContent={'center'}
       alignItems='center'
     >
-      <Heading py='2rem' fontSize={{ base: '2xl', md: '4xl' }} fontWeight='700'>
+      <Heading
+        py='2rem'
+        fontFamily={Inktrap.style.fontFamily}
+        mx='auto'
+        maxW='fit-content'
+        fontSize={{ base: '2xl', md: '4xl' }}
+        fontWeight='800'
+      >
         Sponsors
       </Heading>
       <Wrap

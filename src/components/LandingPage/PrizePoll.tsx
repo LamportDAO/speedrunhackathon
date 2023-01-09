@@ -12,7 +12,13 @@ import React, { useState } from 'react';
 import { SolanaFoundation } from '../assets/sponsors/icons';
 import { Inktrap } from '../FontFamily';
 
-const PrizePool = () => {
+function kFormatter(num: number): number {
+  return Math.abs(num) > 999
+    ? Math.sign(num) * parseInt((Math.abs(num) / 1000).toFixed(1))
+    : Math.sign(num) * Math.abs(num);
+}
+
+const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
   const [isMobile] = useMediaQuery('(max-width: 480px)');
   const [glarePosition, setGlarePosition] = useState({ x: 0, y: 0 });
   const [hover, setHover] = useState(false);
@@ -42,7 +48,9 @@ const PrizePool = () => {
           y: -120,
         });
       }}
-      maxW={{ base: '85vw', md: '38rem' }}
+      // border={'1px solid'}
+      borderColor={{ base: 'red', sm: 'green', md: 'blue', lg: 'pink' }}
+      maxW={{ base: '85vw', sm: '80vw', md: '72vw', lg: '38rem' }}
       mx='auto'
       alignItems={'start'}
       background={'rgba(88, 82, 139, 0.2)'}
@@ -66,7 +74,7 @@ const PrizePool = () => {
       _after={{
         content: `" "`,
         position: 'absolute',
-        inset: '0',
+        inset: isMobile ? '' : '0',
         borderRadius: '1.2rem',
         padding: '4px',
         background: hover
@@ -97,7 +105,7 @@ const PrizePool = () => {
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
-          175k
+          {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
 
         <Text

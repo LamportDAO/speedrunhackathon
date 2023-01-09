@@ -1,10 +1,17 @@
-import { Card, Stack, useMediaQuery } from '@chakra-ui/react';
+import { Card, Center, Stack, useMediaQuery } from '@chakra-ui/react';
 import React from 'react';
+import { trackType } from '../../../interfaces/track';
 import CardDesktop from './CardDesktop';
 import CardMobile from './CardMobile';
 import PrizePool from './PrizePoll';
 
-const GlobalPrizes = ({ activeTrackHandler }: { activeTrackHandler: any }) => {
+const GlobalPrizes = ({
+  activeTrackHandler,
+  totalPoolPrize,
+}: {
+  activeTrackHandler: any;
+  totalPoolPrize: number;
+}) => {
   const [isMobile] = useMediaQuery('(max-width: 480px)');
   return (
     <Stack
@@ -13,11 +20,12 @@ const GlobalPrizes = ({ activeTrackHandler }: { activeTrackHandler: any }) => {
       justify='space-between'
       flexDir={{ base: 'column', lg: 'row' }}
     >
-      <PrizePool />
+      <PrizePool totalPoolPrize={totalPoolPrize} />
       <Stack
         direction={{ base: 'column', sm: 'row', lg: 'column' }}
         gap={{ base: '0.1rem', md: '0.5rem' }}
-        alignItems={{ base: 'center', md: 'stretch' }}
+        justify='center'
+        alignItems={{ base: 'center', sm: 'center', md: 'stretch' }}
       >
         {isMobile ? (
           <CardMobile
@@ -72,58 +80,68 @@ const GlobalPrizes = ({ activeTrackHandler }: { activeTrackHandler: any }) => {
             }}
           />
         ) : (
-          <CardDesktop
-            activeTrackHandler={activeTrackHandler}
-            track={{
-              Name: 'Student Prize ',
-              Sponsor: ['Solana University'],
-              PrizeWorth: 1000,
-              PrizeUnit: 'USDC',
-              PrizeDetails: [
-                '2023 Breakpoint Tickets to the top student team',
-                'Support from the Solana U Developer Relations Team.',
-              ],
-              AboutUs:
-                'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
-              Description:
-                'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
-              Ideas: [''],
-              Requirements:
-                "All members must be enrolled in University or Academic Institution. The project must be original and created within the hackathon time standards.\nWe will analyze all the student's projects individually using the following criteria:\n1. Originality: How original is the hack's concept?\n2.  Technology difficulty: How technically challenging was it to implement the hack?\n3.  Utility: How useful is the hack in everyday life? What kind of impact could it have and what additional value could it bring to the industry?\n4.  User Experience: Is the hack easy to use? Is the interface well-designed?\n5.  Market Fit:  Does the hack address a need or problem in the market? Is it likely to be successful in terms of adoption and usage?\n6.  Completion: Is the hack fully functional and complete? Did the team accomplish all of its goals?",
-              Links: [
-                {
-                  Title: 'Discord',
-                  Link: 'https://discord.com/invite/solanau',
-                },
-                {
-                  Title: 'Website',
-                  Link: 'https://www.solanau.org/',
-                },
-                {
-                  Title: 'Twitter',
-                  Link: 'https://twitter.com/SolanaUni',
-                },
-              ],
-              Judges: [
-                {
-                  Name: 'Cleon',
-                  Twitter: '',
-                },
-                {
-                  Name: 'Dana Degenius',
-                  Twitter: '',
-                },
-                {
-                  Name: 'DonnySolana',
-                  Twitter: '',
-                },
-                {
-                  Name: 'Joe',
-                  Twitter: '',
-                },
-              ],
+          <Center
+            display={{
+              base: 'flex',
+              sm: 'none',
+              md: 'none',
+              lg: 'flex',
+              xl: 'flex',
             }}
-          />
+          >
+            <CardDesktop
+              activeTrackHandler={activeTrackHandler}
+              track={{
+                Name: 'Student Prize ',
+                Sponsor: ['Solana University'],
+                PrizeWorth: 1000,
+                PrizeUnit: 'USDC',
+                PrizeDetails: [
+                  '2023 Breakpoint Tickets to the top student team',
+                  'Support from the Solana U Developer Relations Team.',
+                ],
+                AboutUs:
+                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
+                Description:
+                  'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
+                Ideas: [''],
+                Requirements:
+                  "All members must be enrolled in University or Academic Institution. The project must be original and created within the hackathon time standards.\nWe will analyze all the student's projects individually using the following criteria:\n1. Originality: How original is the hack's concept?\n2.  Technology difficulty: How technically challenging was it to implement the hack?\n3.  Utility: How useful is the hack in everyday life? What kind of impact could it have and what additional value could it bring to the industry?\n4.  User Experience: Is the hack easy to use? Is the interface well-designed?\n5.  Market Fit:  Does the hack address a need or problem in the market? Is it likely to be successful in terms of adoption and usage?\n6.  Completion: Is the hack fully functional and complete? Did the team accomplish all of its goals?",
+                Links: [
+                  {
+                    Title: 'Discord',
+                    Link: 'https://discord.com/invite/solanau',
+                  },
+                  {
+                    Title: 'Website',
+                    Link: 'https://www.solanau.org/',
+                  },
+                  {
+                    Title: 'Twitter',
+                    Link: 'https://twitter.com/SolanaUni',
+                  },
+                ],
+                Judges: [
+                  {
+                    Name: 'Cleon',
+                    Twitter: '',
+                  },
+                  {
+                    Name: 'Dana Degenius',
+                    Twitter: '',
+                  },
+                  {
+                    Name: 'DonnySolana',
+                    Twitter: '',
+                  },
+                  {
+                    Name: 'Joe',
+                    Twitter: '',
+                  },
+                ],
+              }}
+            />
+          </Center>
         )}
         {isMobile ? (
           <CardMobile

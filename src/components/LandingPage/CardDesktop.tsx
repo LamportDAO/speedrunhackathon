@@ -19,6 +19,12 @@ import { trackType } from '../../../interfaces/track';
 import { FiExternalLink } from 'react-icons/fi';
 import Sponsor from './Sponsor';
 
+function kFormatter(num: number): any {
+  return Math.abs(num) > 999
+    ? // @ts-ignore
+      (Number(Math.sign(num)) as any) * (Math.abs(num) / 1000).toFixed(1) + 'k'
+    : Math.sign(num) * Math.abs(num);
+}
 const CardDesktop = ({
   activeTrackHandler,
   track,
@@ -122,7 +128,11 @@ const CardDesktop = ({
             fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
           >
-            {track ? track?.PrizeWorth : '00k'}
+            {track?.PrizeUnit === 'BONK'
+              ? '70B'
+              : track?.PrizeWorth
+              ? `${kFormatter(track.PrizeWorth)}`
+              : 'USDC'}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}

@@ -16,6 +16,17 @@ import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
 import CardMobile from './CardMobile';
 import CardDesktop from './CardDesktop';
+import { Inktrap } from '../FontFamily';
+
+function getTotalTrackPrize(trackArray: any) {
+  let totalTrackPrize = 0;
+  trackArray.forEach((track: { PrizeWorth: string }) => {
+    if (track.PrizeWorth) {
+      totalTrackPrize += parseInt(track.PrizeWorth);
+    }
+  });
+  return totalTrackPrize;
+}
 
 const TracksAndPrizes = () => {
   const [isMobile] = useMediaQuery('(max-width: 480px)');
@@ -27,13 +38,15 @@ const TracksAndPrizes = () => {
     setActiveTrack(track);
     onOpen();
   };
-
+  const totalTrackPrize = getTotalTrackPrize(tracksData) + 7000;
+  console.log(totalTrackPrize);
   return (
     <>
       <Modal
         size={{ base: 'full', md: '2xl' }}
         isOpen={isOpen}
         onClose={onClose}
+        autoFocus={false}
       >
         <ModalOverlay />
         <ModalContent
@@ -54,14 +67,21 @@ const TracksAndPrizes = () => {
       <Center flexDirection={'column'} maxW={'4xl'} py='10rem'>
         <Heading
           py='2rem'
+          fontFamily={Inktrap.style.fontFamily}
+          mx='auto'
+          maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}
-          fontWeight='700'
+          fontWeight='800'
         >
           Tracks & Prizes
         </Heading>
-        <GlobalPrizes activeTrackHandler={activeTrackHandler} />
+        <GlobalPrizes
+          activeTrackHandler={activeTrackHandler}
+          totalPoolPrize={totalTrackPrize}
+        />
         <Wrap
           w='100%'
+          maxW='100vw'
           py={{ base: '0.5rem', md: '1rem' }}
           spacing={{ base: '0.5rem', md: '1rem' }}
           direction={'row'}

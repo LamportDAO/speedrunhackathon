@@ -76,14 +76,14 @@ const TracksModalBody = ({
           fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
-          {track ? track?.PrizeWorth : '00k'}
+          {track ? `${track?.PrizeWorth}` : '00k'}
         </Heading>
         <Text
           fontSize={{ base: '16px', md: '18px' }}
           pb='1.4rem'
           fontWeight={'600'}
         >
-          {track ? track?.PrizeUnit : 'USDC'}
+          {track ? `${track?.PrizeUnit}` : 'USDC'}
         </Text>
       </HStack>
       <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>

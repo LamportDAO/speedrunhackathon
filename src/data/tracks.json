@@ -150,7 +150,7 @@
         "Sponsor": [
             "Clockwork",
             "Helius",
-            "Multicoin Cap"
+            "Multicoin"
         ],
         "PrizeWorth": 5500,
         "PrizeUnit": "USDC",
@@ -210,6 +210,73 @@
             {
                 "Name": "Alice Chen",
                 "Twitter": "https://twitter.com/asiangirlintech"
+            }
+        ]
+    },
+    {
+        "Name": " Decentralized Identity, Decentralize Yourself",
+        "Sponsor": [
+            "Civic"
+        ],
+        "PrizeWorth": 2000,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "Best integration of a Civic library (Civic Pass, Civic.me, Civic Link or did.sol SDKs): $1,500",
+            "Runner up: $500"
+        ],
+        "AboutUs": "Civic provides decentralized identity management tools for Web3 for both consumers and dApps.",
+        "Description": "Were offering up to $2,000 USDC to the Sandstorm Hackathon participants to integrate our identity protocols, which are based on globally recognized W3C standards. Decentralized identity can make the ecosystem safer by allowing dApps to use identity information for access control without storing or accessing data.",
+        "Ideas": [
+            "Integrate Civic Pass into a Solana protocol for uniqueness or KYC, e.g. Openbook DEX, Wordcel, and dApps",
+            "Login or authentication with Civic Pass ",
+            "Integrate Civic.me SDK in an existing dApp and deliver to production",
+            "Integrate Civic.me SDK  with Backpack",
+            "Integrate Civic Link SDK to link and connect multiple wallets",
+            "Integrate Decentralized Identifiers (DIDs) with a dApp "
+        ],
+        "Requirements": "Must use SDK or DID SDK. Must have a plan to deploy to production or be open-sourced",
+        "Links": [
+            {
+                "Title": "Discord",
+                "Link": "https://discord.com/invite/MWmhXauJw8"
+            },
+            {
+                "Title": "Developer Hub",
+                "Link": "https://docs.civic.com/"
+            },
+            {
+                "Title": "Github",
+                "Link": "https://github.com/civicteam"
+            },
+            {
+                "Title": "Civic Pass",
+                "Link": "https://docs.civic.com/civic-pass/overview"
+            },
+            {
+                "Title": "Civic.me",
+                "Link": "https://docs.civic.com/civic-me/civic-me-profile"
+            },
+            {
+                "Title": "Civic Link",
+                "Link": "https://github.com/civicteam/civic-link"
+            },
+            {
+                "Title": "sol did",
+                "Link": "https://github.com/identity-com/sol-did"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Chris Hart",
+                "Twitter": "https://twitter.com/hartcb"
+            },
+            {
+                "Name": "JP Bedoya",
+                "Twitter": "https://twitter.com/juamps"
+            },
+            {
+                "Name": "Dan Kelleher",
+                "Twitter": "https://twitter.com/danbkelleher"
             }
         ]
     },
@@ -276,6 +343,46 @@
             {
                 "Name": "Nick Fazzari",
                 "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "Human readable transactions",
+        "Sponsor": [
+            "Helius"
+        ],
+        "PrizeWorth": 1500,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "1st Place 1000 USDC (and 3 month free Helius subscription)",
+            "2nd Place 500 USDC (and 1 month free Helius subscription)"
+        ],
+        "AboutUs": "Helius is the ultimate developer platform, specialized for Solana developers. Move beyond Localhost.",
+        "Description": "Our goals for the hackathon are to: introduce and educate both new and existing builders to the Hxro Network set of protocols; encourage and support builders looking to launch innovative trading, betting and general gaming applications using Hxro Network derivative, parimutuel and/or liquidity protocols, and; support track builders on an ongoing basis through Hxro Labs and its community of more than 7000 traders to test pilot new network applications as they come to market.",
+        "Ideas": [
+            "A human-readable blockchain explorer using our APIs",
+            "A UX-friendly transaction viewer using our APIs",
+            "Making a PR to xNFT backpack for human-readable transaction histories using our APIs"
+        ],
+        "Requirements": "Make use of Helius APis",
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://helius.xyz"
+            },
+            {
+                "Title": "Docs",
+                "Link": "https://docs.helius.xyz/"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Mert",
+                "Twitter": "twitter.com/0xmert_"
+            },
+            {
+                "Name": "Stanis",
+                "Twitter": "twitter.com/0xStanis"
             }
         ]
     },
@@ -369,8 +476,8 @@
         "PrizeDetails": [
             "7,500 USDC"
         ],
-        "AboutUs": "",
-        "Description": "",
+        "AboutUs": "The Solana Foundation is a non-profit foundation based in Zug, Switzerland, dedicated to the decentralization, adoption, and security of the Solana ecosystem. For more information, please visit https://solana.org/.",
+        "Description": "The Solana Foundation is a non-profit foundation based in Zug, Switzerland, dedicated to the decentralization, adoption, and security of the Solana ecosystem. For more information, please visit https://solana.org/.",
         "Ideas": [
             "Editable accounts on local test validator",
             "Ganache for local test validator",
@@ -511,7 +618,7 @@
     {
         "Name": "Composable Discussion Forums ",
         "Sponsor": [
-            "Dispatch Protocol"
+            "Dispatch"
         ],
         "PrizeWorth": 1000,
         "PrizeUnit": "USDC",
@@ -743,13 +850,11 @@
         "AboutUs": "",
         "Description": "Underdog makes it easy to integrate Reputation, NFTs, and Web3 into your product or Workflow. By building a reputation on-chain, we can create meritocratic systems of access. Users create their own Reputation System, Create a Dynamic Membership NFT, connect their off/on-chain workflows via our API, and watch their member NFTs upgrade/downgrade based on Contribution. We’ve been building a reputation system with web2 startups/web3 communities and need to bring data from the walled gardens in Web2.",
         "Ideas": [
-            "Bots:",
             "Discord Bot to send/create Dynamic NFTs",
             "Discord Bot to view Community Reputation in Channels",
-            "Integrations:",
-            "GitHub to on-chain, capture code commits, and add to reputation score ie: Dynamic NFT",
-            "Twitter to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT",
-            "GSuite to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT"
+            "Integration: GitHub to on-chain, capture code commits, and add to reputation score ie: Dynamic NFT",
+            "Integration: Twitter to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT",
+            "Integration: GSuite to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT"
         ],
         "Requirements": "Have to use Underdog API in your project. Preferably UP Webhooks/Membership NFT.",
         "Links": [
@@ -774,10 +879,10 @@
         "Sponsor": [
             ""
         ],
-        "PrizeWorth": "100B",
+        "PrizeWorth": 100000,
         "PrizeUnit": "BONK",
         "PrizeDetails": [
-            "100B $BONK"
+            "70B $BONK"
         ],
         "AboutUs": "BONK BONK BONK BONK BONK BONK",
         "Description": "BONK BONK BONK BONK BONK BONK",
@@ -1303,6 +1408,10 @@
             {
                 "Title": "Helius Docs",
                 "Link": "https://docs.helius.xyz/introduction/why-helius"
+            },
+            {
+                "Title": "Helius Website",
+                "Link": "https://helius.xyz"
             },
             {
                 "Title": "Flipside Website",

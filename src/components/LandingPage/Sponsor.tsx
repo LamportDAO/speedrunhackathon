@@ -33,6 +33,8 @@ import {
   Orca,
   Reciprocal,
   Civic,
+  LightProtocol,
+  Commet,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -106,6 +108,10 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Frakt />;
     case 'Multicoin':
       return <Multicoin />;
+    case 'Light Protocol':
+      return <LightProtocol />;
+    case 'Commet':
+      return <Commet />;
     default:
       return <></>;
   }

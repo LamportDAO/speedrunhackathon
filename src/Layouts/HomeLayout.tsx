@@ -1,10 +1,10 @@
 import { ChildInterface } from '../../interfaces/children';
 import { Center, Container } from '@chakra-ui/react';
 import React from 'react';
-import Header from '../components/navigation/Header';
+import Header from '../components/Navigation/Header';
 import Background from './Background';
 import { Inktrap } from '../components/FontFamily';
-import Footer from '../components/navigation/Footer';
+import Footer from '../components/Navigation/Footer';
 
 const HomeLayout = ({ children }: ChildInterface) => {
   return (
