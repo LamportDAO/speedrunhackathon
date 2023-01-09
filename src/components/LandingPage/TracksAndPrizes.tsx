@@ -1,12 +1,7 @@
 import {
   Center,
   Heading,
-  HStack,
-  Stack,
-  Text,
-  VStack,
   Wrap,
-  WrapItem,
   Modal,
   ModalOverlay,
   ModalContent,
@@ -16,8 +11,6 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import TracksModalBody from './ModalBody';
-import PrizePool from './PrizePoll';
-import Card from './Card';
 import tracksData from '../../data/tracks.json';
 import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
