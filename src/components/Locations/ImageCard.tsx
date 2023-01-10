@@ -144,12 +144,12 @@ const NewYorkCard = () => {
           </UnorderedList>
           <Button
             as='a'
-            href='https://t.me/luketruitt'
+            href='https://lu.ma/clockworknyc'
             target={'_blank'}
             pt={'12px'}
             fontWeight='600'
           >
-            Contact {'->'}
+            Register {'->'}
           </Button>
         </VStack>
       )}
@@ -449,12 +449,12 @@ const SingaporeCard = () => {
           </UnorderedList>
           <Button
             as='a'
-            href='https://t.me/jonasXchen'
+            href='https://workspace.metacamp.so/'
             target={'_blank'}
             pt={'12px'}
             fontWeight='600'
           >
-            Contact {'->'}
+            Register {'->'}
           </Button>
         </VStack>
       )}
