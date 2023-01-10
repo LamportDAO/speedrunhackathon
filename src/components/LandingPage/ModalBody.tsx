@@ -10,6 +10,7 @@ import {
   Wrap,
   Button,
   IconButton,
+  ListIcon,
 } from '@chakra-ui/react';
 import React from 'react';
 import { Inktrap } from '../FontFamily';
@@ -102,9 +103,7 @@ const TracksModalBody = ({
           fontSize={{ base: 'sm', md: 'md' }}
           pt='0.4rem'
         >
-          {track
-            ? track?.Description
-            : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          {track ? track?.Description : ''}
         </Text>
         {track.PrizeDetails?.length! && (
           <>
@@ -150,6 +149,44 @@ const TracksModalBody = ({
             </UnorderedList>
           </>
         )}
+        <VStack alignItems='start'>
+          <Text
+            pt='1rem'
+            fontFamily={Inktrap.style.fontFamily}
+            fontWeight={'700'}
+            fontSize={{ base: 'md', md: 'lg' }}
+          >
+            Requirements
+          </Text>
+          <Text
+            fontFamily={Inktrap.style.fontFamily}
+            fontSize={{ base: 'sm', md: 'md' }}
+            pl='1.5rem'
+          >
+            {track.Requirements}
+          </Text>
+        </VStack>
+        <VStack alignItems='start'>
+          <Text
+            fontFamily={Inktrap.style.fontFamily}
+            pt='1.4rem'
+            fontWeight={'700'}
+            fontSize={{ base: 'md', md: 'lg' }}
+          >
+            Judges
+          </Text>
+          <UnorderedList
+            fontFamily={Inktrap.style.fontFamily}
+            fontSize={{ base: 'sm', md: 'md' }}
+            pl='1.5rem'
+          >
+            {track.Judges?.map((Judge, index) => (
+              <ListItem maxW='100vw' key={index}>
+                {Judge.Name}
+              </ListItem>
+            ))}
+          </UnorderedList>
+        </VStack>
         <Wrap py='1rem'>
           {track?.Links?.map((link, index) => (
             <WrapItem key={index}>
