@@ -77,7 +77,18 @@ const GlobalPrizes = ({
           <CardDesktop
             activeTrackHandler={activeTrackHandler}
             track={{
-                              "Orderbooks used for other NFTs or Lending Rates ",
+              Name: 'DeFi Grand Prize',
+              Sponsor: ['Solana Foundation', 'Light Protocol'],
+              PrizeWorth: 7000,
+              PrizeUnit: 'USDC',
+              PrizeDetails: ['Grand Prize: $5,000 (sponsored by Solana Foundation)', 'Runner-up: $2,000 (sponsored by Light Protocol)'],
+              AboutUs:
+                'Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.',
+              Description:
+                "As part of the LamportDAO Sandstorm Hackathon, Light Protocol is holding a special track for dApps that leverage the potential of Solana.  Solana’s high throughput enables unique ideas that are not available on other chains. If you build something that pushes the potential of Solana, this track is for you.",
+              Ideas: [
+                "Derivatives decentralized exchanges",
+                "Orderbooks used for other NFTs or Lending Rates ",
                 "Hybrid MMs for Orderbooks",
                 "High throughput Payment systems"
               ],
