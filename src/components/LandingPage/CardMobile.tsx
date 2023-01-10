@@ -183,7 +183,7 @@ const CardMobile = ({ track }: PropsType) => {
                   fontSize={{ base: 'sm', md: 'md' }}
                   pl='1.5rem'
                 >
-                  {track.Judges?.map((Judge, index) => (
+                  {track?.Judges?.map((Judge, index) => (
                     <ListItem maxW='100vw' key={index}>
                       {Judge.Name}
                     </ListItem>
