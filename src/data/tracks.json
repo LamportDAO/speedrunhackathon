@@ -1606,9 +1606,9 @@
     {
         "Name": "NFTs",
         "Sponsor": [
-            "Helius",
-            "Infinity",
-            "Crossmint",
+            "Helius", 
+            "Infinity", 
+            "Crossmint", 
             "Reciprocal"
         ],
         "PrizeWorth": 6311,
