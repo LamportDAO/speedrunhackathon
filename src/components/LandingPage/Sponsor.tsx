@@ -56,7 +56,7 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <SolanaFoundation />;
     case 'Solana University':
       return <SolanaU />;
-    case 'OtterSec':
+    case 'Ottersec':
       return <OtterSec />;
     case 'Superteam':
       return <Superteam />;
@@ -122,17 +122,17 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <LightProtocol />;
     case 'Comet':
       return <Commet />;
-    case 'VellumCapital':
+    case 'Vellum':
       return <VellumCapital />;
     case 'Helium':
       return <Helium />;
-    case 'Solworks':
+    case 'SolWorks':
       return <Solworks />;
     case 'DogeCapital':
       return <DogeCapital />;
     case 'Infinity':
       return <Infinity />;
-    case 'UnstoppableDomains':
+    case 'Unstoppable Domains':
       return <UnstoppableDomains />;
     case 'Sec3':
       return <Sec3 />;

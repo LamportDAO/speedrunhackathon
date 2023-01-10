@@ -600,8 +600,8 @@
     {
         "Name": "Open-Source NFT Marketplace Tooling ",
         "Sponsor": [
-            "Motley DAO",
-            "Night Market"
+            "Motley",
+            "NightMarket"
         ],
         "PrizeWorth": 1500,
         "PrizeUnit": "USDC",
@@ -889,7 +889,7 @@
     {
         "Name": "Mobile challenge",
         "Sponsor": [
-            "Gari Network"
+            "Gari"
         ],
         "PrizeWorth": 4000,
         "PrizeUnit": "USDC",
@@ -1112,7 +1112,7 @@
     {
         "Name": "Building the Dojo",
         "Sponsor": [
-            "Cyber Samurai NFT"
+            "CyberSamurai"
         ],
         "PrizeWorth": 4000,
         "PrizeUnit": "USDC",
@@ -1189,7 +1189,7 @@
     {
         "Name": "Solana snapshots",
         "Sponsor": [
-            "Marinade Finance"
+            "Marinade"
         ],
         "PrizeWorth": 2500,
         "PrizeUnit": "USDC",

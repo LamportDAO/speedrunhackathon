@@ -31,6 +31,7 @@ const TracksModalBody = ({
       alignItems={'start'}
       p='2.5rem 2rem 2rem 2rem'
       rounded='2xl'
+      overflow={'hidden'}
     >
       <HStack
         overflow={'hidden'}
@@ -74,7 +75,9 @@ const TracksModalBody = ({
           fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
-          {track ? `${track?.PrizeUnit === 'BONK' ? "70B" : track?.PrizeWorth}` : '00k'}
+          {track
+            ? `${track?.PrizeUnit === 'BONK' ? '70B' : track?.PrizeWorth}`
+            : '00k'}
         </Heading>
         <Text
           fontSize={{ base: '16px', md: '18px' }}
@@ -86,7 +89,7 @@ const TracksModalBody = ({
       </HStack>
       <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>
         {track.Sponsor ? (
-          <HStack gap='1rem'>
+          <HStack flexWrap={'wrap'} spacing='2rem'>
             {track.Sponsor?.map((sponsor, index) => (
               <Sponsor sponsorName={sponsor} key={index} />
             ))}
