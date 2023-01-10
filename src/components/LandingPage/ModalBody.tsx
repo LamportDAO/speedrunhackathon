@@ -74,7 +74,7 @@ const TracksModalBody = ({
           fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
-          {track ? `${track?.PrizeWorth}` : '00k'}
+          {track ? `${track?.PrizeUnit === 'BONK' ? "70B" : track?.PrizeWorth}` : '00k'}
         </Heading>
         <Text
           fontSize={{ base: '16px', md: '18px' }}
