@@ -104,7 +104,7 @@ export default function Home() {
         <Center id='track'>
           <TracksAndPrizes />
         </Center>
-        <Center py='1rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
+        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
           <SponsorsSection />
         </Center>
       </Container>
