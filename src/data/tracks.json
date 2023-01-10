@@ -150,8 +150,8 @@
         "Sponsor": [
             "Clockwork",
             "Helius",
-            "Multicoin Cap",
-            "Reciprocal Ventures"
+            "Multicoin",
+            "Reciprocal"
         ],
         "PrizeWorth": 5700,
         "PrizeUnit": "USDC",
@@ -387,7 +387,7 @@
         "Name": "Real World Assets on Solana",
         "Sponsor": [
             "Bridgesplit",
-            "Reciprocal Ventures"
+            "Reciprocal"
         ],
         "PrizeWorth": 1700,
         "PrizeUnit": "USDC",
@@ -468,7 +468,7 @@
         "Name": "Local Dev Tooling",
         "Sponsor": [
             "Solana Foundation",
-            "Multicoin Cap"
+            "Multicoin"
         ],
         "PrizeWorth": 7500,
         "PrizeUnit": "USDC",
@@ -555,7 +555,7 @@
     {
         "Name": "Composable Discussion Forums ",
         "Sponsor": [
-            "Dispatch Protocol"
+            "Dispatch"
         ],
         "PrizeWorth": 1000,
         "PrizeUnit": "USDC",
@@ -678,7 +678,7 @@
         "Name": "Social (web)apps",
         "Sponsor": [
             "Spling Labs",
-            "Reciprocal Ventures"
+            "Reciprocal"
         ],
         "PrizeWorth": 1700,
         "PrizeUnit": "USDC",
@@ -722,7 +722,7 @@
         "Name": "Gaming",
         "Sponsor": [
             "Chain Crisis",
-            "Reciprocal Ventures"
+            "Reciprocal"
         ],
         "PrizeWorth": 4200,
         "PrizeUnit": "USDC",
@@ -818,12 +818,12 @@
     {
         "Name": "Bonking with Bonk!",
         "Sponsor": [
-            ""
+            "Bonk"
         ],
         "PrizeWorth": 100000,
         "PrizeUnit": "BONK",
         "PrizeDetails": [
-            "100B $BONK"
+            "70B $BONK"
         ],
         "AboutUs": "BONK BONK BONK BONK BONK BONK",
         "Description": "BONK BONK BONK BONK BONK BONK",
@@ -1197,7 +1197,7 @@
             "50k MNDE for the best solution"
         ],
         "AboutUs": "Marinade is a liquid-staking solution on Solana with the biggest protocol TVL currently.",
-        "Description": "Marinade wants to allow users to stake their SOL with specific validators by holding the mSOL in wallet or within specific protocols. In order to do this we need a solution that would be able to track mSOL held by those users through multiple usages: being held in a wallet, used in Solend as collateral, or provided as liquidity in ORCA, for example.\nMarinade encourages builders to create different solutions during the Lamport DAO Sandstorm Hackathon. Feel free to join Marinade's discord for questions (#dev-chat channel) or other ideas",
+        "Description": "Marinade wants to allow users to stake their SOL with specific validators by holding the mSOL in wallet or within specific protocols. In order to do this we need a solution that would be able to track mSOL held by those users through multiple usages: being held in a wallet, used in Solend as collateral, or provided as liquidity in ORCA, for example.Marinade encourages builders to create different solutions during the Lamport DAO Sandstorm Hackathon. Feel free to join Marinade's discord for questions (#dev-chat channel) or other ideas",
         "Ideas": [
             "Use this base:",
             "  - https://www.notion.so/Solana-Snapshots-94142f1ef1014067a5467a63e4ad3f34",
@@ -1329,7 +1329,7 @@
     {
         "Name": "Analytics ",
         "Sponsor": [
-            "Flipside Crypto",
+            "Flipside",
             "Helius"
         ],
         "PrizeWorth": 2500,
@@ -1404,7 +1404,7 @@
                 "Link": "https://github.com/MonacoProtocol"
             },
             {
-                "Title": " Openbook",
+                "Title": "Openbook",
                 "Link": "https://github.com/openbook-dex"
             }
         ],
@@ -1609,7 +1609,7 @@
             "Helius", 
             "Infinity", 
             "Crossmint", 
-            "Reciprocal Ventures"
+            "Reciprocal"
         ],
         "PrizeWorth": 6311,
         "PrizeUnit": "USDC",
