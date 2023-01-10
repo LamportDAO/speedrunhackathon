@@ -105,7 +105,7 @@ const CardDesktop = ({
           fontSize={{ base: '14px', md: '18px' }}
           noOfLines={1}
         >
-          {track ? track?.Name : 'Hello World'}
+          {track ? track?.Name : ''}
         </Heading>
         <HStack alignItems={'flex-end'} justifyContent={'space-between'}>
           <Heading
