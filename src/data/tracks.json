@@ -954,7 +954,7 @@
             "2nd Place 500 USDC"
         ],
         "AboutUs": "Dialect is Web3's Smart Messaging stack—open-source dev tooling, interoperable inboxes, and the Dialect App. Download the app today at https://dialect.to.",
-        "Description": "Short description of the goal you guys want to accomplish with this hackathon: Web3 native messaging has the potential to unlock new modes of speech. Whether you're trying to notify & engage your existing users, acquire new ones, or give your users the power to speak with their wallets, web3-native messaging is supercharged with unique features. Use our SDKs to bring messaging to your dapps & wallets.",
+        "Description": "Web3 native messaging has the potential to unlock new modes of speech. Whether you're trying to notify & engage your existing users, acquire new ones, or give your users the power to speak with their wallets, web3-native messaging is supercharged with unique features. Use our SDKs to bring messaging to your dapps & wallets.",
         "Ideas": [
             "Live examples today include embedded inboxes for users to message each other",
             "Notifications for NFT bids & buyout offers",
