@@ -90,10 +90,6 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Bonk />;
     case 'Dialect':
       return <Dialect />;
-    case 'Crossmint':
-      return <CrossMint />;
-    case 'Phantom':
-      return <Phantom />;
     case 'Poolprops':
       return <Poolprops />;
     case 'Lamport DAO':
@@ -110,7 +106,7 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Multicoin />;
     case 'Light Protocol':
       return <LightProtocol />;
-    case 'Commet':
+    case 'Comet':
       return <Commet />;
     default:
       return <></>;
