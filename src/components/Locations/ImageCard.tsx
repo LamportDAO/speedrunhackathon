@@ -9,6 +9,7 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import React, { useState } from 'react';
+import { BrowserName } from '../../broswerName';
 import { BridgeSplit, MetaCamp, Unique } from '../assets/sponsors/icons';
 
 const NewYorkCard = () => {
@@ -27,7 +28,9 @@ const NewYorkCard = () => {
         borderRadius: '1.2rem',
         padding: '5px',
         background:
-          'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+          BrowserName() === 'firefox'
+            ? ''
+            : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -61,7 +64,9 @@ const NewYorkCard = () => {
             borderRadius: '1.2rem',
             padding: '5px',
             background:
-              'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+              BrowserName() === 'firefox'
+                ? ''
+                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
             WebkitMask:
               'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             WebkitMaskComposite: 'xor',
@@ -181,7 +186,9 @@ const BelgradeCard = () => {
         borderRadius: '1.2rem',
         padding: '5px',
         background:
-          'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+          BrowserName() === 'firefox'
+            ? ''
+            : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -214,7 +221,9 @@ const BelgradeCard = () => {
             borderRadius: '1.2rem',
             padding: '5px',
             background:
-              'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+              BrowserName() === 'firefox'
+                ? ''
+                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
             WebkitMask:
               'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             WebkitMaskComposite: 'xor',
@@ -333,7 +342,9 @@ const SingaporeCard = () => {
         borderRadius: '1.2rem',
         padding: '5px',
         background:
-          'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+          BrowserName() === 'firefox'
+            ? ''
+            : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -366,7 +377,9 @@ const SingaporeCard = () => {
             borderRadius: '1.2rem',
             padding: '5px',
             background:
-              'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+              BrowserName() === 'firefox'
+                ? ''
+                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
             WebkitMask:
               'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             WebkitMaskComposite: 'xor',

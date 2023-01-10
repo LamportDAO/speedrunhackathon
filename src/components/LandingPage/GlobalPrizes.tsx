@@ -14,6 +14,7 @@ const GlobalPrizes = ({
   const [isMobile] = useMediaQuery('(max-width: 480px)');
   return (
     <Stack
+      overflow='hidden'
       alignItems={'stretch'}
       gap={{ base: '0.1rem', md: '1rem' }}
       justify='space-between'
@@ -33,9 +34,7 @@ const GlobalPrizes = ({
               Sponsor: ['Solana University'],
               PrizeWorth: 5000,
               PrizeUnit: 'USDC',
-              PrizeDetails: [
-                '2023 Breakpoint Tickets to the top student team'
-              ],
+              PrizeDetails: ['2023 Breakpoint Tickets to the top student team'],
               AboutUs:
                 'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
               Description:
@@ -95,7 +94,7 @@ const GlobalPrizes = ({
                 PrizeWorth: 5000,
                 PrizeUnit: 'USDC*',
                 PrizeDetails: [
-                  '2023 Breakpoint Tickets to the top student team'
+                  '2023 Breakpoint Tickets to the top student team',
                 ],
                 AboutUs:
                   'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',

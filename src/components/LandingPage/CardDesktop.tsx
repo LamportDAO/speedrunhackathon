@@ -1,6 +1,7 @@
 import { Heading, HStack, Text, VStack, WrapItem } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import { trackType } from '../../../interfaces/track';
+import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): any {
   return Math.abs(num) > 999
@@ -72,11 +73,15 @@ const CardDesktop = ({
         _after={{
           content: `" "`,
           position: 'absolute',
-          inset: '0',
+          inset: BrowserName() === 'safari' ? 'none' : '0',
           borderRadius: '1.2rem',
           padding: '4px',
           background: hover
-            ? 'linear-gradient(20.84deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
+            ? `${
+                BrowserName() === 'firefox'
+                  ? ''
+                  : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
+              }`
             : '',
           WebkitMask:
             'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
