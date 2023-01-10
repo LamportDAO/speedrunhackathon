@@ -16,6 +16,7 @@ import { Inktrap } from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
 import Locations from '../components/Locations/Locations';
+import { BrowserName } from '../broswerName';
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -99,7 +100,7 @@ export default function Home() {
           </HStack>
         </VStack>
         <Center pb='10rem'>
-          <Locations />
+          {BrowserName() === 'firefox' ? '' : <Locations />}
         </Center>
         <Center id='track'>
           <TracksAndPrizes />

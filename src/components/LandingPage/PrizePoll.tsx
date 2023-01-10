@@ -8,8 +8,10 @@ import {
   Wrap,
   WrapItem,
 } from '@chakra-ui/react';
+import { userAgent } from 'next/server';
 import React, { useState } from 'react';
 import { Inktrap } from '../FontFamily';
+import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): number {
   return Math.abs(num) > 999
@@ -29,6 +31,8 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       y: event.nativeEvent.offsetY,
     });
   };
+  //const browser = fnBrowserDetect();
+  console.log('brosser name -', BrowserName());
   return (
     <VStack
       onMouseEnter={() => {
@@ -73,11 +77,15 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       _after={{
         content: `" "`,
         position: 'absolute',
-        inset: isMobile ? '' : '0',
+        inset: isMobile ? 'none' : BrowserName() === 'safari' ? 'none' : '0',
         borderRadius: '1.2rem',
         padding: '4px',
         background: hover
-          ? `linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))`
+          ? `${
+              BrowserName() === 'firefox'
+                ? ''
+                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
+            }`
           : '',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
