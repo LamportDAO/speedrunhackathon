@@ -873,6 +873,10 @@
             {
                 "Title": "Website",
                 "Link": "https://elusiv.io/"
+            },
+            {
+                "Title": "SDK Docs",
+                "Link": "https://elusiv-privacy.github.io/elusiv-sdk/"
             }
         ],
         "Judges": [
