@@ -852,19 +852,19 @@
         "Sponsor": [
             "Elusiv"
         ],
-        "PrizeWorth": 1500,
+        "PrizeWorth": 3000,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1.5k USDC + 2 Breakpoint tickets"
+            "3k USDC"
         ],
         "AboutUs": "Elusiv is a Zero-Knowledge privacy protocol for privately sending and receiving funds on-chain with a big focus on compliance. Elusiv both provides privacy to the users (even when interacting with normal non-private wallets on the blockchain) and safety by keeping malicious actors out of the privacy protocol. Furthermore, Elusiv VMs, an extension of Elusiv, enables rapid development of solutions leveraging more general ZK circuits.",
-        "Description": "Whether paying for a coffee or trading on a DEX, not every transaction needs to be public. Elusiv puts you in control - keep your transaction data private when you want to. As part of the LamportDAO Sandstorm Hackathon, Elusiv sponsors 1,500 USDC + 2 Breakpoint for the best integration using our SDK.",
+        "Description": "Whether paying for a coffee or trading on a DEX, not every transaction needs to be public. Elusiv puts you in control - keep your transaction data private when you want to. As part of the LamportDAO Sandstorm Hackathon, Elusiv sponsors 3,000 USDC for the best integration using our SDK. For access to our SDK, please DM @julian_elusiv on Telegram / Twitter or ask in our Discord.",
         "Ideas": [
             "Rewards for private payments using Elusiv SDK/Solana pay",
             "Nice UX for making private payments",
             "Private POS system"
         ],
-        "Requirements": "Use the Elusiv SDK (Dm on telegram @julian_elusiv",
+        "Requirements": "Use the Elusiv SDK",
         "Links": [
             {
                 "Title": "Twitter",
