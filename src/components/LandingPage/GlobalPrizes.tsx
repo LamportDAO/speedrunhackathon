@@ -30,6 +30,89 @@ const GlobalPrizes = ({
         {isMobile ? (
           <CardMobile
             track={{
+              Name: 'DeFi Grand Prize',
+              Sponsor: ['Solana Foundation', 'Light Protocol'],
+              PrizeWorth: 7000,
+              PrizeUnit: 'USDC',
+              PrizeDetails: ['Grand Prize: $5,000 (sponsored by Solana Foundation)', 'Runner-up: $2,000 (sponsored by Light Protocol)'],
+              AboutUs:
+                'Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.',
+              Description:
+                "As part of the LamportDAO Sandstorm Hackathon, Light Protocol is holding a special track for dApps that leverage the potential of Solana.  Solana’s high throughput enables unique ideas that are not available on other chains. If you build something that pushes the potential of Solana, this track is for you.",
+              Ideas: [
+                "Derivatives decentralized exchanges",
+                "Orderbooks used for other NFTs or Lending Rates ",
+                "Hybrid MMs for Orderbooks",
+                "High throughput Payment systems"
+              ],
+              Requirements:
+                'dApp idea has to only work on Solana and not Ethereum. This prize will only be given to open-sourced repos, or projects with a well-laid out plan to open-sourcing.',
+              Links: [
+                {
+                  Title: 'Solana Foundation Twitter',
+                  Link: 'https://twitter.com/SolanaFndn',
+                },
+                {
+                  Title: 'Light Protocol Twitter',
+                  Link: 'https://twitter.com/LightProtocol',
+                }
+              ],
+              Judges: [
+                {
+                  "Name": "Swen, Core, Light Protocol",
+                  "Twitter": ""
+                },
+                {
+                  "Name": "Soju, Core, LamportDAO",
+                  "Twitter": ""
+                },
+                {
+                  "Name": "Jacob Creech, DevRel, Foundation",
+                  "Twitter": ""
+                }
+              ],
+            }}
+          />
+        ) : (
+          <CardDesktop
+            activeTrackHandler={activeTrackHandler}
+            track={{
+                              "Orderbooks used for other NFTs or Lending Rates ",
+                "Hybrid MMs for Orderbooks",
+                "High throughput Payment systems"
+              ],
+              Requirements:
+                'dApp idea has to only work on Solana and not Ethereum. This prize will only be given to open-sourced repos, or projects with a well-laid out plan to open-sourcing.',
+              Links: [
+                {
+                  Title: 'Solana Foundation Twitter',
+                  Link: 'https://twitter.com/SolanaFndn',
+                },
+                {
+                  Title: 'Light Protocol Twitter',
+                  Link: 'https://twitter.com/LightProtocol',
+                }
+              ],
+              Judges: [
+                {
+                  "Name": "Swen, Core, Light Protocol",
+                  "Twitter": ""
+                },
+                {
+                  "Name": "Soju, Core, LamportDAO",
+                  "Twitter": ""
+                },
+                {
+                  "Name": "Jacob Creech, DevRel, Foundation",
+                  "Twitter": ""
+                }
+              ],
+            }}
+          />
+        )}
+        {isMobile ? (
+          <CardMobile
+            track={{
               Name: 'Student Prize',
               Sponsor: ['Solana University'],
               PrizeWorth: 5000,
@@ -138,78 +221,6 @@ const GlobalPrizes = ({
               }}
             />
           </Center>
-        )}
-        {isMobile ? (
-          <CardMobile
-            track={{
-              Name: 'LamportDAO Prize',
-              Sponsor: ['Eclipse', 'Light Protocol'],
-              PrizeWorth: 4000,
-              PrizeUnit: 'USDC',
-              PrizeDetails: ['Judges Favorite: $1,500', 'Most Popular: $500'],
-              AboutUs:
-                'Eclipse offers customizable rollups-as-a-service using the Solana virtual machine. This means you can spin up your own Cosmos chain and pick (1) the bytecode (SVM, EVM, soon Move), (2) the base layer (Celestia, Solana, Polygon, EigenLayer, NEAR), and (3) additional customizations for your execution layer. With your own Eclipse rollup, you can increase value capture for your application by adding MEV auctions, charging gas in your native token, subsidizing governance participation and more. ',
-              Description:
-                "Sponsored by Eclipse, LamportDAO is awarding a Judge's Favorite and Most Popular prize to hackathon participants. These prizes are global and can be won alongside a specific track. Judges’ Favorites will be determined by voting among all the Judges. Most Popular will be determined by Reacts/Votes left on your Discord submission. May the best teams win!",
-              Ideas: [
-                'You can just tag the track in the submission of your project for other tracks!',
-              ],
-              Requirements:
-                'Only open-sourced Github repos will be considered for Judges’ Favorite! Make sure you OS! ',
-              Links: [
-                {
-                  Title: 'Twitter',
-                  Link: 'https://twitter.com/LamportDAO',
-                },
-                {
-                  Title: 'Discord',
-                  Link: 'https://discord.gg/ShC7NRE7G5',
-                },
-              ],
-              Judges: [
-                {
-                  Name: 'All Judges will be voting',
-                  Twitter: '',
-                },
-              ],
-            }}
-          />
-        ) : (
-          <CardDesktop
-            activeTrackHandler={activeTrackHandler}
-            track={{
-              Name: 'LamportDAO Prize',
-              Sponsor: ['Eclipse', 'Light Protocol'],
-              PrizeWorth: 4000,
-              PrizeUnit: 'USDC',
-              PrizeDetails: ['Judges Favorite: $1,500', 'Most Popular: $500'],
-              AboutUs:
-                'Eclipse offers customizable rollups-as-a-service using the Solana virtual machine. This means you can spin up your own Cosmos chain and pick (1) the bytecode (SVM, EVM, soon Move), (2) the base layer (Celestia, Solana, Polygon, EigenLayer, NEAR), and (3) additional customizations for your execution layer. With your own Eclipse rollup, you can increase value capture for your application by adding MEV auctions, charging gas in your native token, subsidizing governance participation and more. ',
-              Description:
-                "Sponsored by Eclipse, LamportDAO is awarding a Judge's Favorite and Most Popular prize to hackathon participants. These prizes are global and can be won alongside a specific track. Judges’ Favorites will be determined by voting among all the Judges. Most Popular will be determined by Reacts/Votes left on your Discord submission. May the best teams win!",
-              Ideas: [
-                'You can just tag the track in the submission of your project for other tracks!',
-              ],
-              Requirements:
-                'Only open-sourced Github repos will be considered for Judges’ Favorite! Make sure you OS! ',
-              Links: [
-                {
-                  Title: 'Twitter',
-                  Link: 'https://twitter.com/LamportDAO',
-                },
-                {
-                  Title: 'Discord',
-                  Link: 'https://discord.gg/ShC7NRE7G5',
-                },
-              ],
-              Judges: [
-                {
-                  Name: 'All Judges will be voting',
-                  Twitter: '',
-                },
-              ],
-            }}
-          />
         )}
         {isMobile ? (
           <CardMobile
