@@ -218,7 +218,7 @@
         "Name": "Liquid Staking",
         "Sponsor": [
             "SolBlaze",
-            "Marinade Finance"
+            "Marinade"
         ],
         "PrizeWorth": 3850,
         "PrizeUnit": "USDC*",
@@ -242,11 +242,11 @@
             },
             {
                 "Title": "SolBlaze Website",
-                "Link": "https://solblaze.org/"
+                "Link": "https://solblaze.org"
             },
             {
                 "Title": "SolBlaze Liquid Staking",
-                "Link": "https://stake.solblaze.org/"
+                "Link": "https://stake.solblaze.org"
             },
             {
                 "Title": "SolBlaze Docs",
@@ -261,7 +261,7 @@
                 "Link": "https://marinade.finance"
             },
             {
-                "Title": "Marinade Docs:",
+                "Title": "Marinade Docs",
                 "Link": "https://docs.marinade.finance"
             }
         ],
@@ -1124,8 +1124,7 @@
         "Ideas": [
             "custom meme generator: plug in your wallet and generate memes with the PFPs you hold.",
             "Twitter post/banner creator: when users buy and joins the community, a tool to help them create a custom twitter post to connect w/ community",
-            "Trait swapping tool/marketplace: Users can create/buy/sell traits to use on their Samurai NFTs. Monetize on-chain.",
-            " Minimum requirement to be considered, example: \"Have to use at least x from project/library/protocol/etc\""
+            "Trait swapping tool/marketplace: Users can create/buy/sell traits to use on their Samurai NFTs. Monetize on-chain."
         ],
         "Requirements": "Must integrate with Cyber Samurai NFT collection and users’ individual PFPs.",
         "Links": [
