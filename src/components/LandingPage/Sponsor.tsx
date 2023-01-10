@@ -104,7 +104,7 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Bonk />;
     case 'Dialect':
       return <Dialect />;
-    case 'Poolprops':
+    case 'PoolProps':
       return <Poolprops />;
     case 'Lamport DAO':
       return <LamportDAO />;
