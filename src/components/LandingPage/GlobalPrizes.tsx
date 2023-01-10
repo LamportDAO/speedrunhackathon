@@ -29,13 +29,12 @@ const GlobalPrizes = ({
         {isMobile ? (
           <CardMobile
             track={{
-              Name: 'Student Prize ',
+              Name: 'Student Prize',
               Sponsor: ['Solana University'],
               PrizeWorth: 5000,
               PrizeUnit: 'USDC',
               PrizeDetails: [
-                '2023 Breakpoint Tickets to the top student team',
-                'Support from the Solana U Developer Relations Team.',
+                '2023 Breakpoint Tickets to the top student team'
               ],
               AboutUs:
                 'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
@@ -91,13 +90,12 @@ const GlobalPrizes = ({
             <CardDesktop
               activeTrackHandler={activeTrackHandler}
               track={{
-                Name: 'Student Prize ',
+                Name: 'Student Prize',
                 Sponsor: ['Solana University'],
                 PrizeWorth: 5000,
-                PrizeUnit: 'USDC',
+                PrizeUnit: 'USDC*',
                 PrizeDetails: [
-                  '2023 Breakpoint Tickets to the top student team',
-                  'Support from the Solana U Developer Relations Team.',
+                  '2023 Breakpoint Tickets to the top student team'
                 ],
                 AboutUs:
                   'Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.',
