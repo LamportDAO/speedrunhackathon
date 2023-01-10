@@ -98,7 +98,7 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
-        <Center id='track'>
+        <Center>
           <Locations />
         </Center>
         <Center id='track'>
