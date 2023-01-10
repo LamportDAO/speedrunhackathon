@@ -31,6 +31,7 @@ const sponsorNames = [
   'Solana University',
   'MonkeVentures',
   'BetDEX',
+  'Comet',
   'Spling Labs',
   'SolBlaze',
   'Marinade',
@@ -42,7 +43,6 @@ const sponsorNames = [
   'OtterSec',
   'Civic',
   'Frakt',
-
   'Light Protocol',
   'NightMarket',
   'Solworks',
