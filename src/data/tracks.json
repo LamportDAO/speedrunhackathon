@@ -359,7 +359,7 @@
         "Ideas": [
             "A human-readable blockchain explorer using our APIs",
             "A UX-friendly transaction viewer using our APIs",
-            "Making a PR to xNFT backpack for human-readable transaction histories using our APIs",
+            "Making a PR to xNFT backpack for human-readable transaction histories using our APIs"
         ],
         "Requirements": "Make use of Helius APis",
         "Links": [
