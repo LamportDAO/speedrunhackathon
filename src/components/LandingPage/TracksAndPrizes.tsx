@@ -62,7 +62,7 @@ const TracksAndPrizes = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-      <Center flexDirection={'column'} maxW={'4xl'} py='10rem'>
+      <Center flexDirection={'column'} maxW={'4xl'} py='2rem'>
         <Heading
           py='2rem'
           fontFamily={Inktrap.style.fontFamily}
