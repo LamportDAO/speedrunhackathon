@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Oracle integration (Data feed / VRF)",
+        "Name": "Switchboard Oracle Integration",
         "Sponsor": [
             "Switchboard"
         ],
@@ -10,18 +10,12 @@
             "1,000 USDC"
         ],
         "AboutUs": "Switchboard is a permissionless and customizable oracle protocol for general purpose data feeds (sports, weather, price, etc) and verifiable randomness (VRF). Through this Oracle Global Prize, Switchboard aims to empower developers to build challenging products with niche off-chain data or verifiable on-chain randomness.",
-        "Description": "Through this hackathon, developers will be able to understand oracles at a deeper level and take advantage of the permissionless-ness of the Switchboard oracles",
+        "Description": "Through this Oracle Global Prize, Switchboard aims to empower developers to build challenging products with niche off-chain data or verifiable on-chain randomness.\nThe requirements for this track is to build the most interesting product relying on Switchboard data feed or VRF. Some examples of interesting products are:",
         "Ideas": [
-            " DeFi:",
-            "Build an insurance protocol requires settlement using off-chain data such as weather affecting crops.",
-            "Build a Lottery as a Service protocol relying on verifiable randomness.",
+            "Build an insurance protocol that requires settlement using off-chain data such as weather affecting crops.",
+            "Build a Lottery as a Service protocol relying on verifiable randomness",
             "Build any form of money app such as Russian Roulette relying on verifiable randomness.",
-            " NFTs:",
-            "Build a product with Dynamic NFT (dNFT) leveraging on interesting data to mutate NFT metadata.",
-            " Prediction/betting exchanges:",
-            "Build a decentralized and permissionless prediction market, allowing users to predict, for example sports outcomes.",
-            " INSURANCE PROTOCOL:",
-            "Settlement with off-chain data such as weather affecting crops, etc"
+            "Build a product with Dynamic NFT (dNFT) leveraging on interesting data to mutate NFT metadata."
         ],
         "Requirements": "The requirements for this track are to build the most interesting product relying on a Switchboard data feed or VRF. Some examples of interesting products are: Data feed: Vyper Protocol (Permissionless derivatives) VRF: Scallop Protocol (No-loss lottery)",
         "Links": [
@@ -1784,6 +1778,57 @@
             {
                 "Name": "Dom DiGiacomo",
                 "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "Decentralized Identity, Decentralize Yourself",
+        "Sponsor": [
+            "Civic"
+        ],
+        "PrizeWorth": 2000,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "Best integration of a Civic library (Civic Pass, Civic.me, Civic Link or did.sol SDKs): $1,500",
+            "Runner up: $500"
+        ],
+        "AboutUs": "Civic provides decentralized identity management tools for Web3 for both consumers and dApps.",
+        "Description": "We’re offering up to $2,000 USDC to the Sandstorm Hackathon participants to integrate our identity protocols, which are based on globally recognized W3C standards. \nDecentralized identity can make the ecosystem safer by allowing dApps to use identity information for access control without storing or accessing data.",
+        "Ideas": [
+            "Integrate Civic Pass (https://docs.civic.com/civic-pass/overview) into a Solana protocol for uniqueness or KYC, e.g. Openbook DEX, Wordcel, and dApps",
+            "Login or authentication with Civic Pass (https://docs.civic.com/civic-pass/overview)",
+            "Integrate Civic.me SDK (https://docs.civic.com/civic-me/civic-me-profile)  in an existing dApp and deliver to production",
+            "Integrate Civic.me SDK (https://docs.civic.com/civic-me/civic-me-profile) with Backpack",
+            "Integrate Civic Link SDK (https://github.com/civicteam/civic-link)  to link and connect multiple wallets",
+            "Integrate Decentralized Identifiers (DIDs) with a dApp (https://github.com/identity-com/sol-did)"
+        ],
+        "Requirements": "Must use SDK or DID SDK\nMust have a plan to deploy to production or be open-sourced",
+        "Links": [
+            {
+                "Title": "Civic Discord",
+                "Link": "https://discord.com/invite/MWmhXauJw8"
+            },
+            {
+                "Title": "Civic Developer Hub",
+                "Link": "https://docs.civic.com/"
+            },
+            {
+                "Title": "Civic Github",
+                "Link": "https://github.com/civicteam"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Chris Hart",
+                "Twitter": "https://twitter.com/hartcb"
+            },
+            {
+                "Name": "JP Bedoya",
+                "Twitter": "https://twitter.com/juamps"
+            },
+            {
+                "Name": "Dan Kelleher",
+                "Twitter": "https://twitter.com/danbkelleher"
             }
         ]
     }
