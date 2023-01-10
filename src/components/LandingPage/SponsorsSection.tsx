@@ -36,7 +36,7 @@ const sponsorNames = [
   'Comet',
   'Spling Labs',
   'Gari',
-  'Poolprops',
+  'PoolProps',
   'Underdog Protocol',
   'ChainFlow',
   'Dispatch',
