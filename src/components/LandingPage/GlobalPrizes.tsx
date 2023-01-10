@@ -93,7 +93,7 @@ const GlobalPrizes = ({
               track={{
                 Name: 'Student Prize ',
                 Sponsor: ['Solana University'],
-                PrizeWorth: 1000,
+                PrizeWorth: 5000,
                 PrizeUnit: 'USDC',
                 PrizeDetails: [
                   '2023 Breakpoint Tickets to the top student team',
