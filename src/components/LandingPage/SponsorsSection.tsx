@@ -13,8 +13,11 @@ const sponsorNames = [
   'Reciprocal',
   'Superteam',
   'Eclipse',
+  'Jito',
   'Openbook',
   'Crossmint',
+  'VellumCapital',
+  'Helium',
   'Commet',
   'Clockwork',
   'Bridgesplit',
@@ -30,6 +33,7 @@ const sponsorNames = [
   'BetDEX',
   'Spling Labs',
   'SolBlaze',
+  'Marinade',
   'Poolprops',
   'Underdog Protocol',
   'ChainFlow',
@@ -38,6 +42,13 @@ const sponsorNames = [
   'Civic',
   'Frakt',
   'Light Protocol',
+  'NightMarket',
+  'Solworks',
+  'DogeCapital',
+  'UnstoppableDomains',
+  'Sec3',
+  'CyberSamurai',
+  'Elixir',
 ];
 const SponsorsSection = () => {
   return (

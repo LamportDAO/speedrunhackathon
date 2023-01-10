@@ -150,12 +150,13 @@
         "Sponsor": [
             "Clockwork",
             "Helius",
-            "Multicoin"
+            "Multicoin",
+            "Reciprocal"
         ],
-        "PrizeWorth": 5500,
+        "PrizeWorth": 5700,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "5,500 USDC"
+            "$5,700 USDC"
         ],
         "AboutUs": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
         "Description": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
@@ -214,85 +215,81 @@
         ]
     },
     {
-        "Name": " Decentralized Identity, Decentralize Yourself",
+        "Name": "Liquid Staking",
         "Sponsor": [
-            "Civic"
+            "SolBlaze",
+            "Marinade Finance"
         ],
-        "PrizeWorth": 2000,
-        "PrizeUnit": "USDC",
+        "PrizeWorth": 3600,
+        "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "Best integration of a Civic library (Civic Pass, Civic.me, Civic Link or did.sol SDKs): $1,500",
-            "Runner up: $500"
+            "50 bSOL + 5m BLZE + 50k MNDE"
         ],
-        "AboutUs": "Civic provides decentralized identity management tools for Web3 for both consumers and dApps.",
-        "Description": "Were offering up to $2,000 USDC to the Sandstorm Hackathon participants to integrate our identity protocols, which are based on globally recognized W3C standards. Decentralized identity can make the ecosystem safer by allowing dApps to use identity information for access control without storing or accessing data.",
+        "AboutUs": "",
+        "Description": "Through the Lamport DAO Sandstorm Hackathon, we hope to encourage builders to integrate BlazeStake’s liquid staked SOL (bSOL) and/or Marinade’s liquid staked SOL (mSOL) into payments systems, NFT mints, staking UIs, rewards protocols, and more. As a reward, we’ll give 50 bSOL (BlazeStake liquid staked SOL), 5m BLZE (an upcoming token from SolBlaze which will have incredible utility), and 50k MNDE (Marinade’s unique and innovative governance token) in order to help support developers and push the Solana ecosystem forward!",
         "Ideas": [
-            "Integrate Civic Pass into a Solana protocol for uniqueness or KYC, e.g. Openbook DEX, Wordcel, and dApps",
-            "Login or authentication with Civic Pass ",
-            "Integrate Civic.me SDK in an existing dApp and deliver to production",
-            "Integrate Civic.me SDK  with Backpack",
-            "Integrate Civic Link SDK to link and connect multiple wallets",
-            "Integrate Decentralized Identifiers (DIDs) with a dApp "
+            "Payments with $bSOL and/or $mSOL",
+            "NFT mints in $bSOL and/or $mSOL",
+            "Staking/unstaking UIs",
+            "Rewards protocols that leverage yield from $bSOL and/or $mSOL",
+            "Integrations with BlazeStake’s Custom Liquid Staking (https://stake.solblaze.org/validators)"
         ],
-        "Requirements": "Must use SDK or DID SDK. Must have a plan to deploy to production or be open-sourced",
+        "Requirements": "Must use $bSOL and/or $mSOL or interact with the BlazeStake and/or Marinade protocols in some way",
         "Links": [
             {
-                "Title": "Discord",
-                "Link": "https://discord.com/invite/MWmhXauJw8"
+                "Title": "SolBlaze Twitter",
+                "Link": "https://twitter.com/solblaze_org"
             },
             {
-                "Title": "Developer Hub",
-                "Link": "https://docs.civic.com/"
+                "Title": "SolBlaze Website",
+                "Link": "https://solblaze.org/"
             },
             {
-                "Title": "Github",
-                "Link": "https://github.com/civicteam"
+                "Title": "SolBlaze Liquid Staking",
+                "Link": "https://stake.solblaze.org/"
             },
             {
-                "Title": "Civic Pass",
-                "Link": "https://docs.civic.com/civic-pass/overview"
+                "Title": "SolBlaze Docs",
+                "Link": "https://stake-docs.solblaze.org"
             },
             {
-                "Title": "Civic.me",
-                "Link": "https://docs.civic.com/civic-me/civic-me-profile"
+                "Title": "Marinade Twitter",
+                "Link": "https://twitter.com/MarinadeFinance"
             },
             {
-                "Title": "Civic Link",
-                "Link": "https://github.com/civicteam/civic-link"
+                "Title": "Marinade Website",
+                "Link": "https://marinade.finance"
             },
             {
-                "Title": "sol did",
-                "Link": "https://github.com/identity-com/sol-did"
+                "Title": "Marinade Docs:",
+                "Link": "https://docs.marinade.finance"
             }
         ],
         "Judges": [
             {
-                "Name": "Chris Hart",
-                "Twitter": "https://twitter.com/hartcb"
+                "Name": "SolBlaze Founder",
+                "Twitter": "https://twitter.com/solblaze_org"
             },
             {
-                "Name": "JP Bedoya",
-                "Twitter": "https://twitter.com/juamps"
-            },
-            {
-                "Name": "Dan Kelleher",
-                "Twitter": "https://twitter.com/danbkelleher"
+                "Name": "Alex, Marinade",
+                "Twitter": "https://twitter.com/_Cerba"
             }
         ]
     },
     {
         "Name": "Derivatives Applications and Liquidity",
         "Sponsor": [
-            "Hxro Network"
+            "Hxro Network",
+            "SolShield"
         ],
-        "PrizeWorth": 2200,
+        "PrizeWorth": 4300,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place 25,000 HXRO",
-            "2nd Place 12,500 HXRO"
+            "1st place: 1,000 USDC and 25,000 HXRO",
+            "2nd place: 500 USDC and 12,500 HXRO"
         ],
         "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. Hxro has a community of more than 7000 traders",
-        "Description": "Our goals for the hackathon are to: introduce and educate both new and existing builders to the Hxro Network set of protocols; encourage and support builders looking to launch innovative trading, betting and general gaming applications using Hxro Network derivative, parimutuel and/or liquidity protocols, and; support track builders on an ongoing basis through Hxro Labs and its community of more than 7000 traders to test pilot new network applications as they come to market.",
+        "Description": "This track is for builders looking to create either foundational layer on-chain derivative infrastructure or to build user-layer applications that face global DeFi derivatives users. We encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Ideas": [
             "A step-style race game using the parimutuel protocol",
             "A “beat the streak” app or set of rolling contests for parimutuels that awards a prize to the player/wallet that wins the most parimutuel games in a row",
@@ -303,16 +300,16 @@
         "Requirements": "Make use of the Parimutuels or Derivatives protocols",
         "Links": [
             {
-                "Title": "HxroByExample",
-                "Link": "https://www.notion.so/HxroByExample-LearnWithHxro-44428109fffc4053b2b8f1bc3a5e3d58"
-            },
-            {
                 "Title": "Docs",
                 "Link": "https://docs.hxro.network/"
             },
             {
                 "Title": "Parimutuel Typescript SDK",
                 "Link": "https://www.npmjs.com/package/@hxronetwork/parimutuelsdk"
+            },
+            {
+                "Title": "HxroByExample",
+                "Link": "https://www.notion.so/HxroByExample-LearnWithHxro-44428109fffc4053b2b8f1bc3a5e3d58"
             },
             {
                 "Title": "Parimutuel Python SDK",
@@ -352,7 +349,7 @@
             "Helius"
         ],
         "PrizeWorth": 1500,
-        "PrizeUnit": "USDC",
+        "PrizeUnit": "USDC*",
         "PrizeDetails": [
             "1st Place 1000 USDC (and 3 month free Helius subscription)",
             "2nd Place 500 USDC (and 1 month free Helius subscription)"
@@ -389,12 +386,14 @@
     {
         "Name": "Real World Assets on Solana",
         "Sponsor": [
-            "Bridgesplit"
+            "Bridgesplit",
+            "Reciprocal"
         ],
-        "PrizeWorth": 1500,
+        "PrizeWorth": 1700,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1,000 USDC 1st place, 500 USDC 2nd place"
+            "1,200 USDC 1st place",
+            "500 USDC 2nd place"
         ],
         "AboutUs": "Bridgesplit is an tokenization and securitization platform enabling asset originators to create and sell a variety of financial products on-chain.",
         "Description": "Encourage new developers to think about the challenges facing broader adoption of blockchain as a solution to larger financial and commercial uses.",
@@ -469,15 +468,15 @@
         "Name": "Local Dev Tooling",
         "Sponsor": [
             "Solana Foundation",
-            "Multicoin Cap"
+            "Multicoin"
         ],
         "PrizeWorth": 7500,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
             "7,500 USDC"
         ],
-        "AboutUs": "The Solana Foundation is a non-profit foundation based in Zug, Switzerland, dedicated to the decentralization, adoption, and security of the Solana ecosystem. For more information, please visit https://solana.org/.",
-        "Description": "The Solana Foundation is a non-profit foundation based in Zug, Switzerland, dedicated to the decentralization, adoption, and security of the Solana ecosystem. For more information, please visit https://solana.org/.",
+        "AboutUs": "",
+        "Description": "",
         "Ideas": [
             "Editable accounts on local test validator",
             "Ganache for local test validator",
@@ -554,68 +553,6 @@
         ]
     },
     {
-        "Name": "Liquid Staking",
-        "Sponsor": [
-            "SolBlaze",
-            "Marinade Finance"
-        ],
-        "PrizeWorth": 3600,
-        "PrizeUnit": "USDC*",
-        "PrizeDetails": [
-            "50 bSOL + 5m BLZE + 50k MNDE"
-        ],
-        "AboutUs": "",
-        "Description": "Through the Lamport DAO Sandstorm Hackathon, we hope to encourage builders to integrate BlazeStake’s liquid staked SOL (bSOL) and/or Marinade’s liquid staked SOL (mSOL) into payments systems, NFT mints, staking UIs, rewards protocols, and more. As a reward, we’ll give 50 bSOL (BlazeStake liquid staked SOL), 5m BLZE (an upcoming token from SolBlaze which will have incredible utility), and 50k MNDE (Marinade’s unique and innovative governance token) in order to help support developers and push the Solana ecosystem forward!",
-        "Ideas": [
-            "Payments with $bSOL and/or $mSOL",
-            "NFT mints in $bSOL and/or $mSOL",
-            "Staking/unstaking UIs",
-            "Rewards protocols that leverage yield from $bSOL and/or $mSOL",
-            "Integrations with BlazeStake’s Custom Liquid Staking (https://stake.solblaze.org/validators)"
-        ],
-        "Requirements": "Must use $bSOL and/or $mSOL or interact with the BlazeStake and/or Marinade protocols in some way",
-        "Links": [
-            {
-                "Title": "SolBlaze Twitter",
-                "Link": "https://twitter.com/solblaze_org"
-            },
-            {
-                "Title": "SolBlaze Website",
-                "Link": "https://solblaze.org/"
-            },
-            {
-                "Title": "SolBlaze Liquid Staking",
-                "Link": "https://stake.solblaze.org/"
-            },
-            {
-                "Title": "SolBlaze Docs",
-                "Link": "https://stake-docs.solblaze.org"
-            },
-            {
-                "Title": "Marinade Twitter",
-                "Link": "https://twitter.com/MarinadeFinance"
-            },
-            {
-                "Title": "Marinade Website",
-                "Link": "https://marinade.finance"
-            },
-            {
-                "Title": "Marinade Docs:",
-                "Link": "https://docs.marinade.finance"
-            }
-        ],
-        "Judges": [
-            {
-                "Name": "SolBlaze Founder",
-                "Twitter": "https://twitter.com/solblaze_org"
-            },
-            {
-                "Name": "Alex, Marinade",
-                "Twitter": "https://twitter.com/_Cerba"
-            }
-        ]
-    },
-    {
         "Name": "Composable Discussion Forums ",
         "Sponsor": [
             "Dispatch"
@@ -666,11 +603,11 @@
             "Motley DAO",
             "Night Market"
         ],
-        "PrizeWorth": "1000",
+        "PrizeWorth": 1500,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place (USDC, SAUCE/NFTs)",
-            "2nd Place (USDC, SAUCE/NFTs)"
+            "First place: $500 + 3 Motley Friends NFTs ($950 value)",
+            "Second place: $250 + 2 Motley Friends NFTs ($550 value)"
         ],
         "AboutUs": "Motley is a DAO that builds community-owned, open-source NFT tooling. Our first product is Night Market, an NFT marketplace powered by the strongest protocols in the Solana ecosystem. Users earn our governance token, SAUCE, which allows them to share in the development, growth, and upside of Night Market and all of Motley DAO’s future products.",
         "Description": "Support Motley DAO's tooling to empower open-source builders interested in building community-owned dApps.",
@@ -740,12 +677,13 @@
     {
         "Name": "Social (web)apps",
         "Sponsor": [
-            "Spling Labs"
+            "Spling Labs",
+            "Reciprocal"
         ],
-        "PrizeWorth": 1500,
+        "PrizeWorth": 1700,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 1,000 USDC",
+            "1st Place: 1,200 USDC",
             "2nd Place: 500 USDC"
         ],
         "AboutUs": "We enable founders and developers to build web3 social apps. Developer-friendly, with no in-depth blockchain knowledge required - and no Rust experience needed. Fully on-chain social apps built on Solana and GenesysGo’s Shadow Drive.",
@@ -783,12 +721,13 @@
     {
         "Name": "Gaming",
         "Sponsor": [
-            "Chain Crisis"
+            "Chain Crisis",
+            "Reciprocal"
         ],
-        "PrizeWorth": 4000,
+        "PrizeWorth": 4200,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st prize - 2,000 USDC",
+            "1st prize - 2,200 USDC",
             "2nd prize - 1,500 USDC",
             "3rd prize - 500 USDC"
         ],
@@ -850,11 +789,13 @@
         "AboutUs": "",
         "Description": "Underdog makes it easy to integrate Reputation, NFTs, and Web3 into your product or Workflow. By building a reputation on-chain, we can create meritocratic systems of access. Users create their own Reputation System, Create a Dynamic Membership NFT, connect their off/on-chain workflows via our API, and watch their member NFTs upgrade/downgrade based on Contribution. We’ve been building a reputation system with web2 startups/web3 communities and need to bring data from the walled gardens in Web2.",
         "Ideas": [
+            "Bots:",
             "Discord Bot to send/create Dynamic NFTs",
             "Discord Bot to view Community Reputation in Channels",
-            "Integration: GitHub to on-chain, capture code commits, and add to reputation score ie: Dynamic NFT",
-            "Integration: Twitter to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT",
-            "Integration: GSuite to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT"
+            "Integrations:",
+            "GitHub to on-chain, capture code commits, and add to reputation score ie: Dynamic NFT",
+            "Twitter to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT",
+            "GSuite to on-chain, capture engagement, and add to reputation score ie: Dynamic NFT"
         ],
         "Requirements": "Have to use Underdog API in your project. Preferably UP Webhooks/Membership NFT.",
         "Links": [
@@ -877,9 +818,9 @@
     {
         "Name": "Bonking with Bonk!",
         "Sponsor": [
-            ""
+            "Bonk"
         ],
-        "PrizeWorth": 100000,
+        "PrizeWorth": 50000,
         "PrizeUnit": "BONK",
         "PrizeDetails": [
             "70B $BONK"
@@ -923,7 +864,7 @@
             "Nice UX for making private payments",
             "Private POS system"
         ],
-        "Requirements": "Use the Elusiv SDK",
+        "Requirements": "Use the Elusiv SDK (Dm on telegram @julian_elusiv",
         "Links": [
             {
                 "Title": "Twitter",
@@ -1047,14 +988,16 @@
         ]
     },
     {
-        "Name": "Global: Light Grand Prize",
+        "Name": "Global: DeFi Grand Prize",
         "Sponsor": [
-            "Light Protocol"
+            "Light Protocol",
+            "Solana Foundation"
         ],
-        "PrizeWorth": 2000,
+        "PrizeWorth": 7000,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "Best in Pushing Solana’s potential: $2,000"
+            "Grand Prize - $5,000 (sponsored by Solana Foundation)",
+            "Runner’s Up! - $2,000 (sponsored by Light Protocol)"
         ],
         "AboutUs": "Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.",
         "Description": "As part of the LamportDAO Sandstorm Hackathon, Light Protocol is holding a special track for dApps that leverage the potential of Solana.  Solana’s high throughput enables unique ideas that are not available on other chains. If you build something that pushes the potential of Solana, this track is for you. ",
@@ -1081,7 +1024,7 @@
                 "Twitter": ""
             },
             {
-                "Name": "Mert, Core, LamportDAO",
+                "Name": "Jacob Creech, DevRel, Foundation",
                 "Twitter": ""
             }
         ]
@@ -1254,7 +1197,7 @@
             "50k MNDE for the best solution"
         ],
         "AboutUs": "Marinade is a liquid-staking solution on Solana with the biggest protocol TVL currently.",
-        "Description": "Marinade wants to allow users to stake their SOL with specific validators by holding the mSOL in wallet or within specific protocols. In order to do this we need a solution that would be able to track mSOL held by those users through multiple usages: being held in a wallet, used in Solend as collateral, or provided as liquidity in ORCA, for example.\nMarinade encourages builders to create different solutions during the Lamport DAO Sandstorm Hackathon. Feel free to join Marinade's discord for questions (#dev-chat channel) or other ideas",
+        "Description": "Marinade wants to allow users to stake their SOL with specific validators by holding the mSOL in wallet or within specific protocols. In order to do this we need a solution that would be able to track mSOL held by those users through multiple usages: being held in a wallet, used in Solend as collateral, or provided as liquidity in ORCA, for example.Marinade encourages builders to create different solutions during the Lamport DAO Sandstorm Hackathon. Feel free to join Marinade's discord for questions (#dev-chat channel) or other ideas",
         "Ideas": [
             "Use this base:",
             "  - https://www.notion.so/Solana-Snapshots-94142f1ef1014067a5467a63e4ad3f34",
@@ -1386,7 +1329,7 @@
     {
         "Name": "Analytics ",
         "Sponsor": [
-            "Flipside Crypto",
+            "Flipside",
             "Helius"
         ],
         "PrizeWorth": 2500,
@@ -1454,14 +1397,14 @@
             "Social betting - Is there a way to allow you and your friends to form a ‘syndicate’ and bet in a transparent manner?",
             "Market making tools -  What inputs would be needed for the user (e.g. depth, volume, etc.)? How would the tools deal with price movements in the overall markets? How will it deal with liability?"
         ],
-        "Requirements": "All projects should be compatible with Monaco Protocol (BetDEX Exchange is built on this), Openbook or another DEX on Solana which sports betting projects can be built upon.",
+        "Requirements": "All projects should be compatible with Monaco Protocol (BetDEX Exchange is built on this)\nLegal Disclaimer: Entries will be judged by one or more representatives from each of BetDEX and PoolProps based on creativity, originality, the viability in the ecosystem, and other factors determined in the judge's absolute discretion to stand out above and beyond other entries. Decisions by the judges will be final. Individuals from BetDEX and PoolProps are not allowed to participate.",
         "Links": [
             {
                 "Title": "Monaco Protocol",
                 "Link": "https://github.com/MonacoProtocol"
             },
             {
-                "Title": " Openbook",
+                "Title": "Openbook",
                 "Link": "https://github.com/openbook-dex"
             }
         ],
@@ -1476,6 +1419,371 @@
             },
             {
                 "Name": "@BlumbergKellen",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "Bonking with Orca!",
+        "Sponsor": [
+            "Orca"
+        ],
+        "PrizeWorth": 1500,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "Best integration of Orca; $1,000",
+            "Bonkiest integration: $500"
+        ],
+        "AboutUs": "Orca is Solana’s friendly concentrated liquidity AMM, allowing users to provide liquidity, trade and experience Solana DeFi in the most user-friendly way possible. ",
+        "Description": "As part of the LamportDAO Sandstorm Hackathon, Orca is sponsoring 1,500 USDC for integrations utilizing Orca as a liquidity or swap venue, via Orca’s SDKs. Additionally, most of the trading volume and liquidity for BONK is on Orca, providing unique building opportunities by DeFi developers who love Bonk!",
+        "Ideas": [
+            "Payment Solutions with Bonk + Orca Swap Integrations",
+            "Allow swappers to pay a BONK tip that is burnt using Orca Swap"
+        ],
+        "Requirements": "Have to utilize Orca’s AMM or SDK. Prize is only given to open-sourced projects. ",
+        "Links": [
+            {
+                "Title": "Orca’s site",
+                "Link": "https://orca.so"
+            },
+            {
+                "Title": "Orca’s SDKs",
+                "Link": "https://github.com/orca-so"
+            },
+            {
+                "Title": "Orca’s Builders Program",
+                "Link": "https://builders.orca.so"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Milan, Core, Orca",
+                "Twitter": ""
+            },
+            {
+                "Name": "Nathan, Core, Orca",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "NFT x DeFi",
+        "Sponsor": [
+            "Doge Capital",
+            "Elixir",
+            "Frakt"
+        ],
+        "PrizeWorth": 6500,
+        "PrizeUnit": "USDC*",
+        "PrizeDetails": [
+            "- 1 - $3k & 5 NFTS (2 Ovols / 3 Doge)",
+            "- 2 - $1.5k & 3 NFTs (1 Ovols / 2 Doge)",
+            "- 3 - $500 & 2 NFTs (1 Ovols / 1 Doge)"
+        ],
+        "AboutUs": "",
+        "Description": "This track challenges participants to create innovative products or services that combine non-fungible tokens (NFTs) and decentralized finance (DeFi). NFT-DeFi combines the unique attributes of NFTs with the capabilities of DeFi to create new financial products and services that are transparent, secure, and decentralized. Some examples of NFT-DeFi applications include NFT-based prediction markets, which allow users to speculate on the future value of NFTs and other assets, NFT-based lending and borrowing platforms, which allow users to borrow and lend NFTs using smart contracts, and NFT-based derivative platforms that allows users to hedge their spot positions / generate outsized profits using leverage.\n\nIf you are looking for what to do in this track, we welcome you to try out our ideas list. Though, you are not limited to them and are free to build any product that leverages liquidity locked in NFTs or in any way brings them to DeFi",
+        "Ideas": [
+            "- NFT-based prediction markets",
+            "- NFT-based insurance platforms(insure NFTs against losses)",
+            "- NFT derivatives (options, perp contracts)",
+            "- NFT DCA tool using tokens",
+            "- Historical NFT balances",
+            "- Improved market-making Ui on Orca X Elixir for NFTs",
+            "- Mortgage - build a product that allows to buy NFT with only 20% of the price, the rest should come from somewhere to pay the rest (flash loans?). Bought NFT should be collateralized into a loan on FRAKT",
+            "- Borrow-to-buy - use [frakt-sdk](https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md) to build a solution that allows to buy NFTs with money borrowed from other NFTs",
+            "- Options - build an NFT options platform leveraging [hadeswap](http://hadeswap.com)’s deep liquidity"
+        ],
+        "Requirements": "- Participants must create a product or service that involves NFTs and DeFi in some way.\n- Participants should come up with innovative solutions (There are a few platforms that enable users to borrow or lend NFTs. Eg: FRAKT, sharky.fi, yaww . Exact copies of these solutions won't be counted as valid entries )\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Links": [
+            {
+                "Title": "Doge Capital Website",
+                "Link": "https://thedogecapital.com"
+            },
+            {
+                "Title": "Doge Capital Twitter",
+                "Link": "https://twitter.com/thedogecapital"
+            },
+            {
+                "Title": "Doge Capital Discord",
+                "Link": "https://discord.gg/dogecapital"
+            },
+            {
+                "Title": "Doge Capital ME",
+                "Link": "https://magiceden.io/marketplace/doge_capital"
+            },
+            {
+                "Title": "Elixir Website",
+                "Link": "http://elixirnft.io/"
+            },
+            {
+                "Title": "Elixir Explore NFT ecosystem",
+                "Link": "http://city.elixirnft.io/"
+            },
+            {
+                "Title": "Elixir App",
+                "Link": "http://app.elixirnft.io/"
+            },
+            {
+                "Title": "Elixir Twitter",
+                "Link": "http://twitter.com/ElixirNFT"
+            },
+            {
+                "Title": "Elixir NFT collection: ",
+                "Link": "http://app.elixirnft.io/collections/ovols"
+            },
+            {
+                "Title": "FRAKT sdk",
+                "Link": "https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md"
+            },
+            {
+                "Title": "FRAKT sdk loan service",
+                "Link": "https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md"
+            },
+            {
+                "Title": "Hadeswap sdk",
+                "Link": "https://github.com/hadeswap-solana/hadeswap-sdk-public"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "@imdogefather, Doge capital",
+                "Twitter": ""
+            },
+            {
+                "Name": "SwervorTrades, Elixir",
+                "Twitter": ""
+            },
+            {
+                "Name": "Jai, Elixir",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "NFT Oracles and Orderbooks",
+        "Sponsor": [
+            "SolWorks"
+        ],
+        "PrizeWorth": 1420,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "1st place: 1,000 USDC",
+            "2nd place: 420 USDC"
+        ],
+        "AboutUs": "We are a small team building protocols and tools for developers on Solana. Our primary focus is on making the journey into DeFi for newcomers digestible and manageable. We've built SolApps (a directory for Solana projects), SolToolkit (a NPM utility package for Solana developers), Footpath (a licensed white-labelled WL application platform), col8 (an on-chain level 2 orderbook layout for NFT collections) and we are building Sujiko Protocol (NFT perps).",
+        "Description": "NFT price oracles are virtually non-existent. This is a problem because it makes it difficult to build products that rely on NFT price data. We want to encourage developers to build NFT price oracles and orderbooks. Helius offer a new NFT indexer which parses NFT-related transactions since Solana’s genesis block. Switchboard is a decentralized oracle network that provides reliable, tamper-proof data feeds to smart contracts. Col8 is a SolWorks library that allows developers to build orderbooks for NFTs. Let’s see what you can build!",
+        "Ideas": [
+            "- Floor (TWAP) price oracle for collections using Helius and Switchboard",
+            "- Virtual orderbook builder for collections based on listings and bids using Helius and a custom contract like col8",
+            "- A research report that presents information related to how easily NFT floor prices can be manipulated and how to prevent it"
+        ],
+        "Requirements": "- Participants must create a product or service that involves NFTs and oracles in some way.\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Links": [
+            {
+                "Title": "Helius (Solana Data)",
+                "Link": "https://helius.xyz/"
+            },
+            {
+                "Title": "Switchboard (oracle)",
+                "Link": "https://switchboard.xyz/"
+            },
+            {
+                "Title": "col8 (SolWorks library)",
+                "Link": "https://github.com/SolWorks-Dev/col8"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Zhe @zhesolworks",
+                "Twitter": ""
+            },
+            {
+                "Name": "Hotdad @hotdadsol",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "NFTs",
+        "Sponsor": [
+            "Helius",
+            "Infinity",
+            "Crossmint",
+            "Reciprocal"
+        ],
+        "PrizeWorth": 6311,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            ""
+        ],
+        "AboutUs": "",
+        "Description": "NFT data on Solana has been historically hard to work with and especially hard to query. Helius has released a new NFT indexer which parses all NFT-related transactions since Solana’s genesis — including sales, listings, offers, mints, burns, etc. This enables the building of bots, analytics, marketplaces, fraud models, social feeds, and a bunch more. Let’s see what you can build!",
+        "Ideas": [
+            "Transactional NFT applications (receipts, tickets)",
+            "Utilizing Crossmint’s Minting API to create easier ways to mint NFTs (Discord/Slack bots, Shopify plugins, etc)",
+            "NFTs for enterprise use cases (a la Starbucks rewards)",
+            "Ways to integrate NFTs seamlessly into everyday life",
+            "Tools that enable creators and artists to add interactivity, personalization and/or unique online/offline experiences to their NFT collection(s)",
+            "Infrastructure enabling community members to build on top of original collections"
+        ],
+        "Requirements": "Helius: Has to use Helius.xyz APIs, Webhooks, or some other of our products\n\nCrossmint: Utilize our NFT Minting API on Solana.",
+        "Links": [
+            {
+                "Title": "Helius Website",
+                "Link": "http://Helius.xyz"
+            },
+            {
+                "Title": "Crossmint Docs",
+                "Link": "https://docs.crossmint.io/"
+            },
+            {
+                "Title": "Crossmint Discord",
+                "Link": "http://discord.gg/crossmint"
+            },
+            {
+                "Title": "Crossmint Twitter",
+                "Link": "http://twitter.com/crossmint"
+            },
+            {
+                "Title": "Crossmint Website",
+                "Link": "http://crossmint.com/"
+            },
+            {
+                "Title": "Infinity Website",
+                "Link": "https://infinitylabsnft.com/"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Mert, helius",
+                "Twitter": ""
+            },
+            {
+                "Name": "Alfonso, Crossmint",
+                "Twitter": "https://twitter.com/alfongj"
+            },
+            {
+                "Name": "Emilio, Crossmint",
+                "Twitter": "https://twitter.com/etherohm"
+            },
+            {
+                "Name": "Danny, Crossmint",
+                "Twitter": "https://twitter.com/ninjacode"
+            },
+            {
+                "Name": "Eve, Infinity Labs ",
+                "Twitter": "https://twitter.com/evesinfinity"
+            },
+            {
+                "Name": "Aaron, Infinity Labs ",
+                "Twitter": "https://twitter.com/staratlastheory"
+            },
+            {
+                "Name": "Will, Infinity Labs ",
+                "Twitter": "https://twitter.com/theinfinitewill"
+            }
+        ]
+    },
+    {
+        "Name": "Decentralized Wireless (DeWi)",
+        "Sponsor": [
+            "Helium"
+        ],
+        "PrizeWorth": 2500,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "$2,500 USDC"
+        ],
+        "AboutUs": "The Helium Network is a decentralized network that uses a protocol called LoRaWAN to provide long-range connectivity for low-power devices. It has grown to be the largest network of its kind in a short period of time. In addition to LoRaWAN, Helium also deploys Hotspots for cellular connectivity. Starting in 2022, Helium will be available as a data plan on Saga phones. \nCurrently, the Helium network operates on its own blockchain, but it has been decided that it will migrate to the Solana blockchain in the fourth quarter of 2022 and be fully operational on Solana in the first quarter of 2023.",
+        "Description": "Our Goal for this hackathon:\n\nIntroducing Helium to the Solana community and vice versa. This could involve showcasing the benefits and capabilities of the Helium network and how it could be used in conjunction with the Solana blockchain. It could also involve exploring potential partnerships or integrations between the two platforms.\nSeeing novel use cases of IoT devices on Solana. This could involve finding innovative ways to use IoT devices to solve real-world problems or improve people's lives, and leveraging the Solana blockchain to enable these solutions.\nThe Helium LoRaWAN Network being the largest contiguous wireless network in the world presents a unique opportunity for hackathon participants to explore the potential for widespread connectivity and how it could be leveraged for various applications. This could involve finding ways to use the network to connect devices in areas where traditional internet access is limited, or finding ways to use the network to enable new types of applications or services.",
+        "Ideas": [
+            "- Using the Helium Network to create Location-based NFTs. This could leverage GPS-enabled devices or the on-chain location of Helium Hotspots.",
+            "- A decentralized implementation of traditional LoRaWAN infrastructure. This could be things like LoRaWAN join server, application server, or other piece of infrastructure that brings more pieces of the end-to-end data pipeline on-chain.",
+            "- A tool or service that helps developers and businesses build and deploy applications on the Helium network, such as a device management platform or a marketplace for IoT services.",
+            "- A solution for enabling micropayments or other financial transactions between IoT devices on the Helium network, using the Solana blockchain as a backbone."
+        ],
+        "Requirements": "Must use the Helium Network or show the viability of real-world IoT data being used on Solana. \n  - Send data using the Helium Network.\n  - Novel application of real-world data applied to the blockchain.\n  - Use Helium Proof of Coverage data in some novel way",
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "http://helium.com"
+            },
+            {
+                "Title": "Docs",
+                "Link": "http://docs.helium.com"
+            },
+            {
+                "Title": "Console",
+                "Link": "http://console.helium.com"
+            },
+            {
+                "Title": "ETL DeWire",
+                "Link": "http://etl.dewi.org"
+            },
+            {
+                "Title": "Github",
+                "Link": "http://github.com/helium"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Abhay Kumar (@abhay)",
+                "Twitter": ""
+            },
+            {
+                "Name": "Nik Hawks (@thegristleking)",
+                "Twitter": ""
+            },
+            {
+                "Name": "Neil Skoglund (@bfgneil1)",
+                "Twitter": ""
+            },
+            {
+                "Name": "Jose Marcelino (@jmarcelino)",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "On-Chain Legal Docs",
+        "Sponsor": [
+            "Vellum"
+        ],
+        "PrizeWorth": 2500,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "$1,500 for best OSS contribution to Vellum",
+            "$1,000 for most creative use of on-chain execution"
+        ],
+        "AboutUs": "Vellum aims to revolutionize the way legal contracts are created and executed. It’s an on-chain replacement for DocuSign, Dropbox Sign, or Adobe Sign, where contracts combine with multisignature proposals to automate legal and financial outcomes.",
+        "Description": "Create a composable, programmatic system to the world of traditional legal contracts.",
+        "Ideas": [
+            "Post execution SDK for document signing.",
+            "One-off multisig proposals.",
+            "Build a system in Vellum where people can create a single-use multisig that closes upon all signers confirming or denying a single proposal. This is in service of",
+            "Payment splitting via a multisig proposal.",
+            "Create a “Pay together on Vellum” flow where people can add their friends to a proposal with a certain dollar amount that will be split among all of the people who are paying for the item.",
+            "Permaweb contract amendment system.",
+            "Propose a way for people to keep track of on-chain versions of a contract as it’s changed on Vellum."
+        ],
+        "Requirements": "Have to build on top of Vellum’s program and post-execution library",
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "http://onvellum.com/"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Diego Segura",
+                "Twitter": "https://twitter.com/diegoatnation"
+            },
+            {
+                "Name": "Ryan Shea",
+                "Twitter": "https://twitter.com/clockwrrk"
+            },
+            {
+                "Name": "Dom DiGiacomo",
                 "Twitter": ""
             }
         ]
