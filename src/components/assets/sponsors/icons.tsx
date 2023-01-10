@@ -206,7 +206,7 @@ const Poolprops = () => {
 };
 const ChainCrisis = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '9rem' }}>
+    <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '5rem', md: '7rem' }}>
       <svg
         width='185'
         height='48'
@@ -852,7 +852,7 @@ const HXRO = () => {
 };
 const Bonk = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '7rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '6rem' }}>
       <svg
         width='160'
         height='44'
@@ -882,7 +882,7 @@ const Bonk = () => {
 };
 const FlipSide = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '8rem' }}>
       <svg
         width='272'
         height='101'
@@ -931,7 +931,7 @@ const FlipSide = () => {
 };
 const BetDex = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
       <svg
         width='252'
         height='67'
@@ -1046,7 +1046,7 @@ const Switchboard = () => {
 };
 const Unique = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '9rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
       <svg
         width='255'
         height='58'
@@ -1088,7 +1088,7 @@ const Unique = () => {
 };
 const MonkeDao = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '6rem' }}>
+    <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '4rem', md: '5rem' }}>
       <svg
         width='125'
         height='48'
@@ -1134,7 +1134,7 @@ const MonkeDao = () => {
 };
 const Spling = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
+    <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '5rem', md: '7rem' }}>
       <svg
         width='232'
         height='52'
@@ -1196,7 +1196,7 @@ const Spling = () => {
 };
 const Elusive = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '6rem' }}>
       <svg
         width='238'
         height='55'
@@ -1258,7 +1258,7 @@ const Dialect = () => {
 };
 const OtterSec = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '9rem' }}>
       <svg
         width='278'
         height='61'
@@ -1280,7 +1280,7 @@ const OtterSec = () => {
 };
 const Dispatch = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '9rem' }}>
       <svg
         width='321'
         height='61'
@@ -1460,7 +1460,7 @@ const UnderdogProtocol = () => {
 };
 const SolBlaze = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '9rem' }}>
       <svg
         width='187'
         height='51'
@@ -1582,7 +1582,7 @@ const LamportDAO = () => {
 };
 const Chainflow = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '9rem' }}>
       <svg
         width='223'
         height='56'
@@ -2154,7 +2154,7 @@ const Orca = () => {
 };
 const Civic = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '7rem' }}>
       <svg
         width='220'
         height='70'
@@ -2223,7 +2223,7 @@ const Reciprocal = () => {
 };
 const Frakt = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '9rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '5rem', md: '8rem' }}>
       <svg
         width='209'
         height='62'
@@ -2281,7 +2281,7 @@ const Frakt = () => {
 };
 const LightProtocol = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '12rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '11rem' }}>
       <svg
         width='292'
         height='54'
@@ -2360,7 +2360,7 @@ const LightProtocol = () => {
 };
 const Marinade = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '12rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '10rem' }}>
       <svg
         width='316'
         height='52'
@@ -2456,7 +2456,7 @@ const NightMarket = () => {
 };
 const Jito = () => {
   return (
-    <Center h={{ base: '3rem', md: '4rem' }} w={{ base: '3rem', md: '6rem' }}>
+    <Center h={{ base: '3rem', md: '3rem' }} w={{ base: '3rem', md: '5rem' }}>
       <svg
         width='138'
         height='54'
@@ -2493,7 +2493,7 @@ const Jito = () => {
 };
 const CyberSamurai = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '2rem', md: '4.5rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '2rem', md: '4rem' }}>
       <svg
         width='122'
         height='94'
@@ -2513,7 +2513,7 @@ const CyberSamurai = () => {
 };
 const Sec3 = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '9rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '8rem' }}>
       <svg
         width='230'
         height='64'
@@ -2672,7 +2672,7 @@ const Infinity = () => {
 };
 const Elixir = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '8rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '4rem', md: '7rem' }}>
       <svg
         width='174'
         height='59'
@@ -2716,7 +2716,7 @@ const Elixir = () => {
 };
 const DogeCapital = () => {
   return (
-    <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '2rem', md: '4rem' }}>
+    <Center h={{ base: '2rem', md: '3rem' }} w={{ base: '2rem', md: '3.5rem' }}>
       <svg
         width='99'
         height='79'
@@ -2734,7 +2734,7 @@ const DogeCapital = () => {
 };
 const Solworks = () => {
   return (
-    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '10rem' }}>
+    <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '7rem', md: '9rem' }}>
       <svg
         width='266'
         height='56'
