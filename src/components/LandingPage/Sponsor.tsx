@@ -35,6 +35,19 @@ import {
   Civic,
   LightProtocol,
   Commet,
+  VellumCapital,
+  Helium,
+  Solworks,
+  DogeCapital,
+  Infinity,
+  UnstoppableDomains,
+  Sec3,
+  CyberSamurai,
+  Jito,
+  NightMarket,
+  Motley,
+  Marinade,
+  Elixir,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -108,6 +121,32 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <LightProtocol />;
     case 'Comet':
       return <Commet />;
+    case 'VellumCapital':
+      return <VellumCapital />;
+    case 'Helium':
+      return <Helium />;
+    case 'Solworks':
+      return <Solworks />;
+    case 'DogeCapital':
+      return <DogeCapital />;
+    case 'Infinity':
+      return <Infinity />;
+    case 'UnstoppableDomains':
+      return <UnstoppableDomains />;
+    case 'Sec3':
+      return <Sec3 />;
+    case 'CyberSamurai':
+      return <CyberSamurai />;
+    case 'Jito':
+      return <Jito />;
+    case 'NightMarket':
+      return <NightMarket />;
+    case 'Motley':
+      return <Motley />;
+    case 'Marinade':
+      return <Marinade />;
+    case 'Elixir':
+      return <Elixir />;
     default:
       return <></>;
   }
