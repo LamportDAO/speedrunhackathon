@@ -31,8 +31,6 @@ const PrizePool = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       y: event.nativeEvent.offsetY,
     });
   };
-  //const browser = fnBrowserDetect();
-  console.log('brosser name -', BrowserName());
   return (
     <VStack
       onMouseEnter={() => {
