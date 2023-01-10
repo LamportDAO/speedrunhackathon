@@ -166,7 +166,7 @@ const CardMobile = ({ track }: PropsType) => {
                   fontSize={{ base: 'sm', md: 'md' }}
                   pl='1.5rem'
                 >
-                  {track.Requirements}
+                  {track?.Requirements}
                 </Text>
               </VStack>
               <VStack alignItems='start'>
