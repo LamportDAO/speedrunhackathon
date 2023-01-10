@@ -33,13 +33,11 @@ const TracksAndPrizes = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTrack, setActiveTrack] = useState<trackType | {}>({});
   const activeTrackHandler = (track?: trackType) => {
-    console.log('handler called - ', track);
     if (!track) return;
     setActiveTrack(track);
     onOpen();
   };
   const totalTrackPrize = getTotalTrackPrize(tracksData) + 7000;
-  console.log(totalTrackPrize);
   return (
     <>
       <Modal

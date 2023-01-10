@@ -48,6 +48,7 @@ import {
   Motley,
   Marinade,
   Elixir,
+  Gari,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -147,6 +148,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Marinade />;
     case 'Elixir':
       return <Elixir />;
+    case 'Gari':
+      return <Gari />;
     default:
       return <></>;
   }

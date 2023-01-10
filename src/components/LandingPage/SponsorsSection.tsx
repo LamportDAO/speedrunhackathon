@@ -34,6 +34,7 @@ const sponsorNames = [
   'Spling Labs',
   'SolBlaze',
   'Marinade',
+  'Gari',
   'Poolprops',
   'Underdog Protocol',
   'ChainFlow',
@@ -41,14 +42,17 @@ const sponsorNames = [
   'OtterSec',
   'Civic',
   'Frakt',
+
   'Light Protocol',
   'NightMarket',
   'Solworks',
+  'Motley',
   'DogeCapital',
   'UnstoppableDomains',
   'Sec3',
   'CyberSamurai',
   'Elixir',
+  'Infinity',
 ];
 const SponsorsSection = () => {
   return (
