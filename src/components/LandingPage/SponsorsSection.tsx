@@ -38,6 +38,7 @@ const sponsorNames = [
   'Gari',
   'PoolProps',
   'Underdog Protocol',
+  'MetaCamp',
   'ChainFlow',
   'Dispatch',
   'Ottersec',
