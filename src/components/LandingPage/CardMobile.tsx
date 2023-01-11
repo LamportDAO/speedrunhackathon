@@ -91,7 +91,7 @@ const CardMobile = ({ track }: PropsType) => {
           >
             <VStack pt={'0rem'} fontSize='xl' alignItems={'start'}>
               {track?.Sponsor! ? (
-                <HStack gap='1rem'>
+                <HStack gap='1rem' flexWrap={'wrap'}>
                   {track.Sponsor?.map((sponsor, index) => (
                     <Sponsor sponsorName={sponsor} key={index} />
                   ))}
