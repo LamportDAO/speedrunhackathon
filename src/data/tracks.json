@@ -282,7 +282,7 @@
             "1st place: 1,000 USDC and 25,000 HXRO",
             "2nd place: 500 USDC and 12,500 HXRO"
         ],
-        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. Hxro has a community of more than 7000 traders",
+        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. Hxro has a community of more than 7000 traders. As auditing partners of Hxro, SolShield will join Hxro in rewarding projects that bring more data flow and transactions to core Hxro protocols (both Dexterity and Parimutuel) to test the resiliency of the protocol in user-facing applications.",
         "Description": "This track is for builders looking to create either foundational layer on-chain derivative infrastructure or to build user-layer applications that face global DeFi derivatives users. We encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Ideas": [
             "A step-style race game using the parimutuel protocol",
@@ -324,15 +324,19 @@
         ],
         "Judges": [
             {
-                "Name": "Dan Gunsberg",
+                "Name": "Dan Gunsberg, Hxro",
                 "Twitter": ""
             },
             {
-                "Name": "Rob Levy",
+                "Name": "Rob Levy, Hxro",
                 "Twitter": ""
             },
             {
-                "Name": "Nick Fazzari",
+                "Name": "Nick Fazzari, Hxro",
+                "Twitter": ""
+            },
+            {
+                "Name": "David Pruitt, SolShield",
                 "Twitter": ""
             }
         ]
