@@ -49,6 +49,7 @@ import {
   Marinade,
   Elixir,
   Gari,
+  Metacamp,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -150,6 +151,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Elixir />;
     case 'Gari':
       return <Gari />;
+    case 'MetaCamp':
+      return <MetaCamp />;
     default:
       return <></>;
   }
