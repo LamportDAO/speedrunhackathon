@@ -54,6 +54,7 @@ const sponsorNames = [
   'CyberSamurai',
   'Elixir',
   'Infinity',
+  'SolShield',
 ];
 const SponsorsSection = () => {
   return (
