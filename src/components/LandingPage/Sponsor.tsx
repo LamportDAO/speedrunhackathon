@@ -49,7 +49,7 @@ import {
   Marinade,
   Elixir,
   Gari,
-  Metacamp,
+  MetaCamp,
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
