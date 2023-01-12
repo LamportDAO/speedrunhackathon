@@ -56,10 +56,10 @@
         "Sponsor": [
             "Openbook"
         ],
-        "PrizeWorth": 3500,
+        "PrizeWorth": 3000,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "Best DeFi integration of Openbook: $1,000 + 2.5B $BONK"
+            "Best DeFi integration of Openbook: $1,000 + 2B $BONK"
         ],
         "AboutUs": "Openbook is the community-driven fork of Serum v3, a fully onchain CLOB that is run as a public good, with no protocol fees or rent to end users. Currently, all fees takers pay are distributed to UIs and Makers in rebates. ",
         "Description": "As part of the LamportDAO Sandstorm Hackathon, Openbook sponsors 1,000 USDC for new DeFi integrations that utilize the on-chain orderbook and lead to higher efficiency for MMs or more taker trading volume from Spot Margin, Leverage, or Perps. ",
@@ -147,10 +147,10 @@
             "Multicoin",
             "Reciprocal"
         ],
-        "PrizeWorth": 8200,
+        "PrizeWorth": 7700,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "$5,700 USDC + 2.5B $BONK"
+            "$5,700 USDC + 2B $BONK"
         ],
         "AboutUs": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
         "Description": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
@@ -346,11 +346,11 @@
         "Sponsor": [
             "Helius"
         ],
-        "PrizeWorth": 4000,
+        "PrizeWorth": 3500,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place 1000 USDC (and 3 month free Helius subscription) + 1.5B $BONK",
-            "2nd Place 500 USDC (and 1 month free Helius subscription) + 1B $BONK"
+            "1st Place 1000 USDC (and 3 month free Helius subscription) + 1.25B $BONK",
+            "2nd Place 500 USDC (and 1 month free Helius subscription) + 0.75B $BONK"
         ],
         "AboutUs": "Helius is the ultimate developer platform, specialized for Solana developers. Move beyond Localhost.",
         "Description": "Our goals for the hackathon are to: introduce and educate both new and existing builders to the Hxro Network set of protocols; encourage and support builders looking to launch innovative trading, betting and general gaming applications using Hxro Network derivative, parimutuel and/or liquidity protocols, and; support track builders on an ongoing basis through Hxro Labs and its community of more than 7000 traders to test pilot new network applications as they come to market.",
@@ -644,10 +644,10 @@
             "UniqueVC",
             "MonkeVentures"
         ],
-        "PrizeWorth": 4500,
+        "PrizeWorth": 4000,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "2,000 USDC + 2.5B $BONK"
+            "2,000 USDC + 2B $BONK"
         ],
         "AboutUs": "",
         "Description": "No two organizations are identical but all organizations evolve over time. Different organizations require different structures and tools to be efficient. This track aims to encourage participants to identify gaps with existing governance infrastructures that can be filled and to innovate on a solution/ platform that can help address the overarching issues faced by its stakeholders. Participants are encouraged to take reference to the existing environment, observe different companies, NGOs, small businesses, and attempt to also identify what on-chain tools could be relevant in helping to optimize their business operations. These can include, but not limited to, improving engagement among stakeholders, enhancing transparency,  facilitating better communication, as well as increasing the efficiency of organizations.",
@@ -678,11 +678,11 @@
             "Spling Labs",
             "Reciprocal"
         ],
-        "PrizeWorth": 4200,
+        "PrizeWorth": 3700,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place: 1,200 USDC + 1.5B $BONK",
-            "2nd Place: 500 USDC + 1B $BONK"
+            "1st Place: 1,200 USDC + 1.25B $BONK",
+            "2nd Place: 500 USDC + 0.75B $BONK"
         ],
         "AboutUs": "We enable founders and developers to build web3 social apps. Developer-friendly, with no in-depth blockchain knowledge required - and no Rust experience needed. Fully on-chain social apps built on Solana and GenesysGo’s Shadow Drive.",
         "Description": "We’d love to help projects with building their web3 social app or website. We’re open and actively tailoring the social protocol to the needs of builders.",
@@ -722,12 +722,12 @@
             "Chain Crisis",
             "Reciprocal"
         ],
-        "PrizeWorth": 6700,
+        "PrizeWorth": 6200,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place: 2,200 USDC + 1.25B $BONK",
+            "1st Place: 2,200 USDC + 1B $BONK",
             "2nd Place: 1,500 USDC + 0.75B $BONK",
-            "3rd Place: 500 USDC + 0.5B $BONK"
+            "3rd Place: 500 USDC + 0.25B $BONK"
         ],
         "AboutUs": "We are Warpgate Technologies Corp, a game development studio based in the Philippines that is building Chain Crisis, a Cyberpunk MMORPG, on the Solana network. In this game, players will join forces to take on challenges and defeat enemies together in Warpgate City. The Solana platform provides a fast, secure, and scalable infrastructure for our game, allowing players to enjoy a seamless and immersive gaming experience.",
         "Description": "The gaming track encourages software engineers who love MMORPGs to build cool on-chain programs that can be helpful towards on-chain MMORPGs like Chain Crisis in the Solana network.",
@@ -777,11 +777,11 @@
         "Sponsor": [
             "Underdog Protocol"
         ],
-        "PrizeWorth": 4190,
+        "PrizeWorth": 3690,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place: $1,690 USDC + 1 Year Free API Usage + 1.5B $BONK",
-            "2nd Place: 6 months of free API Usage + 1B $BONK",
+            "1st Place: $1,690 USDC + 1 Year Free API Usage + 1.25B $BONK",
+            "2nd Place: 6 months of free API Usage + 0.75B $BONK",
             "All applicants: 3 Months of API Usage"
         ],
         "AboutUs": "",
@@ -1155,10 +1155,10 @@
         "Sponsor": [
             "Sec3"
         ],
-        "PrizeWorth": 3500,
+        "PrizeWorth": 3000,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "$1000 USDC + Beta Access to sec3 Watchtower + 2.5B $BONK"
+            "$1000 USDC + Beta Access to sec3 Watchtower + 2B $BONK"
         ],
         "AboutUs": "sec3 is a security research firm that prepares web3 protocols for millions of users, by building technology based solutions for Web3 projects to ensure protocols stay safe as they scale",
         "Description": "Improve ecosystem security through better on-chain monitoring. sec3's Watchtower helps projects secure their protocols through real time monitoring of smart contract interactions, and are always looking for more ways to define transactions that might lead to malicious attacks",
@@ -1565,11 +1565,11 @@
         "Sponsor": [
             "SolWorks"
         ],
-        "PrizeWorth": 3920,
+        "PrizeWorth": 3420,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place: 1,000 USDC + 1.5B $BONK",
-            "2nd Place: 420 USDC + 1B $BONK"
+            "1st Place: 1,000 USDC + 1.25B $BONK",
+            "2nd Place: 420 USDC + 0.75B $BONK"
         ],
         "AboutUs": "We are a small team building protocols and tools for developers on Solana. Our primary focus is on making the journey into DeFi for newcomers digestible and manageable. We've built SolApps (a directory for Solana projects), SolToolkit (a NPM utility package for Solana developers), Footpath (a licensed white-labelled WL application platform), col8 (an on-chain level 2 orderbook layout for NFT collections) and we are building Sujiko Protocol (NFT perps).",
         "Description": "NFT price oracles are virtually non-existent. This is a problem because it makes it difficult to build products that rely on NFT price data. We want to encourage developers to build NFT price oracles and orderbooks. Helius offer a new NFT indexer which parses NFT-related transactions since Solana’s genesis block. Switchboard is a decentralized oracle network that provides reliable, tamper-proof data feeds to smart contracts. Col8 is a SolWorks library that allows developers to build orderbooks for NFTs. Let’s see what you can build!",

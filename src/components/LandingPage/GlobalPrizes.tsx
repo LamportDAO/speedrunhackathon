@@ -85,8 +85,8 @@ const GlobalPrizes = ({
               PrizeWorth: 9500,
               PrizeUnit: 'USDC*',
               PrizeDetails: [
-                'Grand Prize: $5,000 (sponsored by Solana Foundation) + 1.5B $BONK',
-                'Runner-up: $2,000 (sponsored by Light Protocol) + 1B $BONK',
+                'Grand Prize: $5,000 (sponsored by Solana Foundation) + 1.25B $BONK',
+                'Runner-up: $2,000 (sponsored by Light Protocol) + 0.75B $BONK',
               ],
               AboutUs:
                 'Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.',
