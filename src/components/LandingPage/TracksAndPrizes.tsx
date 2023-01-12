@@ -20,7 +20,7 @@ import { Inktrap } from '../FontFamily';
 
 function getTotalTrackPrize(trackArray: any) {
   let totalTrackPrize = 0;
-  trackArray.forEach((track: { PrizeWorth: string }) => {
+  trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
     }
