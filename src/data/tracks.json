@@ -1477,24 +1477,24 @@
         "PrizeWorth": 6500,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "- 1 - $3k & 5 NFTS (2 Ovols / 3 Doge)",
-            "- 2 - $1.5k & 3 NFTs (1 Ovols / 2 Doge)",
-            "- 3 - $500 & 2 NFTs (1 Ovols / 1 Doge)"
+            "1 - $3k & 5 NFTS (2 Ovols / 3 Doge)",
+            "2 - $1.5k & 3 NFTs (1 Ovols / 2 Doge)",
+            "3 - $500 & 2 NFTs (1 Ovols / 1 Doge)"
         ],
         "AboutUs": "",
         "Description": "This track challenges participants to create innovative products or services that combine non-fungible tokens (NFTs) and decentralized finance (DeFi). NFT-DeFi combines the unique attributes of NFTs with the capabilities of DeFi to create new financial products and services that are transparent, secure, and decentralized. Some examples of NFT-DeFi applications include NFT-based prediction markets, which allow users to speculate on the future value of NFTs and other assets, NFT-based lending and borrowing platforms, which allow users to borrow and lend NFTs using smart contracts, and NFT-based derivative platforms that allows users to hedge their spot positions / generate outsized profits using leverage.\n\nIf you are looking for what to do in this track, we welcome you to try out our ideas list. Though, you are not limited to them and are free to build any product that leverages liquidity locked in NFTs or in any way brings them to DeFi",
         "Ideas": [
-            "- NFT-based prediction markets",
-            "- NFT-based insurance platforms(insure NFTs against losses)",
-            "- NFT derivatives (options, perp contracts)",
-            "- NFT DCA tool using tokens",
-            "- Historical NFT balances",
-            "- Improved market-making Ui on Orca X Elixir for NFTs",
-            "- Mortgage - build a product that allows to buy NFT with only 20% of the price, the rest should come from somewhere to pay the rest (flash loans?). Bought NFT should be collateralized into a loan on FRAKT",
-            "- Borrow-to-buy - use [frakt-sdk](https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md) to build a solution that allows to buy NFTs with money borrowed from other NFTs",
-            "- Options - build an NFT options platform leveraging [hadeswap](http://hadeswap.com)’s deep liquidity"
+            "NFT-based prediction markets",
+            "NFT-based insurance platforms(insure NFTs against losses)",
+            "NFT derivatives (options, perp contracts)",
+            "NFT DCA tool using tokens",
+            "Historical NFT balances",
+            "Improved market-making Ui on Orca X Elixir for NFTs",
+            "Mortgage - build a product that allows to buy NFT with only 20% of the price, the rest should come from somewhere to pay the rest (flash loans?). Bought NFT should be collateralized into a loan on FRAKT",
+            "Borrow-to-buy - use [frakt-sdk](https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md) to build a solution that allows to buy NFTs with money borrowed from other NFTs",
+            "Options - build an NFT options platform leveraging [hadeswap](http://hadeswap.com)’s deep liquidity"
         ],
-        "Requirements": "- Participants must create a product or service that involves NFTs and DeFi in some way.\n- Participants should come up with innovative solutions (There are a few platforms that enable users to borrow or lend NFTs. Eg: FRAKT, sharky.fi, yaww . Exact copies of these solutions won't be counted as valid entries )\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Requirements": "Participants must create a product or service that involves NFTs and DeFi in some way.\n- Participants should come up with innovative solutions (There are a few platforms that enable users to borrow or lend NFTs. Eg: FRAKT, sharky.fi, yaww . Exact copies of these solutions won't be counted as valid entries )\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
         "Links": [
             {
                 "Title": "Doge Capital Website",
@@ -1574,11 +1574,11 @@
         "AboutUs": "We are a small team building protocols and tools for developers on Solana. Our primary focus is on making the journey into DeFi for newcomers digestible and manageable. We've built SolApps (a directory for Solana projects), SolToolkit (a NPM utility package for Solana developers), Footpath (a licensed white-labelled WL application platform), col8 (an on-chain level 2 orderbook layout for NFT collections) and we are building Sujiko Protocol (NFT perps).",
         "Description": "NFT price oracles are virtually non-existent. This is a problem because it makes it difficult to build products that rely on NFT price data. We want to encourage developers to build NFT price oracles and orderbooks. Helius offer a new NFT indexer which parses NFT-related transactions since Solana’s genesis block. Switchboard is a decentralized oracle network that provides reliable, tamper-proof data feeds to smart contracts. Col8 is a SolWorks library that allows developers to build orderbooks for NFTs. Let’s see what you can build!",
         "Ideas": [
-            "- Floor (TWAP) price oracle for collections using Helius and Switchboard",
-            "- Virtual orderbook builder for collections based on listings and bids using Helius and a custom contract like col8",
-            "- A research report that presents information related to how easily NFT floor prices can be manipulated and how to prevent it"
+            "Floor (TWAP) price oracle for collections using Helius and Switchboard",
+            "Virtual orderbook builder for collections based on listings and bids using Helius and a custom contract like col8",
+            "A research report that presents information related to how easily NFT floor prices can be manipulated and how to prevent it"
         ],
-        "Requirements": "- Participants must create a product or service that involves NFTs and oracles in some way.\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Requirements": "Participants must create a product or service that involves NFTs and oracles in some way.\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
         "Links": [
             {
                 "Title": "Helius (Solana Data)",
@@ -1698,10 +1698,10 @@
         "AboutUs": "The Helium Network is a decentralized network that uses a protocol called LoRaWAN to provide long-range connectivity for low-power devices. It has grown to be the largest network of its kind in a short period of time. In addition to LoRaWAN, Helium also deploys Hotspots for cellular connectivity. Starting in 2022, Helium will be available as a data plan on Saga phones. \nCurrently, the Helium network operates on its own blockchain, but it has been decided that it will migrate to the Solana blockchain in the fourth quarter of 2022 and be fully operational on Solana in the first quarter of 2023.",
         "Description": "Our Goal for this hackathon:\n\nIntroducing Helium to the Solana community and vice versa. This could involve showcasing the benefits and capabilities of the Helium network and how it could be used in conjunction with the Solana blockchain. It could also involve exploring potential partnerships or integrations between the two platforms.\nSeeing novel use cases of IoT devices on Solana. This could involve finding innovative ways to use IoT devices to solve real-world problems or improve people's lives, and leveraging the Solana blockchain to enable these solutions.\nThe Helium LoRaWAN Network being the largest contiguous wireless network in the world presents a unique opportunity for hackathon participants to explore the potential for widespread connectivity and how it could be leveraged for various applications. This could involve finding ways to use the network to connect devices in areas where traditional internet access is limited, or finding ways to use the network to enable new types of applications or services.",
         "Ideas": [
-            "- Using the Helium Network to create Location-based NFTs. This could leverage GPS-enabled devices or the on-chain location of Helium Hotspots.",
-            "- A decentralized implementation of traditional LoRaWAN infrastructure. This could be things like LoRaWAN join server, application server, or other piece of infrastructure that brings more pieces of the end-to-end data pipeline on-chain.",
-            "- A tool or service that helps developers and businesses build and deploy applications on the Helium network, such as a device management platform or a marketplace for IoT services.",
-            "- A solution for enabling micropayments or other financial transactions between IoT devices on the Helium network, using the Solana blockchain as a backbone."
+            "Using the Helium Network to create Location-based NFTs. This could leverage GPS-enabled devices or the on-chain location of Helium Hotspots.",
+            "A decentralized implementation of traditional LoRaWAN infrastructure. This could be things like LoRaWAN join server, application server, or other piece of infrastructure that brings more pieces of the end-to-end data pipeline on-chain.",
+            "A tool or service that helps developers and businesses build and deploy applications on the Helium network, such as a device management platform or a marketplace for IoT services.",
+            "A solution for enabling micropayments or other financial transactions between IoT devices on the Helium network, using the Solana blockchain as a backbone."
         ],
         "Requirements": "Must use the Helium Network or show the viability of real-world IoT data being used on Solana. \n  - Send data using the Helium Network.\n  - Novel application of real-world data applied to the blockchain.\n  - Use Helium Proof of Coverage data in some novel way",
         "Links": [
