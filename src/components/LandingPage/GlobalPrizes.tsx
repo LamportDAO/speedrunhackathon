@@ -82,11 +82,11 @@ const GlobalPrizes = ({
             track={{
               Name: 'DeFi Grand Prize',
               Sponsor: ['Solana Foundation', 'Light Protocol'],
-              PrizeWorth: 7000,
-              PrizeUnit: 'USDC',
+              PrizeWorth: 9500,
+              PrizeUnit: 'USDC*',
               PrizeDetails: [
-                'Grand Prize: $5,000 (sponsored by Solana Foundation)',
-                'Runner-up: $2,000 (sponsored by Light Protocol)',
+                'Grand Prize: $5,000 (sponsored by Solana Foundation) + 1.5B $BONK',
+                'Runner-up: $2,000 (sponsored by Light Protocol) + 1B $BONK',
               ],
               AboutUs:
                 'Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.',
