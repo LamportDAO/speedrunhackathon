@@ -1,5 +1,139 @@
 [
     {
+        "Name": "DeFi Grand Prize",
+        "Sponsor": [
+            "Solana Foundation",
+            "Light Protocol"
+        ],
+        "PrizeWorth": 7000,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "Grand Prize: $5,000 (sponsored by Solana Foundation)",
+            "Runner-up: $2,000 (sponsored by Light Protocol)"
+        ],
+        "AboutUs": "Light Protocol is a ZK and Privacy infrastructure layer on Solana. Developers use Light to power a wide range of privacy use cases, such as private NFT minting and privacy-preserving e-commerce checkout.",
+        "Description": "As part of the LamportDAO Sandstorm Hackathon, Light Protocol is holding a special track for dApps that leverage the potential of Solana.  Solana’s high throughput enables unique ideas that are not available on other chains. If you build something that pushes the potential of Solana, this track is for you.",
+        "Ideas": [
+            "Derivatives decentralized exchanges",
+            "Orderbooks used for other NFTs or Lending Rates ",
+            "Hybrid MMs for Orderbooks",
+            "High throughput Payment systems"
+        ],
+        "Requirements": "dApp idea has to only work on Solana and not Ethereum. This prize will only be given to open-sourced repos, or projects with a well-laid out plan to open-sourcing.",
+        "Links": [
+            {
+                "Title": "Solana Foundation Twitter",
+                "Link": "https://twitter.com/SolanaFndn"
+            },
+            {
+                "Title": "Light Protocol Twitter",
+                "Link": "https://twitter.com/LightProtocol"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Swen, Core, Light Protocol",
+                "Twitter": ""
+            },
+            {
+                "Name": "Soju, Core, LamportDAO",
+                "Twitter": ""
+            },
+            {
+                "Name": "Jacob Creech, DevRel, Foundation",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "Student Prize",
+        "Sponsor": [
+            "Solana University"
+        ],
+        "PrizeWorth": 5000,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "2023 Breakpoint Tickets to the top student team"
+        ],
+        "AboutUs": "Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.",
+        "Description": "Solana U is a global community of curious coders and creatives that are dedicated to providing accessible blockchain education to all. As part of our mission, we strive to foster an exciting and interactive learning environment while providing resources and opportunities for students and educators to succeed in Web3. We welcome all individuals to join our diverse network and build with us on Solana.",
+        "Ideas": [
+            ""
+        ],
+        "Requirements": "All members must be enrolled in University or Academic Institution. The project must be original and created within the hackathon time standards.\nWe will analyze all the student's projects individually using the following criteria:\n1. Originality: How original is the hack's concept?\n2.  Technology difficulty: How technically challenging was it to implement the hack?\n3.  Utility: How useful is the hack in everyday life? What kind of impact could it have and what additional value could it bring to the industry?\n4.  User Experience: Is the hack easy to use? Is the interface well-designed?\n5.  Market Fit:  Does the hack address a need or problem in the market? Is it likely to be successful in terms of adoption and usage?\n6.  Completion: Is the hack fully functional and complete? Did the team accomplish all of its goals?",
+        "Links": [
+            {
+                "Title": "Discord",
+                "Link": "https://discord.com/invite/solanau"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.solanau.org/"
+            },
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/SolanaUni"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Cleon",
+                "Twitter": ""
+            },
+            {
+                "Name": "Dana Degenius",
+                "Twitter": ""
+            },
+            {
+                "Name": "DonnySolana",
+                "Twitter": ""
+            },
+            {
+                "Name": "Joe",
+                "Twitter": ""
+            }
+        ]
+    },
+    {
+        "Name": "Superteam Prize",
+        "Sponsor": [
+            "Superteam"
+        ],
+        "PrizeWorth": 2000,
+        "PrizeUnit": "USDC",
+        "PrizeDetails": [
+            "Most Scalable and Useful Public Good: 2,000 USDC"
+        ],
+        "AboutUs": "Superteam is a global network of developers, operators, and grantees working on promising Solana projects.",
+        "Description": "As part of the LamportDAO Sandstorm Hackathon, Superteam is sponsoring a global track for Public Goods. These are protocols that exist on Solana without intention to collect fees and allow other protocols and users benefit from additional features on Solana for free. Public goods provide the foundation for collaborative innovation and will be essential for Solana’s long term success. Examples of Public Goods include openbookdex, which collects no fees through it’s CLOB matching engine, and Anchor, a free framework for Solana development. Any other projects or protocols which generate substantial value for the Solana ecosystem without asking for fees in return will be eligible for this prize.",
+        "Ideas": [
+            "Developer tools.",
+            "Protocols that provide public benefit without requiring fees in exchange.",
+            "This is a global prize and every hackathon submission is automatically enrolled into this prize."
+        ],
+        "Requirements": "Have no intentions of collecting protocol fees/rent. This prize will only be given to open-sourced repos. Bonus points for program immutability/roadmap to program immutability. ",
+        "Links": [
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/SuperteamDAO"
+            }
+        ],
+        "Judges": [
+            {
+                "Name": "Kash Dhanda, Sherpa, Superteam",
+                "Twitter": "https://twitter.com/kashdhanda"
+            },
+            {
+                "Name": "Soju, Core, LamportDAO",
+                "Twitter": "https://twitter.com/0xSoju"
+            },
+            {
+                "Name": "Mert, Core, LamportDAO",
+                "Twitter": "https://twitter.com/0xMert_"
+            }
+        ]
+    },
+    {
         "Name": "Switchboard Oracle Integration",
         "Sponsor": [
             "Switchboard"
@@ -56,10 +190,10 @@
         "Sponsor": [
             "Openbook"
         ],
-        "PrizeWorth": 3000,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 1000,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "Best DeFi integration of Openbook: $1,000 + 2B $BONK"
+            "Best DeFi integration of Openbook: $1,000"
         ],
         "AboutUs": "Openbook is the community-driven fork of Serum v3, a fully onchain CLOB that is run as a public good, with no protocol fees or rent to end users. Currently, all fees takers pay are distributed to UIs and Makers in rebates. ",
         "Description": "As part of the LamportDAO Sandstorm Hackathon, Openbook sponsors 1,000 USDC for new DeFi integrations that utilize the on-chain orderbook and lead to higher efficiency for MMs or more taker trading volume from Spot Margin, Leverage, or Perps. ",
@@ -147,10 +281,10 @@
             "Multicoin",
             "Reciprocal"
         ],
-        "PrizeWorth": 7700,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 5700,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "$5,700 USDC + 2B $BONK"
+            "$5,700 USDC"
         ],
         "AboutUs": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
         "Description": "Clockwork is an automation engine for Solana. Developers can use Clockwork to schedule transactions and automate smart contracts without relying on centralized infrastructure. Our goal for the hackathon is to use automation to create next-gen crypto apps and experiences. Helius allows you to listen to on-chain events (either raw events directly from the blockchain, or parsed events such as NFT listings, NFT sales, Jupiter swaps, etc) with super-fast webhooks. With Clockwork & Helius — you have all the tools you need for building beautiful automations.",
@@ -279,10 +413,10 @@
         "PrizeWorth": 4300,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place: 1,000 USDC and 25,000 HXRO",
-            "2nd Place: 500 USDC and 12,500 HXRO"
+            "1st place: 1,000 USDC and 25,000 HXRO",
+            "2nd place: 500 USDC and 12,500 HXRO"
         ],
-        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. Hxro has a community of more than 7000 traders. As auditing partners of Hxro, SolShield will join Hxro in rewarding projects that bring more data flow and transactions to core Hxro protocols (both Dexterity and Parimutuel) to test the resiliency of the protocol in user-facing applications.",
+        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. \nAs auditing partners of Hxro, SolShield will join Hxro in rewarding projects that bring more data flow and transactions to core Hxro protocols (both Dexterity and Parimutuel) to test the resiliency of the protocol in user-facing applications.\nWe encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Description": "This track is for builders looking to create either foundational layer on-chain derivative infrastructure or to build user-layer applications that face global DeFi derivatives users. We encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Ideas": [
             "A step-style race game using the parimutuel protocol",
@@ -346,11 +480,11 @@
         "Sponsor": [
             "Helius"
         ],
-        "PrizeWorth": 3500,
+        "PrizeWorth": 1500,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1st Place 1000 USDC (and 3 month free Helius subscription) + 1.25B $BONK",
-            "2nd Place 500 USDC (and 1 month free Helius subscription) + 0.75B $BONK"
+            "1st Place 1000 USDC (and 3 month free Helius subscription)",
+            "2nd Place 500 USDC (and 1 month free Helius subscription)"
         ],
         "AboutUs": "Helius is the ultimate developer platform, specialized for Solana developers. Move beyond Localhost.",
         "Description": "Our goals for the hackathon are to: introduce and educate both new and existing builders to the Hxro Network set of protocols; encourage and support builders looking to launch innovative trading, betting and general gaming applications using Hxro Network derivative, parimutuel and/or liquidity protocols, and; support track builders on an ongoing basis through Hxro Labs and its community of more than 7000 traders to test pilot new network applications as they come to market.",
@@ -390,8 +524,8 @@
         "PrizeWorth": 1700,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 1,200 USDC",
-            "2nd Place: 500 USDC"
+            "1,200 USDC 1st place",
+            "500 USDC 2nd place"
         ],
         "AboutUs": "Bridgesplit is an tokenization and securitization platform enabling asset originators to create and sell a variety of financial products on-chain.",
         "Description": "Encourage new developers to think about the challenges facing broader adoption of blockchain as a solution to larger financial and commercial uses.",
@@ -604,8 +738,8 @@
         "PrizeWorth": 1500,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st place: $500 + 3 Motley Friends NFTs ($950 value)",
-            "2nd place: $250 + 2 Motley Friends NFTs ($550 value)"
+            "First place: $500 + 3 Motley Friends NFTs ($950 value)",
+            "Second place: $250 + 2 Motley Friends NFTs ($550 value)"
         ],
         "AboutUs": "Motley is a DAO that builds community-owned, open-source NFT tooling. Our first product is Night Market, an NFT marketplace powered by the strongest protocols in the Solana ecosystem. Users earn our governance token, SAUCE, which allows them to share in the development, growth, and upside of Night Market and all of Motley DAO’s future products.",
         "Description": "Support Motley DAO's tooling to empower open-source builders interested in building community-owned dApps.",
@@ -644,13 +778,13 @@
             "UniqueVC",
             "MonkeVentures"
         ],
-        "PrizeWorth": 4000,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 2000,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "2,000 USDC + 2B $BONK"
+            "2,000 USDC"
         ],
         "AboutUs": "",
-        "Description": "No two organizations are identical but all organizations evolve over time. Different organizations require different structures and tools to be efficient. This track aims to encourage participants to identify gaps with existing governance infrastructures that can be filled and to innovate on a solution/ platform that can help address the overarching issues faced by its stakeholders. Participants are encouraged to take reference to the existing environment, observe different companies, NGOs, small businesses, and attempt to also identify what on-chain tools could be relevant in helping to optimize their business operations. These can include, but not limited to, improving engagement among stakeholders, enhancing transparency,  facilitating better communication, as well as increasing the efficiency of organizations.",
+        "Description": "No two organizations are identical but all organizations evolve over time. Different organizations require different structures and tools to be efficient. This track aims to encourage participants to identify gaps with existing governance infrastructures that can be filled and to innovate on a solution/ platform that can help address the overarching issues faced by its stakeholders. Participants are encouraged to take reference to the existing environment, observe different companies, NGOs, small businesses, and attempt to also identify what on-chain tools could be relevant in helping to optimize their business operations. These can include, but not limited to, improving engagement among stakeholders, enhancing transparency,  facilitating better communication, as well as increasing the efficiency of organizations.",
         "Ideas": [
             ""
         ],
@@ -678,11 +812,11 @@
             "Spling Labs",
             "Reciprocal"
         ],
-        "PrizeWorth": 3700,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 1700,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 1,200 USDC + 1.25B $BONK",
-            "2nd Place: 500 USDC + 0.75B $BONK"
+            "1st Place: 1,200 USDC",
+            "2nd Place: 500 USDC"
         ],
         "AboutUs": "We enable founders and developers to build web3 social apps. Developer-friendly, with no in-depth blockchain knowledge required - and no Rust experience needed. Fully on-chain social apps built on Solana and GenesysGo’s Shadow Drive.",
         "Description": "We’d love to help projects with building their web3 social app or website. We’re open and actively tailoring the social protocol to the needs of builders.",
@@ -722,12 +856,12 @@
             "Chain Crisis",
             "Reciprocal"
         ],
-        "PrizeWorth": 6200,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 4200,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 2,200 USDC + 1B $BONK",
-            "2nd Place: 1,500 USDC + 0.75B $BONK",
-            "3rd Place: 500 USDC + 0.25B $BONK"
+            "1st prize - 2,200 USDC",
+            "2nd prize - 1,500 USDC",
+            "3rd prize - 500 USDC"
         ],
         "AboutUs": "We are Warpgate Technologies Corp, a game development studio based in the Philippines that is building Chain Crisis, a Cyberpunk MMORPG, on the Solana network. In this game, players will join forces to take on challenges and defeat enemies together in Warpgate City. The Solana platform provides a fast, secure, and scalable infrastructure for our game, allowing players to enjoy a seamless and immersive gaming experience.",
         "Description": "The gaming track encourages software engineers who love MMORPGs to build cool on-chain programs that can be helpful towards on-chain MMORPGs like Chain Crisis in the Solana network.",
@@ -777,11 +911,11 @@
         "Sponsor": [
             "Underdog Protocol"
         ],
-        "PrizeWorth": 3690,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 1690,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: $1,690 USDC + 1 Year Free API Usage + 1.25B $BONK",
-            "2nd Place: 6 months of free API Usage + 0.75B $BONK",
+            "1st Place: $1,690 USDC + 1 Year Free API Usage",
+            "2nd Place: 6 months of free API Usage",
             "All applicants: 3 Months of API Usage"
         ],
         "AboutUs": "",
@@ -818,14 +952,10 @@
         "Sponsor": [
             "Bonk"
         ],
-        "PrizeWorth": 25,
+        "PrizeWorth": 50,
         "PrizeUnit": "BONK",
         "PrizeDetails": [
-            "1st Place: 15B $BONK",
-            "2nd Place: 5B $BONK",
-            "3rd Place: 3B $BONK",
-            "4th Place: 1B $BONK",
-            "5th Place: 1B $BONK"
+            "70B $BONK"
         ],
         "AboutUs": "BONK BONK BONK BONK BONK BONK",
         "Description": "BONK BONK BONK BONK BONK BONK",
@@ -958,8 +1088,8 @@
         "PrizeWorth": 1500,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 1,000 USDC",
-            "2nd Place: 500 USDC"
+            "1st place 1,000 USDC",
+            "2nd Place 500 USDC"
         ],
         "AboutUs": "Dialect is Web3's Smart Messaging stack—open-source dev tooling, interoperable inboxes, and the Dialect App. Download the app today at https://dialect.to.",
         "Description": "Web3 native messaging has the potential to unlock new modes of speech. Whether you're trying to notify & engage your existing users, acquire new ones, or give your users the power to speak with their wallets, web3-native messaging is supercharged with unique features. Use our SDKs to bring messaging to your dapps & wallets.",
@@ -1155,10 +1285,10 @@
         "Sponsor": [
             "Sec3"
         ],
-        "PrizeWorth": 3000,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 1000,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "$1000 USDC + Beta Access to sec3 Watchtower + 2B $BONK"
+            "$1000 USDC + Beta Access to sec3 Watchtower"
         ],
         "AboutUs": "sec3 is a security research firm that prepares web3 protocols for millions of users, by building technology based solutions for Web3 projects to ensure protocols stay safe as they scale",
         "Description": "Improve ecosystem security through better on-chain monitoring. sec3's Watchtower helps projects secure their protocols through real time monitoring of smart contract interactions, and are always looking for more ways to define transactions that might lead to malicious attacks",
@@ -1477,24 +1607,24 @@
         "PrizeWorth": 6500,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "1 - $3k & 5 NFTS (2 Ovols / 3 Doge)",
-            "2 - $1.5k & 3 NFTs (1 Ovols / 2 Doge)",
-            "3 - $500 & 2 NFTs (1 Ovols / 1 Doge)"
+            "- 1 - $3k & 5 NFTS (2 Ovols / 3 Doge)",
+            "- 2 - $1.5k & 3 NFTs (1 Ovols / 2 Doge)",
+            "- 3 - $500 & 2 NFTs (1 Ovols / 1 Doge)"
         ],
         "AboutUs": "",
         "Description": "This track challenges participants to create innovative products or services that combine non-fungible tokens (NFTs) and decentralized finance (DeFi). NFT-DeFi combines the unique attributes of NFTs with the capabilities of DeFi to create new financial products and services that are transparent, secure, and decentralized. Some examples of NFT-DeFi applications include NFT-based prediction markets, which allow users to speculate on the future value of NFTs and other assets, NFT-based lending and borrowing platforms, which allow users to borrow and lend NFTs using smart contracts, and NFT-based derivative platforms that allows users to hedge their spot positions / generate outsized profits using leverage.\n\nIf you are looking for what to do in this track, we welcome you to try out our ideas list. Though, you are not limited to them and are free to build any product that leverages liquidity locked in NFTs or in any way brings them to DeFi",
         "Ideas": [
-            "NFT-based prediction markets",
-            "NFT-based insurance platforms(insure NFTs against losses)",
-            "NFT derivatives (options, perp contracts)",
-            "NFT DCA tool using tokens",
-            "Historical NFT balances",
-            "Improved market-making Ui on Orca X Elixir for NFTs",
-            "Mortgage - build a product that allows to buy NFT with only 20% of the price, the rest should come from somewhere to pay the rest (flash loans?). Bought NFT should be collateralized into a loan on FRAKT",
-            "Borrow-to-buy - use [frakt-sdk](https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md) to build a solution that allows to buy NFTs with money borrowed from other NFTs",
-            "Options - build an NFT options platform leveraging [hadeswap](http://hadeswap.com)’s deep liquidity"
+            "- NFT-based prediction markets",
+            "- NFT-based insurance platforms(insure NFTs against losses)",
+            "- NFT derivatives (options, perp contracts)",
+            "- NFT DCA tool using tokens",
+            "- Historical NFT balances",
+            "- Improved market-making Ui on Orca X Elixir for NFTs",
+            "- Mortgage - build a product that allows to buy NFT with only 20% of the price, the rest should come from somewhere to pay the rest (flash loans?). Bought NFT should be collateralized into a loan on FRAKT",
+            "- Borrow-to-buy - use [frakt-sdk](https://github.com/frakt-solana/frakt-sdk/tree/master/src/loans/loansService/README.md) to build a solution that allows to buy NFTs with money borrowed from other NFTs",
+            "- Options - build an NFT options platform leveraging [hadeswap](http://hadeswap.com)’s deep liquidity"
         ],
-        "Requirements": "Participants must create a product or service that involves NFTs and DeFi in some way.\n- Participants should come up with innovative solutions (There are a few platforms that enable users to borrow or lend NFTs. Eg: FRAKT, sharky.fi, yaww . Exact copies of these solutions won't be counted as valid entries )\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Requirements": "- Participants must create a product or service that involves NFTs and DeFi in some way.\n- Participants should come up with innovative solutions (There are a few platforms that enable users to borrow or lend NFTs. Eg: FRAKT, sharky.fi, yaww . Exact copies of these solutions won't be counted as valid entries )\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
         "Links": [
             {
                 "Title": "Doge Capital Website",
@@ -1565,20 +1695,20 @@
         "Sponsor": [
             "SolWorks"
         ],
-        "PrizeWorth": 3420,
-        "PrizeUnit": "USDC*",
+        "PrizeWorth": 1420,
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "1st Place: 1,000 USDC + 1.25B $BONK",
-            "2nd Place: 420 USDC + 0.75B $BONK"
+            "1st place: 1,000 USDC",
+            "2nd place: 420 USDC"
         ],
         "AboutUs": "We are a small team building protocols and tools for developers on Solana. Our primary focus is on making the journey into DeFi for newcomers digestible and manageable. We've built SolApps (a directory for Solana projects), SolToolkit (a NPM utility package for Solana developers), Footpath (a licensed white-labelled WL application platform), col8 (an on-chain level 2 orderbook layout for NFT collections) and we are building Sujiko Protocol (NFT perps).",
         "Description": "NFT price oracles are virtually non-existent. This is a problem because it makes it difficult to build products that rely on NFT price data. We want to encourage developers to build NFT price oracles and orderbooks. Helius offer a new NFT indexer which parses NFT-related transactions since Solana’s genesis block. Switchboard is a decentralized oracle network that provides reliable, tamper-proof data feeds to smart contracts. Col8 is a SolWorks library that allows developers to build orderbooks for NFTs. Let’s see what you can build!",
         "Ideas": [
-            "Floor (TWAP) price oracle for collections using Helius and Switchboard",
-            "Virtual orderbook builder for collections based on listings and bids using Helius and a custom contract like col8",
-            "A research report that presents information related to how easily NFT floor prices can be manipulated and how to prevent it"
+            "- Floor (TWAP) price oracle for collections using Helius and Switchboard",
+            "- Virtual orderbook builder for collections based on listings and bids using Helius and a custom contract like col8",
+            "- A research report that presents information related to how easily NFT floor prices can be manipulated and how to prevent it"
         ],
-        "Requirements": "Participants must create a product or service that involves NFTs and oracles in some way.\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
+        "Requirements": "- Participants must create a product or service that involves NFTs and oracles in some way.\n- Participants may work individually or in teams.\n- Participants must submit their work by the deadline.",
         "Links": [
             {
                 "Title": "Helius (Solana Data)",
@@ -1607,15 +1737,15 @@
     {
         "Name": "NFTs",
         "Sponsor": [
-            "Helius", 
-            "Infinity", 
-            "Crossmint", 
+            "Helius",
+            "Infinity",
+            "Crossmint",
             "Reciprocal"
         ],
         "PrizeWorth": 6311,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            ""
+            "6,111 USDC + Crossmint API credits"
         ],
         "AboutUs": "",
         "Description": "NFT data on Solana has been historically hard to work with and especially hard to query. Helius has released a new NFT indexer which parses all NFT-related transactions since Solana’s genesis — including sales, listings, offers, mints, burns, etc. This enables the building of bots, analytics, marketplaces, fraud models, social feeds, and a bunch more. Let’s see what you can build!",
@@ -1698,10 +1828,10 @@
         "AboutUs": "The Helium Network is a decentralized network that uses a protocol called LoRaWAN to provide long-range connectivity for low-power devices. It has grown to be the largest network of its kind in a short period of time. In addition to LoRaWAN, Helium also deploys Hotspots for cellular connectivity. Starting in 2022, Helium will be available as a data plan on Saga phones. \nCurrently, the Helium network operates on its own blockchain, but it has been decided that it will migrate to the Solana blockchain in the fourth quarter of 2022 and be fully operational on Solana in the first quarter of 2023.",
         "Description": "Our Goal for this hackathon:\n\nIntroducing Helium to the Solana community and vice versa. This could involve showcasing the benefits and capabilities of the Helium network and how it could be used in conjunction with the Solana blockchain. It could also involve exploring potential partnerships or integrations between the two platforms.\nSeeing novel use cases of IoT devices on Solana. This could involve finding innovative ways to use IoT devices to solve real-world problems or improve people's lives, and leveraging the Solana blockchain to enable these solutions.\nThe Helium LoRaWAN Network being the largest contiguous wireless network in the world presents a unique opportunity for hackathon participants to explore the potential for widespread connectivity and how it could be leveraged for various applications. This could involve finding ways to use the network to connect devices in areas where traditional internet access is limited, or finding ways to use the network to enable new types of applications or services.",
         "Ideas": [
-            "Using the Helium Network to create Location-based NFTs. This could leverage GPS-enabled devices or the on-chain location of Helium Hotspots.",
-            "A decentralized implementation of traditional LoRaWAN infrastructure. This could be things like LoRaWAN join server, application server, or other piece of infrastructure that brings more pieces of the end-to-end data pipeline on-chain.",
-            "A tool or service that helps developers and businesses build and deploy applications on the Helium network, such as a device management platform or a marketplace for IoT services.",
-            "A solution for enabling micropayments or other financial transactions between IoT devices on the Helium network, using the Solana blockchain as a backbone."
+            "- Using the Helium Network to create Location-based NFTs. This could leverage GPS-enabled devices or the on-chain location of Helium Hotspots.",
+            "- A decentralized implementation of traditional LoRaWAN infrastructure. This could be things like LoRaWAN join server, application server, or other piece of infrastructure that brings more pieces of the end-to-end data pipeline on-chain.",
+            "- A tool or service that helps developers and businesses build and deploy applications on the Helium network, such as a device management platform or a marketplace for IoT services.",
+            "- A solution for enabling micropayments or other financial transactions between IoT devices on the Helium network, using the Solana blockchain as a backbone."
         ],
         "Requirements": "Must use the Helium Network or show the viability of real-world IoT data being used on Solana. \n  - Send data using the Helium Network.\n  - Novel application of real-world data applied to the blockchain.\n  - Use Helium Proof of Coverage data in some novel way",
         "Links": [
