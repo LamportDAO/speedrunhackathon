@@ -19,7 +19,7 @@ import CardDesktop from './CardDesktop';
 import { Inktrap } from '../FontFamily';
 
 function getTotalTrackPrize(trackArray: any) {
-  let totalTrackPrize = 0;
+  let totalTrackPrize = 9000 + 5000 + 2000;
   trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
