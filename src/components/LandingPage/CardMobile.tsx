@@ -57,7 +57,9 @@ const CardMobile = ({ track }: PropsType) => {
             fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
           >
-            {track ? `${track?.PrizeUnit === 'BONK' ? "70B" : track?.PrizeWorth}` : '00k'}
+            {track
+              ? `${track?.PrizeUnit === 'BONK' ? '70B' : track?.PrizeWorth}`
+              : '00k'}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
@@ -91,7 +93,7 @@ const CardMobile = ({ track }: PropsType) => {
           >
             <VStack pt={'0rem'} fontSize='xl' alignItems={'start'}>
               {track?.Sponsor! ? (
-                <HStack gap='1rem'>
+                <HStack gap='1rem' flexWrap={'wrap'}>
                   {track.Sponsor?.map((sponsor, index) => (
                     <Sponsor sponsorName={sponsor} key={index} />
                   ))}
@@ -166,7 +168,7 @@ const CardMobile = ({ track }: PropsType) => {
                   fontSize={{ base: 'sm', md: 'md' }}
                   pl='1.5rem'
                 >
-                  {track.Requirements}
+                  {track?.Requirements}
                 </Text>
               </VStack>
               <VStack alignItems='start'>
@@ -183,7 +185,7 @@ const CardMobile = ({ track }: PropsType) => {
                   fontSize={{ base: 'sm', md: 'md' }}
                   pl='1.5rem'
                 >
-                  {track.Judges?.map((Judge, index) => (
+                  {track?.Judges?.map((Judge, index) => (
                     <ListItem maxW='100vw' key={index}>
                       {Judge.Name}
                     </ListItem>

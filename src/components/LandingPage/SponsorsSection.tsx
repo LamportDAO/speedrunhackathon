@@ -23,7 +23,6 @@ const sponsorNames = [
   'Crossmint',
   'Vellum',
   'Helium',
-  'Commet',
   'Clockwork',
   'Bridgesplit',
   'Switchboard',
