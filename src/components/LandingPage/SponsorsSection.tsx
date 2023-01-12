@@ -37,6 +37,7 @@ const sponsorNames = [
   'Gari',
   'PoolProps',
   'Underdog Protocol',
+  'MetaCamp',
   'ChainFlow',
   'Dispatch',
   'Ottersec',
@@ -52,6 +53,7 @@ const sponsorNames = [
   'CyberSamurai',
   'Elixir',
   'Infinity',
+  'SolShield',
 ];
 const SponsorsSection = () => {
   return (

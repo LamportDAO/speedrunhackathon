@@ -37,7 +37,7 @@ const TracksAndPrizes = () => {
     setActiveTrack(track);
     onOpen();
   };
-  const totalTrackPrize = getTotalTrackPrize(tracksData) + 11000;
+  const totalTrackPrize = getTotalTrackPrize(tracksData) +75000;
   return (
     <>
       <Modal

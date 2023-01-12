@@ -77,7 +77,11 @@ const TracksModalBody = ({
           fontWeight='700'
         >
           {track
-            ? `${track?.PrizeUnit === 'BONK' ? '70B' : track?.PrizeWorth}`
+            ? `${
+                track?.PrizeUnit === 'BONK'
+                  ? track?.PrizeWorth + 'B'
+                  : track?.PrizeWorth
+              }`
             : '00k'}
         </Heading>
         <Text
@@ -149,23 +153,27 @@ const TracksModalBody = ({
             </UnorderedList>
           </>
         )}
-        <VStack alignItems='start'>
-          <Text
-            pt='1rem'
-            fontFamily={Inktrap.style.fontFamily}
-            fontWeight={'700'}
-            fontSize={{ base: 'md', md: 'lg' }}
-          >
-            Requirements
-          </Text>
-          <Text
-            fontFamily={Inktrap.style.fontFamily}
-            fontSize={{ base: 'sm', md: 'md' }}
-            pl='1.5rem'
-          >
-            {track.Requirements}
-          </Text>
-        </VStack>
+        {track.Requirements && (
+          <>
+            <VStack alignItems='start'>
+              <Text
+                pt='1rem'
+                fontFamily={Inktrap.style.fontFamily}
+                fontWeight={'700'}
+                fontSize={{ base: 'md', md: 'lg' }}
+              >
+                Requirements
+              </Text>
+              <Text
+                fontFamily={Inktrap.style.fontFamily}
+                fontSize={{ base: 'sm', md: 'md' }}
+                pl='1.5rem'
+              >
+                {track?.Requirements}
+              </Text>
+            </VStack>
+          </>
+        )}
         <VStack alignItems='start'>
           <Text
             fontFamily={Inktrap.style.fontFamily}
