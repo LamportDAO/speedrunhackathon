@@ -955,7 +955,12 @@
         "PrizeWorth": 50,
         "PrizeUnit": "BONK",
         "PrizeDetails": [
-            "70B $BONK"
+            "1st place: 15B Bonk",
+            "2nd place: 5B Bonk",
+            "3rd place: 3B Bonk",
+            "4th place: 1B Bonk",
+            "5th place: 1B Bonk",
+            "The rest of the 25B bonk will be distributed to those hackathon projects which are open source"
         ],
         "AboutUs": "BONK BONK BONK BONK BONK BONK",
         "Description": "BONK BONK BONK BONK BONK BONK",
@@ -974,8 +979,8 @@
         ],
         "Judges": [
             {
-                "Name": "Nom",
-                "Twitter": "https://twitter.com/TheOnlyNom"
+                "Name": "BONK team",
+                "Twitter": ""
             }
         ]
     },
