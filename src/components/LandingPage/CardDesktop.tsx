@@ -117,7 +117,7 @@ const CardDesktop = ({
             fontWeight='700'
           >
             {track?.PrizeUnit === 'BONK'
-              ? '50B'
+              ? track?.PrizeWorth + 'B'
               : track?.PrizeWorth
               ? `${kFormatter(track.PrizeWorth)}`
               : 'USDC'}

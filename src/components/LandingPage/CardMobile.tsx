@@ -58,7 +58,7 @@ const CardMobile = ({ track }: PropsType) => {
             fontWeight='700'
           >
             {track
-              ? `${track?.PrizeUnit === 'BONK' ? '70B' : track?.PrizeWorth}`
+              ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth}`
               : '00k'}
           </Heading>
           <Text
