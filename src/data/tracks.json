@@ -282,7 +282,7 @@
             "1st Place: 1,000 USDC and 25,000 HXRO",
             "2nd Place: 500 USDC and 12,500 HXRO"
         ],
-        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. Hxro has a community of more than 7000 traders. As auditing partners of Hxro, SolShield will join Hxro in rewarding projects that bring more data flow and transactions to core Hxro protocols (both Dexterity and Parimutuel) to test the resiliency of the protocol in user-facing applications.",
+        "AboutUs": "Hxro is a decentralized derivatives primitive for risk-based applications built on the Solana blockchain. Through a series of native protocols, Hxro provides the framework and infrastructure for robust, fully-functional on-chain markets for derivatives (futures and options) and parimutuel contracts. \nAs auditing partners of Hxro, SolShield will join Hxro in rewarding projects that bring more data flow and transactions to core Hxro protocols (both Dexterity and Parimutuel) to test the resiliency of the protocol in user-facing applications.\nWe encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Description": "This track is for builders looking to create either foundational layer on-chain derivative infrastructure or to build user-layer applications that face global DeFi derivatives users. We encourage builders to test the boundaries of how on-chain derivatives can be used across different market segments.",
         "Ideas": [
             "A step-style race game using the parimutuel protocol",
@@ -650,7 +650,7 @@
             "2,000 USDC + 2B $BONK"
         ],
         "AboutUs": "",
-        "Description": "No two organizations are identical but all organizations evolve over time. Different organizations require different structures and tools to be efficient. This track aims to encourage participants to identify gaps with existing governance infrastructures that can be filled and to innovate on a solution/ platform that can help address the overarching issues faced by its stakeholders. Participants are encouraged to take reference to the existing environment, observe different companies, NGOs, small businesses, and attempt to also identify what on-chain tools could be relevant in helping to optimize their business operations. These can include, but not limited to, improving engagement among stakeholders, enhancing transparency,  facilitating better communication, as well as increasing the efficiency of organizations.",
+        "Description": "No two organizations are identical but all organizations evolve over time. Different organizations require different structures and tools to be efficient. This track aims to encourage participants to identify gaps with existing governance infrastructures that can be filled and to innovate on a solution/ platform that can help address the overarching issues faced by its stakeholders. Participants are encouraged to take reference to the existing environment, observe different companies, NGOs, small businesses, and attempt to also identify what on-chain tools could be relevant in helping to optimize their business operations. These can include, but not limited to, improving engagement among stakeholders, enhancing transparency, facilitating better communication, as well as increasing the efficiency of organizations.",
         "Ideas": [
             ""
         ],
@@ -1615,7 +1615,7 @@
         "PrizeWorth": 6311,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            ""
+            "6,111 USDC + Crossmint API credits"
         ],
         "AboutUs": "",
         "Description": "NFT data on Solana has been historically hard to work with and especially hard to query. Helius has released a new NFT indexer which parses all NFT-related transactions since Solana’s genesis — including sales, listings, offers, mints, burns, etc. This enables the building of bots, analytics, marketplaces, fraud models, social feeds, and a bunch more. Let’s see what you can build!",
