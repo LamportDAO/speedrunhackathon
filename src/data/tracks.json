@@ -604,8 +604,8 @@
         "PrizeWorth": 1500,
         "PrizeUnit": "USDC",
         "PrizeDetails": [
-            "First place: $500 + 3 Motley Friends NFTs ($950 value)",
-            "Second place: $250 + 2 Motley Friends NFTs ($550 value)"
+            "1st place: $500 + 3 Motley Friends NFTs ($950 value)",
+            "2nd place: $250 + 2 Motley Friends NFTs ($550 value)"
         ],
         "AboutUs": "Motley is a DAO that builds community-owned, open-source NFT tooling. Our first product is Night Market, an NFT marketplace powered by the strongest protocols in the Solana ecosystem. Users earn our governance token, SAUCE, which allows them to share in the development, growth, and upside of Night Market and all of Motley DAO’s future products.",
         "Description": "Support Motley DAO's tooling to empower open-source builders interested in building community-owned dApps.",
