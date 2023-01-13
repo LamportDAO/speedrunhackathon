@@ -1,7 +1,7 @@
 import { Container, Heading, Stack } from '@chakra-ui/react';
 import { Inktrap } from '../FontFamily';
 import React from 'react';
-import { NewYorkCard, BelgradeCard, SingaporeCard } from './ImageCard';
+import { NewYorkCard, BelgradeCard, SingaporeCard, SF } from './ImageCard';
 
 const Locations = () => {
   return (
@@ -19,16 +19,18 @@ const Locations = () => {
       <Stack
         maxW='4xl'
         mx='auto'
+        flexWrap={'wrap'}
         alignItems={'center'}
         //  gap={{ base: '0.2rem', md: '1rem' }}
         justify='center'
-        gap='1rem'
+        gap='1.5rem'
         spacing='0'
         flexDir={{ base: 'column', lg: 'row' }}
       >
         <NewYorkCard />
         <SingaporeCard />
         <BelgradeCard />
+        <SF />
       </Stack>
     </Container>
   );
