@@ -181,7 +181,7 @@ const GlobalPrizes = ({
               PrizeWorth: 2000,
               PrizeUnit: 'USDC',
               PrizeDetails: [
-                'Judges Favorite: $1,500',
+                'Judges’ Favorite: $1,500',
                 'Most Popular: $500'
               ],
               AboutUs:
