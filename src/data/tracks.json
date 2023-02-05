@@ -264,7 +264,8 @@
         "PrizeWorth": 5000,
         "PrizeUnit": "USDC*",
         "PrizeDetails": [
-            "50 bSOL + 5m BLZE + 50k MNDE"
+            "1st Place: 37.5 bSOL + 3.75m BLZE + 37.5k MNDE",
+            "2nd Place: 12.5 bSOL + 1.25m BLZE + 12.5k MNDE"
         ],
         "AboutUs": "",
         "Description": "Through the Lamport DAO Sandstorm Hackathon, we hope to encourage builders to integrate BlazeStake’s liquid staked SOL (bSOL) and/or Marinade’s liquid staked SOL (mSOL) into payments systems, NFT mints, staking UIs, rewards protocols, and more. As a reward, we’ll give 50 bSOL (BlazeStake liquid staked SOL), 5m BLZE (an upcoming token from SolBlaze which will have incredible utility), and 50k MNDE (Marinade’s unique and innovative governance token) in order to help support developers and push the Solana ecosystem forward!",
