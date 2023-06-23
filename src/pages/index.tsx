@@ -49,7 +49,8 @@ export default function Home() {
             fontFamily={Joystix.style.fontFamily}
           >
             Solana <br />
-            <Box as='span'>Speedrun</Box>
+            {/*<Box as='span'>Speedrun</Box>*/}
+            <img src='./speedrun.svg' alt="My Happy SVG"/>
           </Heading>
           <Text
             px='1rem'
