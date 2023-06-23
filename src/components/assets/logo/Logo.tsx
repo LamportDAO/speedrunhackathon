@@ -9,7 +9,7 @@ const Logo = () => {
         pt='0.3rem'
         fontSize={{ base: '18px', md: '32px' }}
       >
-        Sandstorm
+        Speedrun
       </Text>
     </HStack>
   );

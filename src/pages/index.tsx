@@ -15,8 +15,9 @@ import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
 import { Inktrap } from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
-import Locations from '../components/Locations/Locations';
+import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
+import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -46,7 +47,7 @@ export default function Home() {
             fontFamily={Inktrap.style.fontFamily}
           >
             Solana <br />
-            <Box as='span'>Sandstorm</Box>
+            <Box as='span'>Speedrun</Box>
           </Heading>
           <Text
             px='1rem'
@@ -56,11 +57,11 @@ export default function Home() {
             maxW='3xl'
             textAlign={'center'}
           >
-            Virtual Solana Hackathon from{' '}
+            The first virtual Solana Game Jam from{' '}
             <Box as='span' textDecor={'underline'}>
-              Jan 10 - Jan 23
+              July 26th - July 30th
             </Box>{' '}
-            presented by LamportDAO & Helius Labs
+            presented by LamportDAO & Magicblock
           </Text>
           <HStack
             mt='2rem'
@@ -99,8 +100,11 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
+        <Center id='track'>
+          <HeadingTotalPrize />
+        </Center>
         <Center pb='10rem'>
-          {BrowserName() === 'firefox' ? '' : <Locations />}
+          {BrowserName() === 'firefox' ? '' : <MainTracks />}
         </Center>
         <Center id='track'>
           <TracksAndPrizes />

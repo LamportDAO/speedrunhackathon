@@ -1,7 +1,6 @@
 import {
   Center,
   Heading,
-  Wrap,
   Modal,
   ModalOverlay,
   ModalContent,
@@ -14,12 +13,11 @@ import TracksModalBody from './ModalBody';
 import tracksData from '../../data/tracks.json';
 import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
-import CardMobile from './CardMobile';
-import CardDesktop from './CardDesktop';
 import { Inktrap } from '../FontFamily';
+import TotalPrize from "./TotalPrize";
 
 function getTotalTrackPrize(trackArray: any) {
-  let totalTrackPrize = 9000 + 5000 + 2000;
+  let totalTrackPrize = 25000;
   trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
@@ -28,7 +26,7 @@ function getTotalTrackPrize(trackArray: any) {
   return totalTrackPrize;
 }
 
-const TracksAndPrizes = () => {
+const HeadingTotalPrize = () => {
   const [isMobile] = useMediaQuery('(max-width: 480px)');
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeTrack, setActiveTrack] = useState<trackType | {}>({});
@@ -37,7 +35,7 @@ const TracksAndPrizes = () => {
     setActiveTrack(track);
     onOpen();
   };
-  const totalTrackPrize = getTotalTrackPrize(tracksData) + 80000;
+  const totalTrackPrize = 25000;
   return (
     <>
       <Modal
@@ -62,41 +60,25 @@ const TracksAndPrizes = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-      <Center flexDirection={'column'} maxW={'4xl'} py='2rem'>
+      <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '25vh', md: '35vh' }}>
         <Heading
           py='2rem'
+          mb='4rem'
           fontFamily={Inktrap.style.fontFamily}
           mx='auto'
           maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}
           fontWeight='800'
         >
-          Sponsored Tracks
+          Loading GameJam theme...
         </Heading>
-        <Wrap
-          w='100%'
-          maxW='100vw'
-          py={{ base: '0.5rem', md: '1rem' }}
-          spacing={{ base: '0.5rem', md: '1rem' }}
-          direction={'row'}
-          justify={'center'}
-          alignItems='center'
-        >
-          {tracksData.map((track, index) => {
-            return isMobile ? (
-              <CardMobile track={track as trackType} key={index} />
-            ) : (
-              <CardDesktop
-                activeTrackHandler={activeTrackHandler}
-                key={index}
-                track={track as trackType}
-              />
-            );
-          })}
-        </Wrap>
+        <TotalPrize
+          activeTrackHandler={activeTrackHandler}
+          totalPoolPrize={totalTrackPrize}
+        />
       </Center>
     </>
   );
 };
 
-export default TracksAndPrizes;
+export default HeadingTotalPrize;

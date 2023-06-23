@@ -29,7 +29,7 @@ const Footer = () => {
         <Center position={'relative'} zIndex={'-2'}>
           <Image
             src='/img2.png'
-            alt='solana sandstorm'
+            alt='solana speedrun'
             width={3455}
             height={1111}
           />

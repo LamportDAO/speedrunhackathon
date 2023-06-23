@@ -12,7 +12,7 @@ const HomeLayout = ({ children }: ChildInterface) => {
       as='main'
       className={Inktrap.className}
       sx={{
-        background: '#16022B',
+        background: '#01010A',
       }}
       p='0'
       maxW={'full'}
