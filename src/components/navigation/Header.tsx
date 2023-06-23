@@ -23,7 +23,7 @@ export default function Header() {
       </Center>
       <Button
         as='a'
-        href='https://sandstormhackathon.com/discord'
+        href='https://solanaspeedrun.com/discord'
         target={'_blank'}
         pt={{ base: '0.7rem', md: '0.8rem' }}
         display={'flex'}

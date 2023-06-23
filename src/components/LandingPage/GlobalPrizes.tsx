@@ -152,7 +152,7 @@ const GlobalPrizes = ({
                 },
                 {
                   Title: 'Discord',
-                  Link: 'https://sandstormhackathon.com/discord',
+                  Link: 'https://solanaspeedrun.com/discord',
                 },
               ],
               Judges: [
@@ -198,7 +198,7 @@ const GlobalPrizes = ({
                 },
                 {
                   Title: 'Discord',
-                  Link: 'https://sandstormhackathon.com/discord',
+                  Link: 'https://solanaspeedrun.com/discord',
                 },
               ],
               Judges: [

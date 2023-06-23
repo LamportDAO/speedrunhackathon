@@ -4,6 +4,7 @@ import React from 'react';
 import Header from '../components/navigation/Header';
 import Background from './Background';
 import { Inktrap } from '../components/FontFamily';
+import { Joystix } from '../components/FontFamily';
 import Footer from '../components/navigation/Footer';
 
 const HomeLayout = ({ children }: ChildInterface) => {
@@ -12,7 +13,7 @@ const HomeLayout = ({ children }: ChildInterface) => {
       as='main'
       className={Inktrap.className}
       sx={{
-        background: '#01010A',
+        background: '#FF0000',
       }}
       p='0'
       maxW={'full'}

@@ -16,7 +16,7 @@ import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
 import CardMobile from './CardMobile';
 import CardDesktop from './CardDesktop';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 
 function getTotalTrackPrize(trackArray: any) {
   let totalTrackPrize = 9000 + 5000 + 2000;
@@ -65,7 +65,7 @@ const TracksAndPrizes = () => {
       <Center flexDirection={'column'} maxW={'4xl'} py='2rem'>
         <Heading
           py='2rem'
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           mx='auto'
           maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}

@@ -16,7 +16,7 @@ const TotalPrize = ({
     <Stack
       overflow='hidden'
       alignItems={'stretch'}
-      gap={{ base: '0.1rem', md: '1rem' }}
+      gap={{ base: '0.1rem', md: 'rem' }}
       justify='space-between'
       flexDir={{ base: 'column', lg: 'row' }}
     >

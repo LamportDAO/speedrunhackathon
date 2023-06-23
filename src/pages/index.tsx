@@ -12,7 +12,7 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
-import { Inktrap } from '../components/FontFamily';
+import {Inktrap, Joystix} from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
 import MainTracks from '../components/MainTracks/MainTracks';
@@ -33,7 +33,7 @@ export default function Home() {
         description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Helius Labs from Jan 10 - 23, 2023.`}
         image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672742830/Frame_145_3_liwqzi.png`}
       />
-      <Container maxW={'8xl'} p='0'>
+      <Container maxW={'8xl'} p='0' >
         <VStack
           py={['10vh', '5rem', '8rem', '8rem', '6rem']}
           mx='auto'
@@ -44,7 +44,7 @@ export default function Home() {
             lineHeight={['58px', '72px', '90px', '130px', '130px']}
             textAlign={'center'}
             fontWeight={'800'}
-            fontFamily={Inktrap.style.fontFamily}
+            fontFamily={Joystix.style.fontFamily}
           >
             Solana <br />
             <Box as='span'>Speedrun</Box>
@@ -55,13 +55,14 @@ export default function Home() {
             fontSize={{ base: '16px', sm: '18px', md: '24px' }}
             fontWeight='500'
             maxW='3xl'
+            fontFamily={Joystix.style.fontFamily}
             textAlign={'center'}
           >
             The first virtual Solana Game Jam from{' '}
             <Box as='span' textDecor={'underline'}>
               July 26th - July 30th
             </Box>{' '}
-            presented by LamportDAO & Magicblock
+            {/*presented by LamportDAO & Magicblock*/}
           </Text>
           <HStack
             mt='2rem'
@@ -86,7 +87,7 @@ export default function Home() {
             </Button>
             <Button
               as='a'
-              href='https://sandstormhackathon.com/discord'
+              href='https://solanaspeedrun.com/discord'
               target={'_blank'}
               pt={{ base: '0.7rem', md: '0.8rem' }}
               display={'flex'}
@@ -100,13 +101,13 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
-        <Center id='track'>
+        <Center>
           <HeadingTotalPrize />
         </Center>
-        <Center pb='10rem'>
+        <Center pb='10rem' id='track'>
           {BrowserName() === 'firefox' ? '' : <MainTracks />}
         </Center>
-        <Center id='track'>
+        <Center>
           <TracksAndPrizes />
         </Center>
         <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>

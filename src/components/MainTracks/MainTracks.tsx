@@ -1,5 +1,5 @@
 import { Container, Heading, Stack } from '@chakra-ui/react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import React from 'react';
 import { FullyOnChainCard, SolanaIntegratedCard } from './ImageCard';
 
@@ -7,12 +7,12 @@ const MainTracks = () => {
   return (
     <Container pt={{ base: '25vh', md: '10vh' }} maxW='7xl'>
       <Heading
-        fontFamily={Inktrap.style.fontFamily}
         mx='auto'
         maxW='fit-content'
         py='2rem'
         fontSize={{ base: '2xl', md: '4xl' }}
         fontWeight='800'
+        fontFamily={Joystix.style.fontFamily}
       >
           Main tracks
       </Heading>

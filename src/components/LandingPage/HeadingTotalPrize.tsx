@@ -13,7 +13,7 @@ import TracksModalBody from './ModalBody';
 import tracksData from '../../data/tracks.json';
 import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
 
 function getTotalTrackPrize(trackArray: any) {
@@ -69,9 +69,12 @@ const HeadingTotalPrize = () => {
           maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}
           fontWeight='800'
+          fontFamily={Joystix.style.fontFamily}
         >
-          Loading GameJam theme...
+          The main theme will be revealed before the event ❤️
         </Heading>
+        <br/>
+        <br/>
         <TotalPrize
           activeTrackHandler={activeTrackHandler}
           totalPoolPrize={totalTrackPrize}
