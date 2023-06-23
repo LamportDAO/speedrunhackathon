@@ -20,7 +20,7 @@ const PrizesBackground = () => {
         left='50%'
         transform='translate(-50%, -50%)'
       >
-        <Image src='/img3.png' alt='speedrun' width={1155} height={1111} />
+        <Image src='/img4.png' alt='speedrun' width={1155} height={1111} />
       </Center>
     </Center>
   );

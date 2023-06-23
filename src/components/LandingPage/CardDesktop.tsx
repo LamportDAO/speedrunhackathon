@@ -2,6 +2,7 @@ import { Heading, HStack, Text, VStack, WrapItem } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
 import { trackType } from '../../../interfaces/track';
 import { BrowserName } from '../../broswerName';
+import {Joystix} from "../FontFamily";
 
 function kFormatter(num: number): any {
   return Math.abs(num) > 999
@@ -103,6 +104,7 @@ const CardDesktop = ({
         <Heading
           fontWeight={'700'}
           fontSize={{ base: '14px', md: '18px' }}
+          fontFamily={Joystix.style.fontFamily}
           noOfLines={1}
         >
           {track ? track?.Name : ''}
@@ -115,6 +117,7 @@ const CardDesktop = ({
             bgClip={'text'}
             fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
+            fontFamily={Joystix.style.fontFamily}
           >
             {/*{track?.PrizeUnit === 'BONK'*/}
             {/*  ? track?.PrizeWorth + 'B'*/}
@@ -126,6 +129,7 @@ const CardDesktop = ({
             pb={{ base: '0.1rem', md: '0.3rem' }}
             fontSize={{ base: '3rem', md: '4rem' }}
             fontWeight={'600'}
+            fontFamily={Joystix.style.fontFamily}
           >
             {/*{track ? track?.PrizeUnit : 'USDC'}*/}
             {'👀'}

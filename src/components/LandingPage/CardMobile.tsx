@@ -10,7 +10,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import { FiExternalLink } from 'react-icons/fi';
 import Sponsor from './Sponsor';
@@ -45,6 +45,7 @@ const CardMobile = ({ track }: PropsType) => {
           fontWeight={'700'}
           fontSize={{ base: '14px', md: '18px' }}
           noOfLines={1}
+          fontFamily={Joystix.style.fontFamily}
         >
           {track ? track?.Name : 'Hello World'}
         </Heading>
@@ -65,6 +66,7 @@ const CardMobile = ({ track }: PropsType) => {
             pb={{ base: '0.1rem', md: '0.3rem' }}
             fontSize={{ base: '4rem', md: '5rem' }}
             fontWeight={'600'}
+            fontFamily={Joystix.style.fontFamily}
           >
             {/*{track ? track?.PrizeUnit : 'USDC'}*/}
             {'👀'}
@@ -103,7 +105,7 @@ const CardMobile = ({ track }: PropsType) => {
                 ''
               )}
               <Text
-                fontFamily={Inktrap.style.fontFamily}
+                fontFamily={Joystix.style.fontFamily}
                 fontSize={{ base: 'sm', md: 'md' }}
                 pt='0rem'
               >
