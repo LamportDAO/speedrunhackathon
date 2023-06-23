@@ -20,7 +20,7 @@ const Background = () => {
         left='50%'
         transform='translate(-50%, -50%)'
       >
-        <Image src='/img.png' alt='speedrun' width={4096} height={3500} />
+        <Image src='/img.jpg' alt='speedrun' width={4096} height={3500} />
       </Center>
     </Center>
   );
