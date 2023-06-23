@@ -110,7 +110,7 @@ export default function Home() {
           <TracksAndPrizes />
         </Center>
         <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
-          <SponsorsSection />
+          {/*<SponsorsSection />*/}
         </Center>
       </Container>
     </>

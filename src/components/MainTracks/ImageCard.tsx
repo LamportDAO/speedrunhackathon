@@ -169,7 +169,7 @@ const FullyOnChainCard = () => {
         height={{ base: '300px' }}
         position='absolute'
       >
-        <Image src={'/newyork.png'} height={400} width={555} alt='belgrade' />
+        <Image src={'/on-chain.png'} height={400} width={555} alt='belgrade' />
       </Center>
     </Center>
   );
@@ -315,7 +315,7 @@ const SolanaIntegratedCard = () => {
         height={{ base: '300px' }}
         position='absolute'
       >
-        <Image src={'/singapore.png'} height={400} width={555} alt='belgrade' />
+        <Image src={'/integrated.png'} height={400} width={555} alt='belgrade' />
       </Center>
     </Center>
   );
