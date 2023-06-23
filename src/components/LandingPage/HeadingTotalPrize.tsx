@@ -64,7 +64,6 @@ const HeadingTotalPrize = () => {
         <Heading
           py='2rem'
           mb='4rem'
-          fontFamily={Inktrap.style.fontFamily}
           mx='auto'
           maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}
