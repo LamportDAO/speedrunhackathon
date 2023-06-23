@@ -49,3 +49,13 @@ export const Inktrap = localFont({
     },
   ],
 });
+
+export const Joystix = localFont({
+  src: [
+    {
+      path: '../../public/fonts/joystix.woff2',
+      weight: '100',
+      style: 'normal',
+    }
+  ],
+});

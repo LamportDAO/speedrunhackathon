@@ -1,20 +1,20 @@
 import { Container, Heading, Stack } from '@chakra-ui/react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import React from 'react';
-import { NewYorkCard, BelgradeCard, SingaporeCard, SF } from './ImageCard';
+import { FullyOnChainCard, SolanaIntegratedCard } from './ImageCard';
 
-const Locations = () => {
+const MainTracks = () => {
   return (
-    <Container pt={{ base: '25vh', md: '35vh' }} maxW='7xl'>
+    <Container pt={{ base: '25vh', md: '10vh' }} maxW='7xl'>
       <Heading
-        fontFamily={Inktrap.style.fontFamily}
         mx='auto'
         maxW='fit-content'
         py='2rem'
         fontSize={{ base: '2xl', md: '4xl' }}
         fontWeight='800'
+        fontFamily={Joystix.style.fontFamily}
       >
-        Hack IRL
+          Main tracks
       </Heading>
       <Stack
         maxW='4xl'
@@ -27,13 +27,11 @@ const Locations = () => {
         spacing='0'
         flexDir={{ base: 'column', lg: 'row' }}
       >
-        <NewYorkCard />
-        <SingaporeCard />
-        <BelgradeCard />
-        <SF />
+        <FullyOnChainCard />
+        <SolanaIntegratedCard />
       </Stack>
     </Container>
   );
 };
 
-export default Locations;
+export default MainTracks;

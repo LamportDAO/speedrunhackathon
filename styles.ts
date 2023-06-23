@@ -30,7 +30,7 @@ export const styles = {
       lineHeight: '0',
       fontWeight: '600',
       height: '2.5rem',
-      bg: mode('black', '#FACB47')(props),
+      bg: mode('black', '#FF0000')(props),
       color: mode('#white', 'black')(props),
       _hover: {
         bg: mode('#EF1818', '#FDFDFF')(props),

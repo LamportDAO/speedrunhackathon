@@ -12,11 +12,12 @@ import {
   VStack,
 } from '@chakra-ui/react';
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
-import { Inktrap } from '../components/FontFamily';
+import {Inktrap, Joystix} from '../components/FontFamily';
 import SponsorsSection from '../components/LandingPage/SponsorsSection';
 import { FaDiscord } from 'react-icons/fa';
-import Locations from '../components/Locations/Locations';
+import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
+import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -29,24 +30,26 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Helius Labs from Jan 10 - 23, 2023.`}
-        image={`https://res.cloudinary.com/demonicirfan/image/upload/v1672742830/Frame_145_3_liwqzi.png`}
+        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Magicblock from Jul 26 - 30, 2023.`}
+        image={`https://www.magicblock.gg/assets/images/speedrun.jpg`}
       />
-      <Container maxW={'8xl'} p='0'>
+      <Container maxW={'8xl'} p='0' >
         <VStack
           py={['10vh', '5rem', '8rem', '8rem', '6rem']}
           mx='auto'
+          pl='2rem'
+          pr='2rem'
           maxW={['26rem', '26rem', '40rem', '60rem']}
         >
           <Heading
-            fontSize={['6xl', '7xl', '8xl', '9xl', '9xl']}
+            fontSize={['5xl', '6xl', '7xl', '9xl', '9xl']}
             lineHeight={['58px', '72px', '90px', '130px', '130px']}
             textAlign={'center'}
             fontWeight={'800'}
-            fontFamily={Inktrap.style.fontFamily}
+            fontFamily={Joystix.style.fontFamily}
           >
             Solana <br />
-            <Box as='span'>Sandstorm</Box>
+            <Box as='span'>Speedrun</Box>
           </Heading>
           <Text
             px='1rem'
@@ -54,13 +57,14 @@ export default function Home() {
             fontSize={{ base: '16px', sm: '18px', md: '24px' }}
             fontWeight='500'
             maxW='3xl'
+            fontFamily={Joystix.style.fontFamily}
             textAlign={'center'}
           >
-            Virtual Solana Hackathon from{' '}
+            The first virtual Solana Game Jam from{' '}
             <Box as='span' textDecor={'underline'}>
-              Jan 10 - Jan 23
+              July 26th - July 30th
             </Box>{' '}
-            presented by LamportDAO & Helius Labs
+            {/*presented by LamportDAO & Magicblock*/}
           </Text>
           <HStack
             mt='2rem'
@@ -85,7 +89,7 @@ export default function Home() {
             </Button>
             <Button
               as='a'
-              href='https://sandstormhackathon.com/discord'
+              href='https://solanaspeedrun.com/discord'
               target={'_blank'}
               pt={{ base: '0.7rem', md: '0.8rem' }}
               display={'flex'}
@@ -99,14 +103,17 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
-        <Center pb='10rem'>
-          {BrowserName() === 'firefox' ? '' : <Locations />}
+        <Center>
+          <HeadingTotalPrize />
         </Center>
-        <Center id='track'>
+        <Center pb='10rem' id='track'>
+          {BrowserName() === 'firefox' ? '' : <MainTracks />}
+        </Center>
+        <Center>
           <TracksAndPrizes />
         </Center>
         <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
-          <SponsorsSection />
+          {/*<SponsorsSection />*/}
         </Center>
       </Container>
     </>

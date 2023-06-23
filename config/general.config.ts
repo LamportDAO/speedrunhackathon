@@ -2,8 +2,8 @@ import { ConfigInterface } from '../interfaces/config';
 
 const config: ConfigInterface = {
   general: {
-    name: 'Solana Sandstorm',
-    domain: 'https://sandstormhackathon.com/',
+    name: 'Solana Speedrun',
+    domain: 'https://solanaspeedrun.com/',
     twitterHandle: '@lamportDAO',
   },
 };
