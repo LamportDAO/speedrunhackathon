@@ -63,12 +63,15 @@ const HeadingTotalPrize = () => {
       <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '25vh', md: '35vh' }}>
         <Heading
           py='2rem'
+          pl='2rem'
+          pr='2rem'
           mb='4rem'
           mx='auto'
           maxW='fit-content'
           fontSize={{ base: '2xl', md: '4xl' }}
           fontWeight='800'
           fontFamily={Joystix.style.fontFamily}
+          textAlign='center'
         >
           The main theme will be revealed before the event ❤️
         </Heading>
