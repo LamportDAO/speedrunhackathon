@@ -63,10 +63,11 @@ const CardMobile = ({ track }: PropsType) => {
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: 'sm', md: 'lg' }}
+            fontSize={{ base: '3rem', md: '4rem' }}
             fontWeight={'600'}
           >
-            {track ? track?.PrizeUnit : 'USDC'}
+            {/*{track ? track?.PrizeUnit : 'USDC'}*/}
+            {'👀'}
           </Text>
         </HStack>
         {clicked ? (

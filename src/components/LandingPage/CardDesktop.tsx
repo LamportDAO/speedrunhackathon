@@ -116,18 +116,19 @@ const CardDesktop = ({
             fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
           >
-            {track?.PrizeUnit === 'BONK'
-              ? track?.PrizeWorth + 'B'
-              : track?.PrizeWorth
-              ? `${kFormatter(track.PrizeWorth)}`
-              : 'USDC'}
+            {/*{track?.PrizeUnit === 'BONK'*/}
+            {/*  ? track?.PrizeWorth + 'B'*/}
+            {/*  : track?.PrizeWorth*/}
+            {/*  ? `${kFormatter(track.PrizeWorth)}`*/}
+            {/*  : 'USDC'}*/}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: 'sm', md: 'lg' }}
+            fontSize={{ base: '3rem', md: '4rem' }}
             fontWeight={'600'}
           >
-            {track ? track?.PrizeUnit : 'USDC'}
+            {/*{track ? track?.PrizeUnit : 'USDC'}*/}
+            {'👀'}
           </Text>
         </HStack>
         {/* <Text

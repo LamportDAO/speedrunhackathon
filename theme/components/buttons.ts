@@ -38,12 +38,12 @@ export const Button = {
       padding: '8px 22px',
       backdropFilter: 'blur(10px)',
       background:
-        'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%);',
+        'linear-gradient(247.98deg, #404DCF -8.03%, #404DCF 7.2%, #D273D9 109.33%);',
       transition: 'all 0.6s',
       _hover: {
         transition: 'all 0.4s',
         background:
-          'linear-gradient(230.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%);',
+          'linear-gradient(230.98deg, #404DCF -8.03%, #404DCF 47.2%, #D273D9 109.33%);',
         shadow: '2xl',
       },
       _loading: {

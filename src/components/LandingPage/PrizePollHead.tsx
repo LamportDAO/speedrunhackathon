@@ -9,7 +9,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): number {
@@ -91,7 +91,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       }}
     >
       <Heading
-        fontFamily={Inktrap.style.fontFamily}
+        fontFamily={Joystix.style.fontFamily}
         fontSize={{ base: 'xl', md: '3xl' }}
       >
         Prizes Worth
@@ -103,16 +103,16 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         justifyContent={'space-between'}
       >
         <Heading
-          bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
+          bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
           bgClip={'text'}
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
           {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
         <Text
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           fontSize={{ base: '2xl', md: '4xl' }}
           pb={{ base: '1.2rem', md: '2rem' }}
           fontWeight={'500'}
@@ -120,8 +120,9 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
           USDC
         </Text>
       </HStack>
+
       <Text
-        fontFamily={Inktrap.style.fontFamily}
+        fontFamily={Joystix.style.fontFamily}
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >
@@ -129,104 +130,104 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         developers of all skill levels.
       </Text>
 
-      <Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>
-        <WrapItem>
-          <Center
-              backdropFilter='blur(10px)'
-              backgroundColor='rgba(255, 255, 255, 0.10)'
-              rounded={'full'}
-              p={{
-                base: '0.5rem 1rem 0.2rem 1rem',
-                md: '0.5rem 1.5rem 0rem 1.5rem',
-              }}
-              bgGradient={`linear-gradient(100deg, #FAFC7F -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-              bgClip={'text'}
-              fontSize={{ base: 'sm', md: 'md' }}
-          >
-            Gaming
-          </Center>
-        </WrapItem>
-        <WrapItem>
-          <Center
-            backdropFilter='blur(10px)'
-            backgroundColor='rgba(255, 255, 255, 0.10)'
-            rounded={'full'}
-            p={{
-              base: '0.5rem 1rem 0.2rem 1rem',
-              md: '0.5rem 1.5rem 0rem 1.5rem',
-            }}
-            bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-            bgClip={'text'}
-            fontSize={{ base: 'sm', md: 'md' }}
-          >
-            NFTs
-          </Center>
-        </WrapItem>
-        <WrapItem>
-          <Center
-            backdropFilter='blur(20px)'
-            backgroundColor='rgba(255, 255, 255, 0.10)'
-            rounded={'full'}
-            p={{
-              base: '0.5rem 1rem 0.2rem 1rem',
-              md: '0.5rem 1.5rem 0rem 1.5rem',
-            }}
-            bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-            bgClip={'text'}
-            fontSize={{ base: 'sm', md: 'md' }}
-          >
-            DAOs
-          </Center>
-        </WrapItem>
-        <WrapItem>
-          <Center
-            backdropFilter='blur(10px)'
-            backgroundColor='rgba(255, 255, 255, 0.10)'
-            rounded={'full'}
-            p={{
-              base: '0.5rem 1rem 0.2rem 1rem',
-              md: '0.5rem 1.5rem 0rem 1.5rem',
-            }}
-            bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-            bgClip={'text'}
-            fontSize={{ base: 'sm', md: 'md' }}
-          >
-            DeFi
-          </Center>
-        </WrapItem>
-        <WrapItem>
-          <Center
-            backdropFilter='blur(10px)'
-            backgroundColor='rgba(255, 255, 255, 0.10)'
-            rounded={'full'}
-            p={{
-              base: '0.5rem 1rem 0.2rem 1rem',
-              md: '0.5rem 1.5rem 0rem 1.5rem',
-            }}
-            bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-            bgClip={'text'}
-            fontSize={{ base: 'sm', md: 'md' }}
-          >
-            Mobile
-          </Center>
-        </WrapItem>
-        <WrapItem>
-          <Center
-            backdropFilter='blur(10px)'
-            backgroundColor='rgba(255, 255, 255, 0.10)'
-            rounded={'full'}
-            p={{
-              base: '0.5rem 1rem 0.2rem 1rem',
-              md: '0.5rem 1.5rem 0rem 1.5rem',
-            }}
-            bgGradient={`linear-gradient(180deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}
-            bgClip={'text'}
-            fontSize={{ base: 'sm', md: 'md' }}
-          >
-            Web3
-          </Center>
-        </WrapItem>
-      </Wrap>
+      {/*<Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*        backdropFilter='blur(10px)'*/}
+      {/*        backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*        rounded={'full'}*/}
+      {/*        p={{*/}
+      {/*          base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*          md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*        }}*/}
+      {/*        bgGradient={`linear-gradient(100deg, #FAFC7F -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*        bgClip={'text'}*/}
+      {/*        fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      Gaming*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*      backdropFilter='blur(10px)'*/}
+      {/*      backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*      rounded={'full'}*/}
+      {/*      p={{*/}
+      {/*        base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*        md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*      }}*/}
+      {/*      bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*      bgClip={'text'}*/}
+      {/*      fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      NFTs*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*      backdropFilter='blur(20px)'*/}
+      {/*      backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*      rounded={'full'}*/}
+      {/*      p={{*/}
+      {/*        base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*        md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*      }}*/}
+      {/*      bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*      bgClip={'text'}*/}
+      {/*      fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      DAOs*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*      backdropFilter='blur(10px)'*/}
+      {/*      backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*      rounded={'full'}*/}
+      {/*      p={{*/}
+      {/*        base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*        md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*      }}*/}
+      {/*      bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*      bgClip={'text'}*/}
+      {/*      fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      DeFi*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*      backdropFilter='blur(10px)'*/}
+      {/*      backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*      rounded={'full'}*/}
+      {/*      p={{*/}
+      {/*        base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*        md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*      }}*/}
+      {/*      bgGradient={`linear-gradient(30deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*      bgClip={'text'}*/}
+      {/*      fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      Mobile*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*  <WrapItem>*/}
+      {/*    <Center*/}
+      {/*      backdropFilter='blur(10px)'*/}
+      {/*      backgroundColor='rgba(255, 255, 255, 0.10)'*/}
+      {/*      rounded={'full'}*/}
+      {/*      p={{*/}
+      {/*        base: '0.5rem 1rem 0.2rem 1rem',*/}
+      {/*        md: '0.5rem 1.5rem 0rem 1.5rem',*/}
+      {/*      }}*/}
+      {/*      bgGradient={`linear-gradient(180deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)`}*/}
+      {/*      bgClip={'text'}*/}
+      {/*      fontSize={{ base: 'sm', md: 'md' }}*/}
+      {/*    >*/}
+      {/*      Web3*/}
+      {/*    </Center>*/}
+      {/*  </WrapItem>*/}
+      {/*</Wrap>*/}
     </VStack>
   );
 };
