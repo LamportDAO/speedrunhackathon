@@ -194,11 +194,6 @@ const SolanaIntegratedCard = () => {
       onMouseLeave={() => {
         setHover(false);
       }}
-      onClick={
-          () => {
-              setHover(false);
-          }
-      }
     >
       {!hover && (
         <Text

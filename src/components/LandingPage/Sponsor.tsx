@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   Helius,
+  Magicblock,
   SolanaFoundation,
   BridgeSplit,
   Phantom,
@@ -58,6 +59,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <SolanaFoundation />;
     case 'Solana University':
       return <SolanaU />;
+    case 'Magicblock':
+      return <Magicblock />;
     case 'Ottersec':
       return <OtterSec />;
     case 'Superteam':

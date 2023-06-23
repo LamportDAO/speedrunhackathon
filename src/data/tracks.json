@@ -5,7 +5,7 @@
             "To be revelead"
         ],
         "PrizeWorth": 25000,
-        "PrizeUnit": "USDC*",
+        "PrizeUnit": "USDC",
         "PrizeDetails": [
             "Prizes will be revealed gradually until the GameJam begins"
         ],

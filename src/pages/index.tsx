@@ -18,6 +18,7 @@ import { FaDiscord } from 'react-icons/fa';
 import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
 import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
+import PresentedBy from "../components/LandingPage/PresentedBy";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -42,14 +43,15 @@ export default function Home() {
           maxW={['26rem', '26rem', '40rem', '60rem']}
         >
           <Heading
-            fontSize={['5xl', '6xl', '7xl', '9xl', '9xl']}
+            fontSize={['5xl', '6xl', '7xl', '7xl', '8xl']}
             lineHeight={['58px', '72px', '90px', '130px', '130px']}
             textAlign={'center'}
             fontWeight={'800'}
             fontFamily={Joystix.style.fontFamily}
           >
             Solana <br />
-            <Box as='span'>Speedrun</Box>
+            {/*<Box as='span'>Speedrun</Box>*/}
+            <img src='./speedrun.svg' alt="Speedrun"/>
           </Heading>
           <Text
             px='1rem'
@@ -60,8 +62,11 @@ export default function Home() {
             fontFamily={Joystix.style.fontFamily}
             textAlign={'center'}
           >
-            The first virtual Solana Game Jam from{' '}
-            <Box as='span' textDecor={'underline'}>
+            <br/>
+            The first virtual Solana Game Jam {' '}
+            <br/>
+            <Box as='span'  color={'white'}>
+              <br/>
               July 26th - July 30th
             </Box>{' '}
             {/*presented by LamportDAO & Magicblock*/}
@@ -103,6 +108,9 @@ export default function Home() {
             </Button>
           </HStack>
         </VStack>
+        <Center>
+          <PresentedBy />
+        </Center>
         <Center>
           <HeadingTotalPrize />
         </Center>
