@@ -60,7 +60,7 @@ const HeadingTotalPrize = () => {
           </ModalBody>
         </ModalContent>
       </Modal>
-      <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '25vh', md: '35vh' }}>
+      <Center flexDirection={'column'} maxW={'4xl'} py='2rem' pt={{ base: '20vh', md: '20vh' }}>
         <Heading
           py='2rem'
           pl='2rem'
