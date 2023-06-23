@@ -13,7 +13,7 @@ import {
   ListIcon,
 } from '@chakra-ui/react';
 import React from 'react';
-import { Inktrap } from '../FontFamily';
+import {Inktrap, Joystix} from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import Sponsor from './Sponsor';
 import { FiExternalLink } from 'react-icons/fi';
@@ -42,7 +42,7 @@ const TracksModalBody = ({
       >
         <Heading
           pt='0.5rem'
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           fontSize={{ base: '22px', md: '26px' }}
         >
           {track ? track?.Name : 'Hello World'}
@@ -70,26 +70,26 @@ const TracksModalBody = ({
           bgGradient={
             'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
           }
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           bgClip={'text'}
           lineHeight={'70px'}
           fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
-          {track
-            ? `${
-                track?.PrizeUnit === 'BONK'
-                  ? track?.PrizeWorth + 'B'
-                  : track?.PrizeWorth
-              }`
-            : '00k'}
+          {/*{track*/}
+          {/*  ? `${*/}
+          {/*      track?.PrizeUnit === 'BONK'*/}
+          {/*        ? track?.PrizeWorth + 'B'*/}
+          {/*        : track?.PrizeWorth*/}
+          {/*    }`*/}
+          {/*  : '00k'}*/}
         </Heading>
         <Text
-          fontSize={{ base: '16px', md: '18px' }}
+          fontSize={{ base: '4rem', md: '5rem' }}
           pb='1.4rem'
           fontWeight={'600'}
         >
-          {track ? `${track?.PrizeUnit}` : 'USDC'}
+          {'👀'}
         </Text>
       </HStack>
       <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>
@@ -103,7 +103,7 @@ const TracksModalBody = ({
           ''
         )}
         <Text
-          fontFamily={Inktrap.style.fontFamily}
+          fontFamily={Joystix.style.fontFamily}
           fontSize={{ base: 'sm', md: 'md' }}
           pt='0.4rem'
         >
@@ -174,27 +174,27 @@ const TracksModalBody = ({
             </VStack>
           </>
         )}
-        <VStack alignItems='start'>
-          <Text
-            fontFamily={Inktrap.style.fontFamily}
-            pt='1.4rem'
-            fontWeight={'700'}
-            fontSize={{ base: 'md', md: 'lg' }}
-          >
-            Judges
-          </Text>
-          <UnorderedList
-            fontFamily={Inktrap.style.fontFamily}
-            fontSize={{ base: 'sm', md: 'md' }}
-            pl='1.5rem'
-          >
-            {track.Judges?.map((Judge, index) => (
-              <ListItem maxW='100vw' key={index}>
-                {Judge.Name}
-              </ListItem>
-            ))}
-          </UnorderedList>
-        </VStack>
+        {/*<VStack alignItems='start'>*/}
+        {/*  <Text*/}
+        {/*    fontFamily={Inktrap.style.fontFamily}*/}
+        {/*    pt='1.4rem'*/}
+        {/*    fontWeight={'700'}*/}
+        {/*    fontSize={{ base: 'md', md: 'lg' }}*/}
+        {/*  >*/}
+        {/*    Judges*/}
+        {/*  </Text>*/}
+        {/*  <UnorderedList*/}
+        {/*    fontFamily={Inktrap.style.fontFamily}*/}
+        {/*    fontSize={{ base: 'sm', md: 'md' }}*/}
+        {/*    pl='1.5rem'*/}
+        {/*  >*/}
+        {/*    {track.Judges?.map((Judge, index) => (*/}
+        {/*      <ListItem maxW='100vw' key={index}>*/}
+        {/*        {Judge.Name}*/}
+        {/*      </ListItem>*/}
+        {/*    ))}*/}
+        {/*  </UnorderedList>*/}
+        {/*</VStack>*/}
         <Wrap py='1rem'>
           {track?.Links?.map((link, index) => (
             <WrapItem key={index}>

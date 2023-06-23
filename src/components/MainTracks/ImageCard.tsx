@@ -139,6 +139,25 @@ const FullyOnChainCard = () => {
                       Voted by the community
                   </Text>
               </ListItem>
+              <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
+                  <Center>
+                      <svg fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" id="icon"
+                           xmlns="http://www.w3.org/2000/svg">
+                          <path
+                              d="M26,30H6a2.0023,2.0023,0,0,1-2-2V4A2.0023,2.0023,0,0,1,6,2H26a2.0023,2.0023,0,0,1,2,2V28A2.0023,2.0023,0,0,1,26,30ZM6,4V28H26V4Z" fill='white'/>
+                          <rect x="10" y="7" width="12" height="2" transform="translate(32 20) rotate(-180)" fill='white'/>
+                          <rect x="10" y="7" width="12" height="2" transform="translate(32 25) rotate(-180)" fill='white'/>
+                          <rect x="10" y="7" width="12" height="2" transform="translate(32 30) rotate(-180)" fill='white'/>
+                      </svg>
+                  </Center>
+                  <Text
+                      fontWeight={'600'}
+                      pt='0.3rem'
+                      fontSize={{ base: 'sm', md: 'sm' }}
+                  >
+                      Rules and eligibility criteria will be announced
+                  </Text>
+              </ListItem>
           </UnorderedList>
           {/*<Button*/}
           {/*  as='a'*/}
@@ -283,6 +302,25 @@ const SolanaIntegratedCard = () => {
                 fontSize={{ base: 'sm', md: 'sm' }}
               >
                 Voted by the community
+              </Text>
+            </ListItem>
+            <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
+              <Center>
+                  <svg fill="#000000" width="16px" height="16px" viewBox="0 0 32 32" id="icon"
+                       xmlns="http://www.w3.org/2000/svg">
+                      <path
+                          d="M26,30H6a2.0023,2.0023,0,0,1-2-2V4A2.0023,2.0023,0,0,1,6,2H26a2.0023,2.0023,0,0,1,2,2V28A2.0023,2.0023,0,0,1,26,30ZM6,4V28H26V4Z" fill='white'/>
+                      <rect x="10" y="7" width="12" height="2" transform="translate(32 20) rotate(-180)" fill='white'/>
+                      <rect x="10" y="7" width="12" height="2" transform="translate(32 25) rotate(-180)" fill='white'/>
+                      <rect x="10" y="7" width="12" height="2" transform="translate(32 30) rotate(-180)" fill='white'/>
+                  </svg>
+              </Center>
+              <Text
+                  fontWeight={'600'}
+                  pt='0.3rem'
+                  fontSize={{ base: 'sm', md: 'sm' }}
+              >
+                  Rules and eligibility criteria will be announced
               </Text>
             </ListItem>
           </UnorderedList>

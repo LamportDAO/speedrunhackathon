@@ -33,7 +33,7 @@ const GlobalPrizes = ({
               Name: 'DeFi Grand Prize',
               Sponsor: ['Solana Foundation', 'Light Protocol'],
               PrizeWorth: 9000,
-              PrizeUnit: 'USDC*',
+              PrizeUnit: 'USDC',
               PrizeDetails: [
                 'Grand Prize: $5,000 (sponsored by Solana Foundation) + 1.5B $BONK',
                 'Runner-up: $2,000 (sponsored by Light Protocol) + 1B $BONK',
@@ -83,7 +83,7 @@ const GlobalPrizes = ({
               Name: 'DeFi Grand Prize',
               Sponsor: ['Solana Foundation', 'Light Protocol'],
               PrizeWorth: 9000,
-              PrizeUnit: 'USDC*',
+              PrizeUnit: 'USDC',
               PrizeDetails: [
                 'Grand Prize: $5,000 (sponsored by Solana Foundation) + 1.25B $BONK',
                 'Runner-up: $2,000 (sponsored by Light Protocol) + 0.75B $BONK',

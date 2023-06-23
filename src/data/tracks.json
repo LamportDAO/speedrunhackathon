@@ -1,37 +1,8 @@
 [
     {
-        "Name": "To be revelead",
-        "Sponsor": [
-            "To be revelead"
-        ],
-        "PrizeWorth": 25000,
-        "PrizeUnit": "USDC",
-        "PrizeDetails": [
-            "Prizes will be revealed gradually until the GameJam begins"
-        ],
-        "AboutUs": "Sponsored tracks will be revealed gradually until the GameJam begins.",
+        "Name": "To be Announced",
         "Description": "Sponsored tracks will be revealed gradually until the GameJam begins.",
         "Ideas": [""],
-        "Requirements": "",
-        "Links": [
-            {
-                "Title": "Discord",
-                "Link": "https://solanaspeedrun.com/discord"
-            },
-            {
-                "Title": "Website",
-                "Link": "http://solanaspeedrun.com/"
-            },
-            {
-                "Title": "Twitter",
-                "Link": "https://twitter.com/magicblock"
-            }
-        ],
-        "Judges": [
-            {
-                "Name": "To be revelead",
-                "Twitter": ""
-            }
-        ]
+        "Requirements": ""
     }
 ]
