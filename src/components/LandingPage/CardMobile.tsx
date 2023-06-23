@@ -49,42 +49,42 @@ const CardMobile = ({ track }: PropsType) => {
           {track ? track?.Name : 'Hello World'}
         </Heading>
         <HStack alignItems={'flex-end'} justifyContent={'space-between'}>
-          <Heading
-            bgGradient={
-              'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
-            }
-            bgClip={'text'}
-            fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
-            fontWeight='700'
-          >
-            {track
-              ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth}`
-              : '00k'}
-          </Heading>
+          {/*<Heading*/}
+          {/*  bgGradient={*/}
+          {/*    'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'*/}
+          {/*  }*/}
+          {/*  bgClip={'text'}*/}
+          {/*  fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}*/}
+          {/*  fontWeight='700'*/}
+          {/*>*/}
+          {/*  {track*/}
+          {/*    ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth}`*/}
+          {/*    : '00k'}*/}
+          {/*</Heading>*/}
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: '3rem', md: '4rem' }}
+            fontSize={{ base: '4rem', md: '5rem' }}
             fontWeight={'600'}
           >
             {/*{track ? track?.PrizeUnit : 'USDC'}*/}
             {'👀'}
           </Text>
         </HStack>
-        {clicked ? (
-          ''
-        ) : (
-          <Text
-            fontSize={{ base: 'xs', md: 'sm' }}
-            pt={'1.4rem'}
-            fontWeight='300'
-            opacity='0.8'
-            noOfLines={2}
-          >
-            {track
-              ? track?.Description
-              : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          </Text>
-        )}
+        {/*{clicked ? (*/}
+        {/*  ''*/}
+        {/*) : (*/}
+        {/*  <Text*/}
+        {/*    fontSize={{ base: 'xs', md: 'sm' }}*/}
+        {/*    pt={'1.4rem'}*/}
+        {/*    fontWeight='300'*/}
+        {/*    opacity='0.8'*/}
+        {/*    noOfLines={2}*/}
+        {/*  >*/}
+        {/*    {track*/}
+        {/*      ? track?.Description*/}
+        {/*      : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}*/}
+        {/*  </Text>*/}
+        {/*)}*/}
         {clicked && (
           <VStack
             maxW={'full'}
@@ -105,7 +105,7 @@ const CardMobile = ({ track }: PropsType) => {
               <Text
                 fontFamily={Inktrap.style.fontFamily}
                 fontSize={{ base: 'sm', md: 'md' }}
-                pt='0.4rem'
+                pt='0rem'
               >
                 {track
                   ? track?.Description
@@ -155,44 +155,44 @@ const CardMobile = ({ track }: PropsType) => {
                   </UnorderedList>
                 </>
               )}
-              <VStack alignItems='start'>
-                <Text
-                  pt='1rem'
-                  fontFamily={Inktrap.style.fontFamily}
-                  fontWeight={'700'}
-                  fontSize={{ base: 'md', md: 'lg' }}
-                >
-                  Requirements
-                </Text>
-                <Text
-                  fontFamily={Inktrap.style.fontFamily}
-                  fontSize={{ base: 'sm', md: 'md' }}
-                  pl='1.5rem'
-                >
-                  {track?.Requirements}
-                </Text>
-              </VStack>
-              <VStack alignItems='start'>
-                <Text
-                  fontFamily={Inktrap.style.fontFamily}
-                  pt='1.4rem'
-                  fontWeight={'700'}
-                  fontSize={{ base: 'md', md: 'lg' }}
-                >
-                  Judges
-                </Text>
-                <UnorderedList
-                  fontFamily={Inktrap.style.fontFamily}
-                  fontSize={{ base: 'sm', md: 'md' }}
-                  pl='1.5rem'
-                >
-                  {track?.Judges?.map((Judge, index) => (
-                    <ListItem maxW='100vw' key={index}>
-                      {Judge.Name}
-                    </ListItem>
-                  ))}
-                </UnorderedList>
-              </VStack>
+              {/*<VStack alignItems='start'>*/}
+              {/*  <Text*/}
+              {/*    pt='1rem'*/}
+              {/*    fontFamily={Inktrap.style.fontFamily}*/}
+              {/*    fontWeight={'700'}*/}
+              {/*    fontSize={{ base: 'md', md: 'lg' }}*/}
+              {/*  >*/}
+              {/*    Requirements*/}
+              {/*  </Text>*/}
+              {/*  <Text*/}
+              {/*    fontFamily={Inktrap.style.fontFamily}*/}
+              {/*    fontSize={{ base: 'sm', md: 'md' }}*/}
+              {/*    pl='1.5rem'*/}
+              {/*  >*/}
+              {/*    {track?.Requirements}*/}
+              {/*  </Text>*/}
+              {/*</VStack>*/}
+              {/*<VStack alignItems='start'>*/}
+              {/*  <Text*/}
+              {/*    fontFamily={Inktrap.style.fontFamily}*/}
+              {/*    pt='1.4rem'*/}
+              {/*    fontWeight={'700'}*/}
+              {/*    fontSize={{ base: 'md', md: 'lg' }}*/}
+              {/*  >*/}
+              {/*    Judges*/}
+              {/*  </Text>*/}
+              {/*  <UnorderedList*/}
+              {/*    fontFamily={Inktrap.style.fontFamily}*/}
+              {/*    fontSize={{ base: 'sm', md: 'md' }}*/}
+              {/*    pl='1.5rem'*/}
+              {/*  >*/}
+              {/*    {track?.Judges?.map((Judge, index) => (*/}
+              {/*      <ListItem maxW='100vw' key={index}>*/}
+              {/*        {Judge.Name}*/}
+              {/*      </ListItem>*/}
+              {/*    ))}*/}
+              {/*  </UnorderedList>*/}
+              {/*</VStack>*/}
               <Wrap py='1rem'>
                 {track?.Links?.map((link, index) => (
                   <WrapItem key={index}>
