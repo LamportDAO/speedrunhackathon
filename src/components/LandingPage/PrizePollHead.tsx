@@ -126,8 +126,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >
-        Huge prizes up for grabs and multiple tracks catering to Solana
-        developers of all skill levels.
+        Across main and sponsored tracks, fairly distributed by community voting.
       </Text>
 
       {/*<Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>*/}
