@@ -1,0 +1,45 @@
+[
+    {
+        "Question": "What is Speedrun?",
+        "Answer": "Speedrun is the first Solana Game Jam, a competition where developers have a limited time to create a game from scratch based on a given theme."
+    },
+    {
+        "Question": "When will Speedrun take place?",
+        "Answer": "Solana Speedrun will take place from July 26th to July 30th."
+    },
+    {
+        "Question": "When will the Theme be revealed?",
+        "Answer": "The theme will be revealed at the beginning of the competition and all participants must create a game that incorporates the main Theme."
+    },
+    {
+        "Question": "What are the rules to submit my game?",
+        "Answer": "You can decide to take part in the Fully on-chain track, Solana-integrated track, sponsored tracks or any combination of these. You can find the requiremens on each individual track, but most importantly, your game must be playable! You will be judged by the community and by the sponsor commitee, so make sure you create a fun game first and foremost!"
+    },
+    {
+        "Question": "Can I submit a game that I've already developed?",
+        "Answer": "No, games must be created specifically for Speedrun and must follow the Theme."
+    },
+    {
+        "Question": "Can I use pre-existing code or assets?",
+        "Answer": "Yes, you are allowed to use pre-existing code and assets, as long as they are open source or properly licensed. You are not allowed to submit an existing game and all the submission should respect the theme of the jam."
+    },
+    {
+        "Question": "Can I participate with multiple submissions?",
+        "Answer": "If you are able to create more than one game you can submit all of them with multiple submissions, but each entry must be unique."
+    },
+    {
+        "Question": "What if my game isn't finished?",
+        "Answer": "It doesn't matter as long as it is playable. Make sure to explore our resources before the Theme reveal to familiarize with the stack and complete your project before the deadline."
+    },
+    {
+        "Question": "Where can I find resources to prepare for the GameJam?",
+        "Answer": "Preparing and being familiar with existing resources and tools on Solana is essential to gaining an edge. Below is a curated list of resources.",
+        "Links": [
+            {
+                "Title": "Solana Gaming Resources",
+                "Link": "https://github.com/magicblock-labs/solana-gaming-resources"
+            }
+        ]
+    }
+
+]

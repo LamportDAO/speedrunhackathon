@@ -19,6 +19,7 @@ import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
 import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
 import PresentedBy from "../components/LandingPage/PresentedBy";
+import FAQ from "../components/LandingPage/FAQ";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -119,6 +120,9 @@ export default function Home() {
         </Center>
         <Center>
           <TracksAndPrizes />
+        </Center>
+        <Center>
+          <FAQ />
         </Center>
         <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
           {/*<SponsorsSection />*/}
