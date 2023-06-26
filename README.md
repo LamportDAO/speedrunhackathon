@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Solana Speedrun GameJam
+
+Landing page for [solanaspeedrun.com](https://solanaspeedrun.com)
 
 ## Getting Started
 
