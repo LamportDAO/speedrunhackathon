@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <Center
       position={'absolute'}
-      mt='8rem'
-      overflow='hidden'
+      mt='20rem'
       height={{
         base: '150px',
         sm: '100px',
@@ -28,7 +27,7 @@ const Footer = () => {
         w={['full']}
       >
         <Center position={'relative'} zIndex={'-2'}>
-          <Image src='/img2.png'
+          <Image src='/footer.jpg'
             alt='solana speedrun'
             width={3455}
             height={1111}
