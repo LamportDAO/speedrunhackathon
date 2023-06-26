@@ -6,24 +6,25 @@ const Footer = () => {
   return (
     <Center
       position={'absolute'}
+      mt='8rem'
+      overflow='hidden'
       height={{
-        base: '50px',
+        base: '150px',
         sm: '100px',
-        md: '150px',
-        lg: '260px',
-        xl: '100px',
+        md: '250px',
+        lg: '250px',
+        xl: '250px',
       }}
     >
       <Center
         zIndex={'-2'}
         transform={{
           base: 'translateY(-10%)',
-          md: 'translateY(-20%)',
+          md: 'translateY(-10%)',
           lg: 'translateY(-10%)',
-          xl: 'translateY(4%)',
+          xl: 'translateY(-10%)',
         }}
-        overflow='hidden'
-        h={'fit-content'}
+        h={'auto'}
         w={['full']}
       >
         <Center position={'relative'} zIndex={'-2'}>
@@ -35,6 +36,7 @@ const Footer = () => {
         </Center>
       </Center>
     </Center>
+
   );
 };
 

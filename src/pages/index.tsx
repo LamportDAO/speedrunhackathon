@@ -20,6 +20,8 @@ import { BrowserName } from '../broswerName';
 import HeadingTotalPrize from "../components/LandingPage/HeadingTotalPrize";
 import PresentedBy from "../components/LandingPage/PresentedBy";
 import FAQ from "../components/LandingPage/FAQ";
+import Image from "next/image";
+import Game from "../components/LandingPage/Game";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -52,7 +54,7 @@ export default function Home() {
           >
             Solana <br />
             {/*<Box as='span'>Speedrun</Box>*/}
-            <img src='./speedrun.svg' alt="Speedrun"/>
+            <Image src='./speedrun.svg' alt="Speedrun" width='900' height='500' />
           </Heading>
           <Text
             px='1rem'
@@ -124,9 +126,13 @@ export default function Home() {
         <Center>
           <FAQ />
         </Center>
-        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
-          {/*<SponsorsSection />*/}
+        {/*<Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>*/}
+        {/*  /!*<SponsorsSection />*!/*/}
+        {/*</Center>*/}
+        <Center>
+          <Game />
         </Center>
+
       </Container>
     </>
   );
