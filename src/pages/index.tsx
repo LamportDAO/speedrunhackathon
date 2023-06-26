@@ -22,6 +22,7 @@ import PresentedBy from "../components/LandingPage/PresentedBy";
 import FAQ from "../components/LandingPage/FAQ";
 import Image from "next/image";
 import Game from "../components/LandingPage/Game";
+import Resources from "../components/LandingPage/Resources";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -122,6 +123,9 @@ export default function Home() {
         </Center>
         <Center>
           <TracksAndPrizes />
+        </Center>
+        <Center>
+          <Resources />
         </Center>
         <Center>
           <FAQ />

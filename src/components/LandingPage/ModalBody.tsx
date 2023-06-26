@@ -88,6 +88,8 @@ const TracksModalBody = ({
           fontSize={{ base: '4rem', md: '5rem' }}
           pb='1.4rem'
           fontWeight={'600'}
+          textAlign='center'
+          alignItems='center'
         >
           {'👀'}
         </Text>

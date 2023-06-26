@@ -38,7 +38,7 @@ const Game = () => {
                 fontSize={{ base: '2xl', md: '4xl' }}
                 fontWeight='800'
             >
-              Can i play something?
+              Training Hub
             </Heading>
             <Wrap
                 w='100%'

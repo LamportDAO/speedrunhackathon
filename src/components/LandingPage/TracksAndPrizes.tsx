@@ -82,6 +82,7 @@ const TracksAndPrizes = () => {
           justify={'center'}
           alignItems='center'
           fontFamily={Joystix.style.fontFamily}
+          textAlign='center'
         >
           {tracksData.map((track, index) => {
             return isMobile ? (

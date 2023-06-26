@@ -67,6 +67,8 @@ const CardMobile = ({ track }: PropsType) => {
             fontSize={{ base: '4rem', md: '5rem' }}
             fontWeight={'600'}
             fontFamily={Joystix.style.fontFamily}
+            textAlign='center'
+            alignContent='center'
           >
             {/*{track ? track?.PrizeUnit : 'USDC'}*/}
             {'👀'}
