@@ -106,10 +106,11 @@ const CardDesktop = ({
           fontSize={{ base: '14px', md: '18px' }}
           fontFamily={Joystix.style.fontFamily}
           noOfLines={1}
+          textAlign='center'
         >
           {track ? track?.Name : ''}
         </Heading>
-        <HStack alignItems={'flex-end'} justifyContent={'space-between'}>
+        <HStack alignItems={'flex-end'} justifyContent={'space-between'} textAlign='center' alignContent='center'>
           <Heading
             bgGradient={
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
@@ -130,6 +131,8 @@ const CardDesktop = ({
             fontSize={{ base: '3rem', md: '4rem' }}
             fontWeight={'600'}
             fontFamily={Joystix.style.fontFamily}
+            alignItems='center'
+            textAlign='center'
           >
             {/*{track ? track?.PrizeUnit : 'USDC'}*/}
             {'👀'}
