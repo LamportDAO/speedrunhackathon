@@ -288,7 +288,7 @@ const SolanaIntegratedCard = () => {
                 pt='0.3rem'
                 fontSize={{ base: 'sm', md: 'sm' }}
               >
-                  The game must integrate Solana in a meaningful way (on-chain assets, on-chain economy, ...)
+                  Game logic can be off-chain
               </Text>
             </ListItem>
             <ListItem gap='0.5rem' display={'flex'} flexDir='row'>
@@ -307,7 +307,7 @@ const SolanaIntegratedCard = () => {
                   pt='0.3rem'
                   fontSize={{ base: 'sm', md: 'sm' }}
               >
-                  The game must be playable
+                  The game must integrate Solana in a meaningful way (on-chain assets, on-chain economy, ...)
               </Text>
             </ListItem>
               {/*<ListItem gap='0.5rem' display={'flex'} flexDir='row'>*/}
