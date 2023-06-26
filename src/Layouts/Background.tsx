@@ -16,7 +16,7 @@ const Background = () => {
         zIndex={'-1'}
         w={['1200px', '1200px', '1500px', '1700px', '110vw', '100vw']}
         position='absolute'
-        top={['25%', '50%', '40%', '50%', '30%', '30%']}
+        top={['40%', '50%', '40%', '50%', '30%', '30%']}
         left='50%'
         transform='translate(-50%, -50%)'
       >
