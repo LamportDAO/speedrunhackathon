@@ -67,7 +67,7 @@ const CardMobile = ({ faq }: PropsType) => {
           <VStack
             maxW={'full'}
             alignItems={'start'}
-            p='2.5rem 0rem 2rem 0rem'
+            p='2.5rem 0rem 0.2rem 0rem'
             rounded='2xl'
           >
             <VStack pt={'0rem'} fontSize='xl' alignItems={'start'}>
@@ -81,7 +81,7 @@ const CardMobile = ({ faq }: PropsType) => {
                   ? faq?.Answer
                   : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
               </Text>
-              <Wrap py='1rem'>
+              <Wrap py='0.2rem'>
                 {faq?.Links?.map((link, index) => (
                   <WrapItem key={index}>
                     <Button
