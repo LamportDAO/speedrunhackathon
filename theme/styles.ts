@@ -1,5 +1,5 @@
 import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools';
-import { Inktrap } from '../src/components/FontFamily';
+import { Inktrap, Joystix } from '../src/components/FontFamily';
 
 export const styles = {
   global: (props: StyleFunctionProps) => ({
