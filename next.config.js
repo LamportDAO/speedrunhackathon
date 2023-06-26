@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: "/discord",
-        destination: "https://solanaspeedrun.com/discord",
+        destination: "https://discord.gg/Dpv5uGCT5E",
         permanent: false
       }
     ]
