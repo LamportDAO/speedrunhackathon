@@ -19,7 +19,7 @@ import {faqType} from "../../../interfaces/faq";
 const Game = () => {
   const [isMobile] = useMediaQuery('(max-width: 670px)');
 
-  const games = ["geomdash", "angrymex", "spaceinvaders", "pacman3d", "mario", "pokeninja"];
+  const games = ["geomdash", "spaceinvaders", "pacman3d", "mario", "angrymex", "pokeninja"];
   const game = games[Math.floor(Math.random()*games.length)];
 
   if (isMobile){
