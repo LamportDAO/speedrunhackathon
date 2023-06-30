@@ -7,6 +7,11 @@ const nextConfig = {
         source: "/discord",
         destination: "https://discord.gg/Dpv5uGCT5E",
         permanent: false
+      },
+      {
+        source: "/register",
+        destination: "https://www.cubik.so/hackathons/speedrun",
+        permanent: false
       }
     ]
   },
