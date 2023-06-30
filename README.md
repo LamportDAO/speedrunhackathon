@@ -1,5 +1,7 @@
 ## Solana Speedrun GameJam
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3b5bda41-2a92-4260-9c5f-719405784faa/deploy-status)](https://app.netlify.com/sites/hilarious-raindrop-06f2b1/deploys)
+
 Landing page for [solanaspeedrun.com](https://solanaspeedrun.com)
 
 ## Getting Started

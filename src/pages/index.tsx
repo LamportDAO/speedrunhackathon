@@ -93,7 +93,8 @@ export default function Home() {
               lineHeight='24px'
               variant='gradient'
              // onClick={handleClickScroll}
-              href={'https://solanaspeedrun.com/register'}
+              as='a'
+              href='https://solanaspeedrun.com/register'
               target={'_blank'}
             >
               Register
