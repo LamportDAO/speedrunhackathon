@@ -23,15 +23,13 @@ export default function Header() {
       </Center>
       <Button
         as='a'
-        href='https://solanaspeedrun.com/discord'
+        href='https://solanaspeedrun.com/register'
         target={'_blank'}
         pt={{ base: '0.7rem', md: '0.8rem' }}
         display={'flex'}
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
         fontSize={{ base: '14px', md: '18px' }}
-          href={'https://cubik.so/hackathons/speedrun'}
-              target={'_blank'}
             >
               Register
             </Button>
