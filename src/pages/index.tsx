@@ -93,7 +93,7 @@ export default function Home() {
               lineHeight='24px'
               variant='gradient'
              // onClick={handleClickScroll}
-              href={'https://cubik.so/hackathons/speedrun'}
+              href={'https://solanaspeedrun.com/register'}
               target={'_blank'}
             >
               Register
