@@ -92,9 +92,11 @@ export default function Home() {
               fontSize={{ base: '16px', md: '18px' }}
               lineHeight='24px'
               variant='gradient'
-              onClick={handleClickScroll}
+             // onClick={handleClickScroll}
+              href={'https://cubik.so/hackathons/speedrun'}
+              target={'_blank'}
             >
-              View Tracks
+              Register
             </Button>
             <Button
               as='a'
