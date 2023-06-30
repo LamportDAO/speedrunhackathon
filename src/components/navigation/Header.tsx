@@ -30,9 +30,11 @@ export default function Header() {
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
         fontSize={{ base: '14px', md: '18px' }}
-      >
-        Join Discord
-      </Button>
+          href={'https://cubik.so/hackathons/speedrun'}
+              target={'_blank'}
+            >
+              Register
+            </Button>
     </Flex>
   );
 }
