@@ -1,13 +1,11 @@
 [
     {
         "Name": "Cubik",
-        "Sponsor": [
-            "Cubik"
-        ],
         "PrizeWorth": 1000,
         "PrizeUnit": "USDC",
         "Description": "Prize added to the matching pool during quadratic voting",
         "Ideas": [],
+        "Judges": [],
         "Links": [
             {
                 "Title": "Website",
