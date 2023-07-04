@@ -120,22 +120,22 @@ const CardDesktop = ({
             fontWeight='700'
             fontFamily={Joystix.style.fontFamily}
           >
-            {/*{track?.PrizeUnit === 'BONK'*/}
-            {/*  ? track?.PrizeWorth + 'B'*/}
-            {/*  : track?.PrizeWorth*/}
-            {/*  ? `${kFormatter(track.PrizeWorth)}`*/}
-            {/*  : 'USDC'}*/}
+            {track?.PrizeUnit === 'BONK'
+              ? track?.PrizeWorth + 'B'
+              : track?.PrizeWorth
+              ? `${kFormatter(track.PrizeWorth)}`
+              : 'USDC'}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: '3rem', md: '4rem' }}
+            fontSize={{ base: '1rem', md: '2rem' }}
             fontWeight={'600'}
+            pl="1rem"
             fontFamily={Joystix.style.fontFamily}
             alignItems='center'
             textAlign='center'
           >
-            {/*{track ? track?.PrizeUnit : 'USDC'}*/}
-            {'👀'}
+            {track ? track?.PrizeUnit : 'USDC'}
           </Text>
         </HStack>
         {/* <Text

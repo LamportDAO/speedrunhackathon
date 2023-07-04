@@ -76,22 +76,21 @@ const TracksModalBody = ({
           fontSize={{ base: '44px', md: '52px' }}
           fontWeight='700'
         >
-          {/*{track*/}
-          {/*  ? `${*/}
-          {/*      track?.PrizeUnit === 'BONK'*/}
-          {/*        ? track?.PrizeWorth + 'B'*/}
-          {/*        : track?.PrizeWorth*/}
-          {/*    }`*/}
-          {/*  : '00k'}*/}
+          {track
+            ? `${
+                track?.PrizeUnit === 'BONK'
+                  ? track?.PrizeWorth + 'B'
+                  : track?.PrizeWorth
+              }`
+            : '00k'}
         </Heading>
         <Text
-          fontSize={{ base: '4rem', md: '5rem' }}
-          pb='1.4rem'
-          fontWeight={'600'}
-          textAlign='center'
-          alignItems='center'
+            fontSize={{ base: '16px', md: '18px' }}
+            pb='1.4rem'
+            fontWeight={'600'}
+            fontFamily={Joystix.style.fontFamily}
         >
-          {'👀'}
+          {track ? `${track?.PrizeUnit}` : 'USDC'}
         </Text>
       </HStack>
       <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>
