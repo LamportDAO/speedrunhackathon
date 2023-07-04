@@ -50,28 +50,29 @@ const CardMobile = ({ track }: PropsType) => {
           {track ? track?.Name : 'Hello World'}
         </Heading>
         <HStack alignItems={'flex-end'} justifyContent={'space-between'}>
-          {/*<Heading*/}
-          {/*  bgGradient={*/}
-          {/*    'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'*/}
-          {/*  }*/}
-          {/*  bgClip={'text'}*/}
-          {/*  fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}*/}
-          {/*  fontWeight='700'*/}
-          {/*>*/}
-          {/*  {track*/}
-          {/*    ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth}`*/}
-          {/*    : '00k'}*/}
-          {/*</Heading>*/}
+          <Heading
+            bgGradient={
+              'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
+            }
+            bgClip={'text'}
+            fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
+            fontWeight='700'
+            fontFamily={Joystix.style.fontFamily}
+          >
+            {track
+              ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth}`
+              : '00k'}
+          </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: '4rem', md: '5rem' }}
+            fontSize={{ base: '1rem', md: '2rem' }}
+            pl="1rem"
             fontWeight={'600'}
             fontFamily={Joystix.style.fontFamily}
             textAlign='center'
             alignContent='center'
           >
-            {/*{track ? track?.PrizeUnit : 'USDC'}*/}
-            {'👀'}
+            {track ? track?.PrizeUnit : 'USDC'}
           </Text>
         </HStack>
         {/*{clicked ? (*/}

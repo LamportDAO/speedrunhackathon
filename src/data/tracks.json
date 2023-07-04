@@ -1,8 +1,18 @@
 [
     {
-        "Name": "To be Announced",
-        "Description": "Sponsored tracks will be revealed gradually until the GameJam begins.",
-        "Ideas": [""],
-        "Requirements": ""
+        "Name": "Cubik",
+        "Sponsor": [
+            "Cubik"
+        ],
+        "PrizeWorth": 1000,
+        "PrizeUnit": "USDC",
+        "Description": "Prize added to the matching pool during quadratic voting",
+        "Ideas": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://www.cubik.so/"
+            }
+        ]
     }
 ]
