@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: "/register",
-        destination: "https://www.cubik.so/hackathons/speedrun",
+        destination: "https://lu.ma/j9zvspbs",
         permanent: false
       }
     ]

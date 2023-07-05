@@ -1,6 +1,7 @@
 import { Flex, Button, Center } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import Logo from '../assets/logo/Logo';
+import {useEffect} from "react";
 
 export default function Header() {
   const router = useRouter();
@@ -23,16 +24,17 @@ export default function Header() {
       </Center>
       <Button
         as='a'
-        href='https://solanaspeedrun.com/register'
-        target={'_blank'}
         pt={{ base: '0.7rem', md: '0.8rem' }}
+        target="_blank"
         display={'flex'}
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
         fontSize={{ base: '14px', md: '18px' }}
-            >
-              Register
-            </Button>
+        href="https://lu.ma/j9zvspbs"
+        className="luma-checkout--button"
+      >
+        Register
+      </Button>
     </Flex>
   );
 }

@@ -94,7 +94,7 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://solanaspeedrun.com/register'
+              href='https://lu.ma/j9zvspbs'
               target={'_blank'}
             >
               Register
