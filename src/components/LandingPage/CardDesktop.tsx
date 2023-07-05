@@ -124,7 +124,7 @@ const CardDesktop = ({
               ? track?.PrizeWorth + 'B'
               : track?.PrizeWorth
               ? `${kFormatter(track.PrizeWorth)}`
-              : 'USDC'}
+              : 'TBA'}
           </Heading>
           <Text
             pb={{ base: '0.1rem', md: '0.3rem' }}
