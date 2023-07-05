@@ -17,6 +17,23 @@
         ]
     },
     {
+        "Name": "Solana U",
+        "PrizeWorth": 1,
+        "Sponsor": [
+            "Solana University"
+        ],
+        "PrizeUnit": "Ticket",
+        "Description": "A ticket for Solana Breakpoint 2023",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://www.solanau.org/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
