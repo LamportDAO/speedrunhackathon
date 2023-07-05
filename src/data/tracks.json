@@ -1,7 +1,10 @@
 [
     {
-        "Name": "Cubik",
+        "Name": "Cubik Prize",
         "PrizeWorth": 1000,
+        "Sponsor": [
+            "Cubik"
+        ],
         "PrizeUnit": "USDC",
         "Description": "Prize added to the matching pool during quadratic voting",
         "Ideas": [],
