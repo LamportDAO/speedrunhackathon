@@ -80,22 +80,24 @@ const TracksModalBody = ({
             ? `${
                 track?.PrizeUnit === 'BONK'
                   ? track?.PrizeWorth + 'B'
+                  : track?.PrizeUnit === 'BLZE' ?
+                  (track?.PrizeWorth + 'm')
                   : track?.PrizeWorth
               }`
             : '00k'}
         </Heading>
         <Text
-            fontSize={{ base: '16px', md: '18px' }}
-            pb='1.4rem'
+            fontSize={{ base: '16px', md: '1.5rem' }}
+            pb='0.5rem'
             fontWeight={'600'}
             fontFamily={Joystix.style.fontFamily}
         >
           {track ? `${track?.PrizeUnit}` : 'USDC'}
         </Text>
       </HStack>
-      <VStack pt={'3rem'} fontSize='xl' alignItems={'start'}>
+      <VStack pt={'1rem'} fontSize='xl' alignItems={'start'}>
         {track.Sponsor ? (
-          <HStack flexWrap={'wrap'} spacing='2rem'>
+          <HStack flexWrap={'wrap'} spacing='2rem' mb="1rem">
             {track.Sponsor?.map((sponsor, index) => (
               <Sponsor sponsorName={sponsor} key={index} />
             ))}

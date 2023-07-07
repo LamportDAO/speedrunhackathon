@@ -116,19 +116,20 @@ const CardDesktop = ({
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
             }
             bgClip={'text'}
-            fontSize={{ base: '2xl', sm: '3xl', md: '5xl' }}
+            fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}
             fontWeight='700'
             fontFamily={Joystix.style.fontFamily}
           >
             {track?.PrizeUnit === 'BONK'
-              ? track?.PrizeWorth + 'B'
-              : track?.PrizeWorth
+              ? (track?.PrizeWorth + 'B')
+              : track?.PrizeUnit === 'BLZE' ?
+              (track?.PrizeWorth + 'm') :
+              (track?.PrizeWorth)
               ? `${kFormatter(track.PrizeWorth)}`
               : 'TBA'}
           </Heading>
           <Text
-            pb={{ base: '0.1rem', md: '0.3rem' }}
-            fontSize={{ base: '1rem', md: '2rem' }}
+            fontSize={{ base: '1rem', md: '1.5rem' }}
             fontWeight={'600'}
             pl="1rem"
             fontFamily={Joystix.style.fontFamily}
