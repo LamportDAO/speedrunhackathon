@@ -60,7 +60,11 @@ const CardMobile = ({ track }: PropsType) => {
             fontFamily={Joystix.style.fontFamily}
           >
             {track
-              ? `${track?.PrizeUnit === 'BONK' ? track?.PrizeWorth + 'B' : track?.PrizeWorth
+              ? `${track?.PrizeUnit === 'BONK' ? 
+                    track?.PrizeWorth + 'B' :
+                    track?.PrizeUnit === 'BLZE' ?
+                    (track?.PrizeWorth + 'm') :
+                    track?.PrizeWorth
                     ? `${track.PrizeWorth}`
                     : 'TBA'}`
               : '00k'}
@@ -71,8 +75,8 @@ const CardMobile = ({ track }: PropsType) => {
             pl="1rem"
             fontWeight={'600'}
             fontFamily={Joystix.style.fontFamily}
-            textAlign='center'
-            alignContent='center'
+            textAlign='left'
+            alignContent='left'
           >
             {track ? track?.PrizeUnit : 'USDC'}
           </Text>
@@ -96,7 +100,7 @@ const CardMobile = ({ track }: PropsType) => {
           <VStack
             maxW={'full'}
             alignItems={'start'}
-            p='2.5rem 0rem 2rem 0rem'
+            p='1rem 0rem 2rem 0rem'
             rounded='2xl'
           >
             <VStack pt={'0rem'} fontSize='xl' alignItems={'start'}>
@@ -112,11 +116,12 @@ const CardMobile = ({ track }: PropsType) => {
               <Text
                 fontFamily={Joystix.style.fontFamily}
                 fontSize={{ base: 'sm', md: 'md' }}
-                pt='0rem'
+                alignSelf="left"
+                pt='1rem'
               >
                 {track
                   ? track?.Description
-                  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+                  : ''}
               </Text>
               {track?.PrizeDetails?.length! && (
                 <>

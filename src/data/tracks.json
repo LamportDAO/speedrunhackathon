@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Cubik Prize",
+        "Name": "Cubik",
         "PrizeWorth": 1000,
         "Sponsor": [
             "Cubik"
@@ -13,6 +13,40 @@
             {
                 "Title": "Website",
                 "Link": "https://www.cubik.so/"
+            }
+        ]
+    },
+    {
+        "Name": "Switchboard",
+        "PrizeWorth": 1000,
+        "Sponsor": [
+            "Switchboard"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Most unique gaming use case leveraging Switchboard Functions or Randomness",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://switchboard.xyz/"
+            }
+        ]
+    },
+    {
+        "Name": "SolBlaze",
+        "PrizeWorth": 2.5,
+        "Sponsor": [
+            "SolBlaze"
+        ],
+        "PrizeUnit": "BLZE",
+        "Description": "Solblaze is sponsoring 10 bSOL + 2.5m BLZE for games that integrate the bSOL token or interact with the BlazeStake protocol.",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://solblaze.org/"
             }
         ]
     },
