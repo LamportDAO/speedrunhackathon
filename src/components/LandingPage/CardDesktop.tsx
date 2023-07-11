@@ -116,7 +116,7 @@ const CardDesktop = ({
               'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
             }
             bgClip={'text'}
-            fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}
+            fontSize={{ base: '2xl', sm: '3xl', md: '3xl' }}
             fontWeight='700'
             fontFamily={Joystix.style.fontFamily}
           >

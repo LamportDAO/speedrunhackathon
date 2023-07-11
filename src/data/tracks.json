@@ -51,6 +51,27 @@
         ]
     },
     {
+        "Name": "Bonk",
+        "PrizeWorth": 2.69,
+        "Sponsor": [
+            "Bonk"
+        ],
+        "PrizeUnit": "BONK",
+        "Description": "Bonk is sponsoring a prize of 2,690,420,000 $BONK for the best integration of $BONK in a game",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@bonk_inu",
+                "Link": "https://twitter.com/bonk_inu"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.bonkcoin.com/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
