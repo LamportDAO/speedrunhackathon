@@ -72,6 +72,27 @@
         ]
     },
     {
+        "Name": "Gum",
+        "PrizeWorth": 500,
+        "Sponsor": [
+            "Gum"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Gum is sponsoring a 500 USDC prize for the best game built using Gum sessions",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@gumisfunn",
+                "Link": "https://twitter.com/gumisfunn"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.gum.fun/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
