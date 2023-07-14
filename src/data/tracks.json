@@ -1,5 +1,26 @@
 [
     {
+        "Name": "Magicblock",
+        "PrizeWorth": 2000,
+        "Sponsor": [
+            "Magicblock"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Magicblock is sponsoring a 2k USDC prize for the best fully on-chain game",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@magicblock",
+                "Link": "https://twitter.com/magicblock"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.magicblock.gg/"
+            }
+        ]
+    },
+    {
         "Name": "Cubik",
         "PrizeWorth": 1000,
         "Sponsor": [
