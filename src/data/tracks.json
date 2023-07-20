@@ -98,11 +98,11 @@
     },
     {
         "Name": "SolBlaze",
-        "PrizeWorth": 2.5,
+        "PrizeWorth": 10,
         "Sponsor": [
             "SolBlaze"
         ],
-        "PrizeUnit": "BLZE",
+        "PrizeUnit": "bSOL",
         "Description": "Solblaze is sponsoring 10 bSOL + 2.5m BLZE for games that integrate the bSOL token or interact with the BlazeStake protocol.",
         "Ideas": [],
         "Judges": [],
