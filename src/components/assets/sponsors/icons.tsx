@@ -858,6 +858,16 @@ const Bonk = () => {
     </Center>
   );
 };
+
+
+const Backpack = () => {
+  return (
+      <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/backpack.png' alt='speedrun' width={800} height={800} />
+      </Center>
+  );
+};
+
 const FlipSide = () => {
   return (
     <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '6rem', md: '8rem' }}>
@@ -1392,6 +1402,7 @@ const Magicblock = () => {
       </Center>
   );
 };
+
 
 const UnderdogProtocol = () => {
   return (
@@ -3126,5 +3137,6 @@ export {
   SolShield,
   Magicblock,
   Cubik,
-  Gum
+  Gum,
+  Backpack
 };

@@ -52,7 +52,7 @@ import {
   Gari,
   MetaCamp,
   SolShield,
-  Cubik, Gum
+  Cubik, Gum, Backpack
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -84,6 +84,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Clockwork />;
     case 'Helius':
       return <Helius />;
+    case 'Backpack':
+      return <Backpack />;
     case 'ChainFlow':
       return <Chainflow />;
     case 'Phantom':
