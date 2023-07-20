@@ -21,6 +21,48 @@
         ]
     },
     {
+        "Name": "Backpack",
+        "PrizeWorth": 1,
+        "Sponsor": [
+            "Backpack"
+        ],
+        "PrizeUnit": "MAD LAD",
+        "Description": "Backpack will award a Mad Lad for the best game deployed on Backpack as xNFT",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@xNFT_Backpack",
+                "Link": "https://twitter.com/xNFT_Backpack"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.backpack.app/"
+            }
+        ]
+    },
+    {
+        "Name": "Eclipse",
+        "PrizeWorth": 5000,
+        "Sponsor": [
+            "Eclipse"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Eclipse is sponsoring a 5k USDC prize for the best on-chain game built on a custom SVM rollup",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@EclipseFND",
+                "Link": "https://twitter.com/EclipseFND"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.eclipse.builders/"
+            }
+        ]
+    },
+    {
         "Name": "Cubik",
         "PrizeWorth": 1000,
         "Sponsor": [
@@ -110,27 +152,6 @@
             {
                 "Title": "Website",
                 "Link": "https://www.gum.fun/"
-            }
-        ]
-    },
-    {
-        "Name": "Eclipse",
-        "PrizeWorth": 5000,
-        "Sponsor": [
-            "Eclipse"
-        ],
-        "PrizeUnit": "USDC",
-        "Description": "Eclipse is sponsoring a 5k USDC prize for the best on-chain game built on a custom SVM rollup",
-        "Ideas": [],
-        "Judges": [],
-        "Links": [
-            {
-                "Title": "@EclipseFND",
-                "Link": "https://twitter.com/EclipseFND"
-            },
-            {
-                "Title": "Website",
-                "Link": "https://www.eclipse.builders/"
             }
         ]
     },
