@@ -156,6 +156,23 @@
         ]
     },
     {
+        "Name": "Solana Fnd",
+        "PrizeWorth": 1,
+        "Sponsor": [
+            "Solana Foundation"
+        ],
+        "PrizeUnit": "Booth",
+        "Description": "Solana Foundation will reserve a booth at the next PlayGG for the best community-voted game",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://solana.org/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
