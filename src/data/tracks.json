@@ -184,8 +184,12 @@
         "Judges": [],
         "Links": [
             {
+                "Title": "Item",
+                "Link": "https://github.com/raindrops-protocol/raindrops/blob/master/js/lib/src/contract/item.ts"
+            },
+            {
                 "Title": "Website",
-                "Link": "https://solana.org/"
+                "Link": "https://docs.raindrops.xyz/"
             }
         ]
     },
