@@ -174,12 +174,12 @@
     },
     {
         "Name": "Raindrops",
-        "PrizeWorth": 1000,
+        "PrizeWorth": 2000000,
         "Sponsor": [
             "Raindrops"
         ],
         "PrizeUnit": "RAIN",
-        "Description": "Raindrops is sponsoring",
+        "Description": "Raindrops is awarding 1M RAIN for the best integration of item crafting in-game. 1M RAIN will be added to the matching pool during quadratic voting",
         "Ideas": [],
         "Judges": [],
         "Links": [
