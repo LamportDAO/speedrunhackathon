@@ -122,7 +122,7 @@ const CardDesktop = ({
           >
             {track?.PrizeUnit === 'BONK'
               ? (track?.PrizeWorth + 'B')
-              : track?.PrizeUnit === 'BLZE' ?
+              : track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN' ?
               (track?.PrizeWorth + 'm') :
               (track?.PrizeWorth)
               ? `${kFormatter(track.PrizeWorth)}`

@@ -173,6 +173,23 @@
         ]
     },
     {
+        "Name": "Raindrops",
+        "PrizeWorth": 2,
+        "Sponsor": [
+            "Raindrops"
+        ],
+        "PrizeUnit": "RAIN",
+        "Description": "Raindrops is awarding 1M RAIN for the best integration of item crafting in-game. 1M RAIN will be added to the matching pool during quadratic voting",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://solana.org/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",

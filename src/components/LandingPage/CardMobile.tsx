@@ -60,9 +60,9 @@ const CardMobile = ({ track }: PropsType) => {
             fontFamily={Joystix.style.fontFamily}
           >
             {track
-              ? `${track?.PrizeUnit === 'BONK' ? 
+              ? `${track?.PrizeUnit === 'BONK'? 
                     track?.PrizeWorth + 'B' :
-                    track?.PrizeUnit === 'BLZE' ?
+                    track?.PrizeUnit === 'BLZE' || track?.PrizeUnit === 'RAIN' ?
                     (track?.PrizeWorth + 'm') :
                     track?.PrizeWorth
                     ? `${track.PrizeWorth}`

@@ -859,6 +859,14 @@ const Bonk = () => {
   );
 };
 
+const Raindrops = () => {
+  return (
+      <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/raindrops.png' alt='speedrun' width={800} height={800} />
+      </Center>
+  );
+};
+
 
 const Backpack = () => {
   return (
@@ -3138,5 +3146,6 @@ export {
   Magicblock,
   Cubik,
   Gum,
-  Backpack
+  Backpack,
+  Raindrops
 };
