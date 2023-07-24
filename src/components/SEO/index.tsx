@@ -12,7 +12,7 @@ const SEO = ({ title, description, image }: SeoPropsType) => {
       <meta property='og:description' content={description} />
       <meta property='og:image' content={image} />
       <meta property='og:type' content='website' />
-      <meta property='og:url' content={`https://${config.general.domain}/`} />
+      <meta property='og:url' content={`${config.general.domain}`} />
       <meta property='og:site_name' content={config.general.name} />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:title' content={title} />
