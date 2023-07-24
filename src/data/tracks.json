@@ -173,6 +173,23 @@
         ]
     },
     {
+        "Name": "Raindrops",
+        "PrizeWorth": 1000,
+        "Sponsor": [
+            "Raindrops"
+        ],
+        "PrizeUnit": "RAIN",
+        "Description": "Raindrops is sponsoring",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://solana.org/"
+            }
+        ]
+    },
+    {
         "Name": "More to come...",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
