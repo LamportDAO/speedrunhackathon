@@ -194,7 +194,24 @@
         ]
     },
     {
-        "Name": "More to come...",
+        "Name": "Solana U",
+        "PrizeWorth": 2,
+        "Sponsor": [
+            "Solana University"
+        ],
+        "PrizeUnit": "BP Ticket",
+        "Description": "SolanaU is sponsoring 2 Breakpoint tickets for the best game built by a student team",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://www.solanau.org/"
+            }
+        ]
+    },
+    {
+        "Name": "More to come",
         "PrizeWorth": 0,
         "PrizeUnit": "??",
         "Description": "Sponsors will be gradually announced as Speedrun approaches",
