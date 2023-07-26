@@ -6,7 +6,7 @@ import {
   ModalContent,
   ModalBody,
   useDisclosure,
-  useMediaQuery,
+  useMediaQuery, Text,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import TracksModalBody from './ModalBody';
@@ -15,6 +15,7 @@ import { trackType } from '../../../interfaces/track';
 import GlobalPrizes from './GlobalPrizes';
 import {Inktrap, Joystix} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
+import Image from "next/image";
 
 function getTotalTrackPrize(trackArray: any) {
   let totalTrackPrize = 25000;
@@ -68,12 +69,12 @@ const HeadingTotalPrize = () => {
           mb='4rem'
           mx='auto'
           maxW='fit-content'
-          fontSize={{ base: '2xl', md: '4xl' }}
+          fontSize={{ base: '3xl', md: '4xl' }}
           fontWeight='800'
           fontFamily={Joystix.style.fontFamily}
           textAlign='center'
         >
-          The main theme will be revealed before the event ❤️
+          The GameJam theme is: <br/><br/> <Text fontSize={{ base: '4xl', md: '6xl' }}> 🎉 Upgrade 🎉 </Text>
         </Heading>
         <br/>
         <br/>
