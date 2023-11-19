@@ -52,7 +52,6 @@ export default function Home() {
             fontWeight={'800'}
             fontFamily={Pixel.style.fontFamily}
           >
-             <br />
             {/*<Box as='span'>Speedrun</Box>*/}
             <Image src='./speedrun.svg' alt="Speedrun" width='900' height='500' />
           </Heading>
@@ -93,7 +92,7 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://lu.ma/j9zvspbs'
+              href='https://lu.ma/d6564wbw'
               target={'_blank'}
             >
               Register

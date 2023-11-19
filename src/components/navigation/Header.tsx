@@ -30,7 +30,7 @@ export default function Header() {
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
         fontSize={{ base: '14px', md: '18px' }}
-        href="https://lu.ma/j9zvspbs"
+        href="https://lu.ma/d6564wbw"
         className="luma-checkout--button"
       >
         Register

@@ -10,7 +10,7 @@ const nextConfig = {
       },
       {
         source: "/register",
-        destination: "https://lu.ma/j9zvspbs",
+        destination: "https://lu.ma/d6564wbw",
         permanent: false
       }
     ]
