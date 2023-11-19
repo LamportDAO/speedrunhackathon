@@ -71,7 +71,7 @@ const HeadingTotalPrize = () => {
           fontFamily={Pixel.style.fontFamily}
           textAlign='center'
         >
-          The main theme will be revealed before the event 🎮🕹️👾
+          The theme will be revealed before the event 🕹️
         </Heading>
         <br/>
         <br/>
