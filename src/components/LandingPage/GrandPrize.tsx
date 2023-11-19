@@ -40,14 +40,14 @@ const GrandPrize = () => {
           alignItems='center'
           textAlign='center'
         >
-          Fully on-chain games (FOCG) <br/>
+          FULLY ON-CHAIN GAMES (FOCG) <br/>
           <ul>
             <li>1st Place: $3,000</li>
             <li>2nd Place: $1,500</li>
             <li>3rd Place: $500</li>
           </ul>
           <br/>
-          Solana Integrated<br/>
+          SOLANA-INTEGRATED GAMES<br/>
           <ul>
             <li>1st Place:  $1,000</li>
           </ul>
