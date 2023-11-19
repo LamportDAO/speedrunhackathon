@@ -24,7 +24,7 @@ const Resources = () => {
                     fontSize={{base: '4xl', md: '6xl'}}
                     fontWeight='800'
                 >
-                    Resources
+                    RESOURCES
                 </Heading>
                 <Wrap
                     w='100%'
