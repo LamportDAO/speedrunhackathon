@@ -66,7 +66,7 @@ export default function Home() {
             textAlign={'center'}
           >
             <br/>
-            The second Solana Game Jam {' '}
+            Solana Game Jam - 2nd edition{' '}
             <br/>
             <Box as='span'  color={'white'}>
               <br/>
