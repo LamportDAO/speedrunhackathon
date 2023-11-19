@@ -72,7 +72,7 @@ const TracksAndPrizes = () => {
                     fontSize={{base: '4xl', md: '6xl'}}
                     fontWeight='800'
                 >
-                    Sponsored Tracks
+                    SPONSORED TRACKS
                 </Heading>
                 <Wrap
                     w='100%'
