@@ -40,7 +40,7 @@ const Game = () => {
                 fontSize={{ base: '4xl', md: '6xl' }}
                 fontWeight='800'
             >
-              Training Hub
+              TRAINING HUB
             </Heading>
             <Wrap
                 w='100%'
