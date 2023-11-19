@@ -10,15 +10,12 @@ import {
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import TracksModalBody from './ModalBody';
-import tracksData from '../../data/tracks.json';
 import { trackType } from '../../../interfaces/track';
-import GlobalPrizes from './GlobalPrizes';
-import {Inktrap, Joystix} from '../FontFamily';
+import {Pixel} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
-import Image from "next/image";
 
 function getTotalTrackPrize(trackArray: any) {
-  let totalTrackPrize = 25000;
+  let totalTrackPrize = 8000;
   trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
@@ -36,7 +33,7 @@ const HeadingTotalPrize = () => {
     setActiveTrack(track);
     onOpen();
   };
-  const totalTrackPrize = 25000;
+  const totalTrackPrize = 8000;
   return (
     <>
       <Modal
@@ -71,10 +68,10 @@ const HeadingTotalPrize = () => {
           maxW='fit-content'
           fontSize={{ base: '3xl', md: '4xl' }}
           fontWeight='800'
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           textAlign='center'
         >
-          The GameJam theme is: <br/><br/> <Text fontSize={{ base: '4xl', md: '6xl' }}> 🎉 Upgrade 🎉 </Text>
+          The main theme will be revealed before the event 🎮🕹️👾
         </Heading>
         <br/>
         <br/>

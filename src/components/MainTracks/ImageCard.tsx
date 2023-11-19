@@ -33,7 +33,7 @@ const FullyOnChainCard = () => {
         position: 'absolute',
         inset: '0',
         borderRadius: '1.2rem',
-        padding: '5px',
+        padding: '0px',
         background:
           BrowserName() === 'firefox'
             ? ''
@@ -198,7 +198,7 @@ const SolanaIntegratedCard = () => {
         position: 'absolute',
         inset: '0',
         borderRadius: '1.2rem',
-        padding: '5px',
+        padding: '0px',
         background:
           BrowserName() === 'firefox'
             ? ''

@@ -9,7 +9,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import {Inktrap, Joystix} from '../FontFamily';
+import {Inktrap, Pixel} from '../FontFamily';
 import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): number {
@@ -91,7 +91,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       }}
     >
       <Heading
-        fontFamily={Joystix.style.fontFamily}
+        fontFamily={Pixel.style.fontFamily}
         fontSize={{ base: 'xl', md: '3xl' }}
       >
         Prizes Worth
@@ -105,16 +105,16 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         <Heading
           bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
           bgClip={'text'}
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
           {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
         <Text
-          fontFamily={Joystix.style.fontFamily}
-          fontSize={{ base: '2xl', md: '4xl' }}
-          pb={{ base: '1.2rem', md: '2rem' }}
+          fontFamily={Pixel.style.fontFamily}
+          fontSize={{ base: '4xl', md: '6xl' }}
+          pb={{ base: '0.5rem', md: '1.5rem' }}
           fontWeight={'500'}
         >
           USDC
@@ -122,7 +122,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       </HStack>
 
       <Text
-        fontFamily={Joystix.style.fontFamily}
+        fontFamily={Pixel.style.fontFamily}
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >

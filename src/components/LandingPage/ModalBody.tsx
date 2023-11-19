@@ -13,7 +13,7 @@ import {
   ListIcon,
 } from '@chakra-ui/react';
 import React from 'react';
-import {Inktrap, Joystix} from '../FontFamily';
+import {Inktrap, Pixel} from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import Sponsor from './Sponsor';
 import { FiExternalLink } from 'react-icons/fi';
@@ -42,7 +42,7 @@ const TracksModalBody = ({
       >
         <Heading
           pt='0.5rem'
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           fontSize={{ base: '22px', md: '26px' }}
         >
           {track ? track?.Name : 'Hello World'}
@@ -70,7 +70,7 @@ const TracksModalBody = ({
           bgGradient={
             'linear-gradient(247.98deg, #E637C3 -8.03%, #D626B1 37.2%, #FAFC7F 109.33%)'
           }
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           bgClip={'text'}
           lineHeight={'70px'}
           fontSize={{ base: '44px', md: '52px' }}
@@ -90,7 +90,7 @@ const TracksModalBody = ({
             fontSize={{ base: '16px', md: '1.5rem' }}
             pb='0.5rem'
             fontWeight={'600'}
-            fontFamily={Joystix.style.fontFamily}
+            fontFamily={Pixel.style.fontFamily}
         >
           {track ? `${track?.PrizeUnit}` : 'USDC'}
         </Text>
@@ -106,7 +106,7 @@ const TracksModalBody = ({
           ''
         )}
         <Text
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           fontSize={{ base: 'sm', md: 'md' }}
           pt='0.4rem'
         >

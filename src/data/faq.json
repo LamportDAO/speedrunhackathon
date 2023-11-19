@@ -1,11 +1,15 @@
 [
     {
         "Question": "What is Speedrun?",
-        "Answer": "Speedrun is the first Solana Game Jam, a competition where developers have a limited time to create a game from scratch based on a given theme."
+        "Answer": "Speedrun is the second Solana Game Jam, a competition where developers have a limited time to create a game from scratch based on a given theme."
     },
     {
         "Question": "When will Speedrun take place?",
-        "Answer": "Solana Speedrun will take place from July 26th to July 30th."
+        "Answer": "Solana Speedrun will take place from December 12th to December 17th."
+    },
+    {
+        "Question": "Where will Speedrun take place?",
+        "Answer": "Speedrun will take place online, on the Lamport Discord server. There will also be physical locations in Singapore (Metacamp office) and India"
     },
     {
         "Question": "When will the Theme be revealed?",
@@ -13,7 +17,7 @@
     },
     {
         "Question": "What are the rules to submit my game?",
-        "Answer": "You can decide to take part in the Fully on-chain track, Solana-integrated track, sponsored tracks or any combination of these. You can find the requiremens on each individual track, but most importantly, your game must be playable! You will be judged by the community and by the sponsor commitee, so make sure you create a fun game first and foremost!"
+        "Answer": "You can decide to take part in the Fully on-chain track, Solana-integrated track, sponsored tracks or any combination of these. You can find the requirements on each individual track, but most importantly, your game must be playable! You will be judged by the community and by the sponsor committee, so make sure you create a fun game first and foremost!"
     },
     {
         "Question": "Can I submit a game that I've already developed?",
