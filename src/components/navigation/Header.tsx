@@ -20,7 +20,7 @@ export default function Header() {
         fontSize={'5xl'}
         onClick={() => router.push('/')}
       >
-        <Logo />
+        {/*<Logo />*/}
       </Center>
       <Button
         as='a'
