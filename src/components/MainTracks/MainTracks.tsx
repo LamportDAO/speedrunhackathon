@@ -16,7 +16,7 @@ const MainTracks = () => {
                 fontWeight='800'
                 fontFamily={Pixel.style.fontFamily}
             >
-                Main tracks
+                MAIN TRACKS
             </Heading>
             <Stack
                 maxW='4xl'
