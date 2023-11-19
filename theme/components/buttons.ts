@@ -5,7 +5,7 @@ export const Button = {
   backgroundColor: 'black',
   variants: {
     solid: (props: StyleFunctionProps) => ({
-      borderRadius: '10rem',
+      borderRadius: '0.5rem',
       color: 'white',
       padding: '8px 22px',
       backdropFilter: 'blur(10px)',
@@ -32,7 +32,7 @@ export const Button = {
       },
     }),
     gradient: (props: StyleFunctionProps) => ({
-      borderRadius: '10rem',
+      borderRadius: '0.5rem',
       color: 'white',
       fontWeight: '400',
       padding: '8px 22px',

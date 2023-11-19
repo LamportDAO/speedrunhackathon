@@ -57,7 +57,7 @@ export default function Home() {
           </Heading>
           <Text
             px='1rem'
-            pt={{ base: '0rem', md: '0.5rem' }}
+            pt={{ base: '0rem', md: '0rem' }}
             fontSize={{ base: '16px', sm: '18px', md: '28px' }}
             fontWeight='500'
             maxW='4xl'
