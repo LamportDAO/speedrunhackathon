@@ -5,7 +5,7 @@ import {FullyOnChainCard, SolanaIntegratedCard} from './ImageCard';
 
 const MainTracks = () => {
     return (
-        <Container pt={{base: '10vh', md: '10vh'}} maxW='7xl'>
+        <Container pt={{base: '10vh', md: '14vh'}} maxW='7xl'>
             <Heading
                 bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                 bgClip={'text'}
@@ -23,7 +23,7 @@ const MainTracks = () => {
                 mx='auto'
                 flexWrap={'wrap'}
                 alignItems={'center'}
-                //  gap={{ base: '0.2rem', md: '1rem' }}
+                //gap={{ base: '0.2rem', md: '1rem' }}
                 justify='center'
                 gap='1.5rem'
                 spacing='0'

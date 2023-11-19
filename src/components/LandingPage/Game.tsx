@@ -29,7 +29,7 @@ const Game = () => {
     let height = 516;
     return (
         <>
-          <Center flexDirection={'column'} maxW={'4xl'} py='4rem'>
+          <Center flexDirection={'column'} maxW={'4xl'} py={{base:'5rem', md:"6rem"}}>
             <Heading
                 bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
                 bgClip={'text'}

@@ -76,14 +76,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         position: 'absolute',
         inset: isMobile ? 'none' : BrowserName() === 'safari' ? 'none' : '0',
         borderRadius: '1.2rem',
-        padding: '4px',
-        background: hover
-          ? `${
-              BrowserName() === 'firefox'
-                ? ''
-                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
-            }`
-          : '',
+        padding: '0px',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
