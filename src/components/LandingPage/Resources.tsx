@@ -48,7 +48,6 @@ const Resources = () => {
                             fontFamily={Inktrap.style.fontFamily}
                             backdropFilter='blur(10px)'
                             backgroundColor='rgba(255, 255, 255, 0.10)'
-                            rounded={'full'}
                             p='0.35rem 1rem 0rem 1rem'
                             mt='2rem'
                             color='white'
