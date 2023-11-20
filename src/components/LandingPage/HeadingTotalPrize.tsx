@@ -71,7 +71,7 @@ const HeadingTotalPrize = () => {
           fontFamily={Pixel.style.fontFamily}
           textAlign='center'
         >
-          The theme will be revealed before the event 🕹️
+          The theme will be revealed before the event <Text fontSize={{ base: '4xl', md: '7xl' }}>🕹️</Text>
         </Heading>
         <br/>
         <br/>
