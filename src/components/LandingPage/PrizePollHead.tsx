@@ -119,7 +119,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >
-        Across main and sponsored tracks, fairly distributed by community voting.
+        across main and sponsored tracks, distributed by community voting and sponsors.
       </Text>
 
       {/*<Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>*/}
