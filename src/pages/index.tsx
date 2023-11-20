@@ -7,13 +7,11 @@ import {
   Container,
   Heading,
   HStack,
-  Icon,
   Text,
   VStack,
 } from '@chakra-ui/react';
 import TracksAndPrizes from '../components/LandingPage/TracksAndPrizes';
-import {Inktrap, Joystix} from '../components/FontFamily';
-import SponsorsSection from '../components/LandingPage/SponsorsSection';
+import {Pixel} from '../components/FontFamily';
 import { FaDiscord } from 'react-icons/fa';
 import MainTracks from '../components/MainTracks/MainTracks';
 import { BrowserName } from '../broswerName';
@@ -23,6 +21,7 @@ import FAQ from "../components/LandingPage/FAQ";
 import Image from "next/image";
 import Game from "../components/LandingPage/Game";
 import Resources from "../components/LandingPage/Resources";
+import GrandPrize from "../components/LandingPage/GrandPrize";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -35,7 +34,7 @@ export default function Home() {
     <>
       <SEO
         title={`${config.general.name}`}
-        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Magicblock from Jul 26 - 30, 2023.`}
+        description={`${config.general.name} is a virtual hackathon organized by LamportDAO and Magicblock from December 12 - 17, 2023.`}
         image={`https://solanaspeedrun.com/speedrun.jpg`}
       />
       <Container maxW={'8xl'} p='0' >
@@ -51,27 +50,26 @@ export default function Home() {
             lineHeight={['58px', '72px', '90px', '130px', '130px']}
             textAlign={'center'}
             fontWeight={'800'}
-            fontFamily={Joystix.style.fontFamily}
+            fontFamily={Pixel.style.fontFamily}
           >
-            Solana <br />
             {/*<Box as='span'>Speedrun</Box>*/}
             <Image src='./speedrun.svg' alt="Speedrun" width='900' height='500' />
           </Heading>
           <Text
             px='1rem'
-            pt={{ base: '0rem', md: '0.5rem' }}
-            fontSize={{ base: '16px', sm: '18px', md: '24px' }}
+            pt={{ base: '0rem', md: '0rem' }}
+            fontSize={{ base: '16px', sm: '18px', md: '28px' }}
             fontWeight='500'
-            maxW='3xl'
-            fontFamily={Joystix.style.fontFamily}
+            maxW='4xl'
+            fontFamily={Pixel.style.fontFamily}
             textAlign={'center'}
           >
             <br/>
-            The first virtual Solana Game Jam {' '}
+            Solana Game Jam - 2nd edition{' '}
             <br/>
             <Box as='span'  color={'white'}>
               <br/>
-              July 26th - July 30th
+              December 12th - 17th
             </Box>{' '}
             {/*presented by LamportDAO & Magicblock*/}
           </Text>
@@ -94,7 +92,7 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://lu.ma/j9zvspbs'
+              href='https://lu.ma/d6564wbw'
               target={'_blank'}
             >
               Register
@@ -123,6 +121,9 @@ export default function Home() {
         </Center>
         <Center pb='10rem' id='track'>
           {BrowserName() === 'firefox' ? '' : <MainTracks />}
+        </Center>
+        <Center>
+          <GrandPrize />
         </Center>
         <Center>
           <TracksAndPrizes />

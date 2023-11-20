@@ -1,19 +1,23 @@
 [
     {
         "Question": "What is Speedrun?",
-        "Answer": "Speedrun is the first Solana Game Jam, a competition where developers have a limited time to create a game from scratch based on a given theme."
+        "Answer": "Speedrun is a recurring Solana Game Jam, a competition where developers have a limited time to create a game from scratch based on a given theme."
     },
     {
         "Question": "When will Speedrun take place?",
-        "Answer": "Solana Speedrun will take place from July 26th to July 30th."
+        "Answer": "Solana Speedrun will take place from December 12th to December 17th."
+    },
+    {
+        "Question": "Where will Speedrun take place?",
+        "Answer": "Speedrun is a virtual event - anybody can participate regardless of their location. Physical events might be set up by local communities. Join the Discord server to discover the closest physical venue and hack IRL with your local community."
     },
     {
         "Question": "When will the Theme be revealed?",
-        "Answer": "The theme will be revealed at the beginning of the competition and all participants must create a game that incorporates the main Theme."
+        "Answer": "The theme will be revealed at the beginning of the competition and participants must create a game that incorporates the main Theme."
     },
     {
         "Question": "What are the rules to submit my game?",
-        "Answer": "You can decide to take part in the Fully on-chain track, Solana-integrated track, sponsored tracks or any combination of these. You can find the requiremens on each individual track, but most importantly, your game must be playable! You will be judged by the community and by the sponsor commitee, so make sure you create a fun game first and foremost!"
+        "Answer": "You can decide to take part in the Fully On-chain or Solana-integrated track. Sponsored tracks are additional tracsk you can particiapate in to win any combination of prizez, on top of the main tracks. As long as you respect the requirement of a track, you can opt-in into it. As a general rule, your game must be playable - make sure you create a fun game first and foremost!"
     },
     {
         "Question": "Can I submit a game that I've already developed?",
@@ -32,7 +36,7 @@
         "Answer": "It doesn't matter as long as it is playable. Make sure to explore our resources before the Theme reveal to familiarize with the stack and complete your project before the deadline."
     },
     {
-        "Question": "Where can I find resources to prepare for the GameJam?",
+        "Question": "Where can I find resources to prepare for the Game Jam?",
         "Answer": "Preparing and being familiar with existing resources and tools on Solana is essential to gaining an edge. Below is a curated list of resources.",
         "Links": [
             {

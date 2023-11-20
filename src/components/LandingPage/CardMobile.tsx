@@ -10,7 +10,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import {Inktrap, Joystix} from '../FontFamily';
+import {Inktrap, Pixel} from '../FontFamily';
 import { trackType } from '../../../interfaces/track';
 import { FiExternalLink } from 'react-icons/fi';
 import Sponsor from './Sponsor';
@@ -45,7 +45,7 @@ const CardMobile = ({ track }: PropsType) => {
           fontWeight={'700'}
           fontSize={{ base: '14px', md: '18px' }}
           noOfLines={1}
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
         >
           {track ? track?.Name : 'Hello World'}
         </Heading>
@@ -57,7 +57,7 @@ const CardMobile = ({ track }: PropsType) => {
             bgClip={'text'}
             fontSize={{ base: '3xl', sm: '3xl', md: '5xl' }}
             fontWeight='700'
-            fontFamily={Joystix.style.fontFamily}
+            fontFamily={Pixel.style.fontFamily}
           >
             {track
               ? `${track?.PrizeUnit === 'BONK'? 
@@ -74,7 +74,7 @@ const CardMobile = ({ track }: PropsType) => {
             fontSize={{ base: '1rem', md: '2rem' }}
             pl="1rem"
             fontWeight={'600'}
-            fontFamily={Joystix.style.fontFamily}
+            fontFamily={Pixel.style.fontFamily}
             textAlign='left'
             alignContent='left'
           >
@@ -114,7 +114,7 @@ const CardMobile = ({ track }: PropsType) => {
                 ''
               )}
               <Text
-                fontFamily={Joystix.style.fontFamily}
+                fontFamily={Pixel.style.fontFamily}
                 fontSize={{ base: 'sm', md: 'md' }}
                 alignSelf="left"
                 pt='1rem'

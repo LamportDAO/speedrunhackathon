@@ -10,6 +10,7 @@ import {
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { BrowserName } from '../../broswerName';
+import {Pixel} from "../FontFamily";
 
 const handleClickScroll = () => {
     const element = document.getElementById('track');
@@ -33,11 +34,7 @@ const FullyOnChainCard = () => {
         position: 'absolute',
         inset: '0',
         borderRadius: '1.2rem',
-        padding: '5px',
-        background:
-          BrowserName() === 'firefox'
-            ? ''
-            : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+        padding: '0px',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -56,7 +53,8 @@ const FullyOnChainCard = () => {
           mt='auto'
           mb='1rem'
           fontWeight={'700'}
-          fontSize={{ base: 'xl', md: '2xl' }}
+          fontSize={{ base: '2xl', md: '2.5xl' }}
+          fontFamily={Pixel.style.fontFamily}
         >
             Fully on-chain
         </Text>
@@ -69,11 +67,7 @@ const FullyOnChainCard = () => {
             position: 'absolute',
             inset: '0',
             borderRadius: '1.2rem',
-            padding: '5px',
-            background:
-              BrowserName() === 'firefox'
-                ? ''
-                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+            padding: '0px',
             WebkitMask:
               'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
             WebkitMaskComposite: 'xor',
@@ -96,7 +90,7 @@ const FullyOnChainCard = () => {
             h={{ base: 'auto', md: '3rem' }}
             // overflow='hidden'
           >
-            <Text whiteSpace={'nowrap'} fontWeight={'700'} fontSize='lg'>
+            <Text whiteSpace={'nowrap'} fontWeight={'700'} fontSize='lg' fontFamily={Pixel.style.fontFamily}>
               Fully on-chain
             </Text>
             <Center
@@ -198,11 +192,7 @@ const SolanaIntegratedCard = () => {
         position: 'absolute',
         inset: '0',
         borderRadius: '1.2rem',
-        padding: '5px',
-        background:
-          BrowserName() === 'firefox'
-            ? ''
-            : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))',
+        padding: '0px',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -220,7 +210,8 @@ const SolanaIntegratedCard = () => {
           mt='auto'
           mb='1rem'
           fontWeight={'700'}
-          fontSize={{ base: 'xl', md: '2xl' }}
+          fontSize={{ base: '2xl', md: '2.5xl' }}
+          fontFamily={Pixel.style.fontFamily}
         >
           Solana-integrated
         </Text>
@@ -233,7 +224,7 @@ const SolanaIntegratedCard = () => {
             position: 'absolute',
             inset: '0',
             borderRadius: '1.2rem',
-            padding: '5px',
+            padding: '0px',
             background:
               BrowserName() === 'firefox'
                 ? ''
@@ -260,7 +251,8 @@ const SolanaIntegratedCard = () => {
             h={{ base: 'auto', md: '3rem' }}
             // overflow='hidden'
           >
-            <Text fontWeight={'700'} fontSize='lg'>
+            <Text fontWeight={'700'} fontSize='lg'
+                  fontFamily={Pixel.style.fontFamily}>
               Solana-integrated
             </Text>
             <Center

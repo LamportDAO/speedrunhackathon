@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Center
       position={'absolute'}
-      mt='20rem'
+      mt='10rem'
       height={{
         base: '150px',
         sm: '100px',

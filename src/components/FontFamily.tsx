@@ -50,11 +50,16 @@ export const Inktrap = localFont({
   ],
 });
 
-export const Joystix = localFont({
+export const Pixel = localFont({
   src: [
     {
-      path: '../../public/fonts/joystix.woff2',
+      path: '../../public/fonts/pixel.woff2',
       weight: '100',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/pixel.woff2',
+      weight: '800',
       style: 'normal',
     }
   ],

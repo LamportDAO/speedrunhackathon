@@ -3,9 +3,9 @@ import React from 'react';
 import { Inktrap } from '../FontFamily';
 import Sponsor from './Sponsor';
 const presentersNames = [
+  'Magicblock',
   'Solana Foundation',
   'Lamport DAO',
-  'Magicblock',
 ];
 const PresentedBy = () => {
   return (

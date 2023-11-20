@@ -9,7 +9,7 @@ import {
   WrapItem,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
-import {Inktrap, Joystix} from '../FontFamily';
+import {Inktrap, Pixel} from '../FontFamily';
 import { BrowserName } from '../../broswerName';
 
 function kFormatter(num: number): number {
@@ -76,14 +76,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         position: 'absolute',
         inset: isMobile ? 'none' : BrowserName() === 'safari' ? 'none' : '0',
         borderRadius: '1.2rem',
-        padding: '4px',
-        background: hover
-          ? `${
-              BrowserName() === 'firefox'
-                ? ''
-                : 'linear-gradient(130deg,rgba(230, 55, 195, 0.5), rgba(214, 38, 177, 1),  rgba(249, 252, 127, 1))'
-            }`
-          : '',
+        padding: '0px',
         WebkitMask:
           'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)',
         WebkitMaskComposite: 'xor',
@@ -91,7 +84,7 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       }}
     >
       <Heading
-        fontFamily={Joystix.style.fontFamily}
+        fontFamily={Pixel.style.fontFamily}
         fontSize={{ base: 'xl', md: '3xl' }}
       >
         Prizes Worth
@@ -105,16 +98,16 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
         <Heading
           bgGradient={`linear-gradient(30deg, #D273D9 -8.03%, #D273D9 37.2%, #404DCF 109.33%)`}
           bgClip={'text'}
-          fontFamily={Joystix.style.fontFamily}
+          fontFamily={Pixel.style.fontFamily}
           fontSize={{ base: '6xl', md: '9xl' }}
           fontWeight='800'
         >
           {Math.round(kFormatter(totalPoolPrize))}k
         </Heading>
         <Text
-          fontFamily={Joystix.style.fontFamily}
-          fontSize={{ base: '2xl', md: '4xl' }}
-          pb={{ base: '1.2rem', md: '2rem' }}
+          fontFamily={Pixel.style.fontFamily}
+          fontSize={{ base: '4xl', md: '6xl' }}
+          pb={{ base: '0.5rem', md: '1.5rem' }}
           fontWeight={'500'}
         >
           USDC
@@ -122,11 +115,11 @@ const PrizePoolHead = ({ totalPoolPrize }: { totalPoolPrize: number }) => {
       </HStack>
 
       <Text
-        fontFamily={Joystix.style.fontFamily}
+        fontFamily={Pixel.style.fontFamily}
         pt={'1rem'}
         fontSize={{ base: 'md', md: 'lg' }}
       >
-        Across main and sponsored tracks, fairly distributed by community voting.
+        across main and sponsored tracks, distributed by community voting and sponsors.
       </Text>
 
       {/*<Wrap pt='0.5rem' spacing='0.6rem' fontWeight={'500'} fontSize='md'>*/}
