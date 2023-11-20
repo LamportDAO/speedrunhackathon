@@ -21,6 +21,7 @@ const SEO = ({ title, description, image }: SeoPropsType) => {
       <meta name='twitter:image:alt' content={description} />
       <meta name='twitter:site' content={config.general.twitterHandle} />
       <meta name='twitter:creator' content={config.general.twitterHandle} />
+      <meta prefix="og: http://ogp.me/ns#"/>
       <link rel='icon' href='/favicon.ico' />
     </Head>
   );
