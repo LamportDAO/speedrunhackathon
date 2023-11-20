@@ -22,6 +22,7 @@ import Image from "next/image";
 import Game from "../components/LandingPage/Game";
 import Resources from "../components/LandingPage/Resources";
 import GrandPrize from "../components/LandingPage/GrandPrize";
+import SponsorsSection from "../components/LandingPage/SponsorsSection";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -125,6 +126,9 @@ export default function Home() {
         <Center>
           <GrandPrize />
         </Center>
+        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
+          <SponsorsSection />
+        </Center>
         <Center>
           <TracksAndPrizes />
         </Center>
@@ -134,9 +138,6 @@ export default function Home() {
         <Center>
           <FAQ />
         </Center>
-        {/*<Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>*/}
-        {/*  /!*<SponsorsSection />*!/*/}
-        {/*</Center>*/}
         <Center>
           <Game />
         </Center>
