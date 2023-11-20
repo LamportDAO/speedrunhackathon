@@ -126,9 +126,6 @@ export default function Home() {
         <Center>
           <GrandPrize />
         </Center>
-        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
-          <SponsorsSection />
-        </Center>
         <Center>
           <TracksAndPrizes />
         </Center>
@@ -137,6 +134,9 @@ export default function Home() {
         </Center>
         <Center>
           <FAQ />
+        </Center>
+        <Center py='12rem' px={{ base: '2rem', md: '3rem', lg: '5rem' }}>
+          <SponsorsSection />
         </Center>
         <Center>
           <Game />

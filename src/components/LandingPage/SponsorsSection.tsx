@@ -4,11 +4,11 @@ import {Inktrap, Pixel} from '../FontFamily';
 import Sponsor from './Sponsor';
 
 const sponsorNames = [
-    'Phantom',
-    'MetaCamp',
-    'Lamport DAO',
+    // 'Phantom',
     'Magicblock',
     'Solana Foundation',
+    'Lamport DAO',
+    'MetaCamp',
 ];
 const SponsorsSection = () => {
     return (
