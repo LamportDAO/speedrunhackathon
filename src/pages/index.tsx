@@ -23,6 +23,7 @@ import Game from "../components/LandingPage/Game";
 import Resources from "../components/LandingPage/Resources";
 import GrandPrize from "../components/LandingPage/GrandPrize";
 import SponsorsSection from "../components/LandingPage/SponsorsSection";
+import Locations from "../components/Locations/Locations";
 
 export default function Home() {
   const handleClickScroll = () => {
@@ -128,6 +129,9 @@ export default function Home() {
         </Center>
         <Center>
           <TracksAndPrizes />
+        </Center>
+        <Center>
+          <Locations />
         </Center>
         <Center>
           <Resources />
