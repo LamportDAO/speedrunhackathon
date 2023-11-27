@@ -96,7 +96,7 @@ const CardDesktop = ({
       >
         <Heading
           fontWeight={'700'}
-          fontSize={{ base: '14px', md: '18px' }}
+          fontSize={{ base: '18px', md: '24px' }}
           fontFamily={Pixel.style.fontFamily}
           noOfLines={1}
           textAlign='center'
