@@ -1,5 +1,27 @@
 [
     {
+        "Name": "Bonk",
+        "PrizeWorth": 6969,
+        "Sponsor": [
+            "Bonk"
+        ],
+        "PrizeUnit": "USDC*",
+        "Description": "Bonk is sponsoring $6969 worth of Bonk for",
+        "Requirements": "Bonk is sponsoring $6969 worth of Bonk for",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://bonkcoin.com/"
+            },
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/bonk_inu"
+            }
+        ]
+    },
+    {
         "Name": "SolBlaze",
         "PrizeWorth": 2.5,
         "Sponsor": [
