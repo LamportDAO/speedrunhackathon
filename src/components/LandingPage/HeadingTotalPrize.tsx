@@ -15,7 +15,7 @@ import {Pixel} from '../FontFamily';
 import TotalPrize from "./TotalPrize";
 
 function getTotalTrackPrize(trackArray: any) {
-  let totalTrackPrize = 10000;
+  let totalTrackPrize = 15000;
   trackArray.forEach((track: { PrizeWorth: string, PrizeUnit: string }) => {
     if (track.PrizeWorth && track.PrizeUnit.startsWith("USDC")) {
       totalTrackPrize += parseInt(track.PrizeWorth);
@@ -33,7 +33,7 @@ const HeadingTotalPrize = () => {
     setActiveTrack(track);
     onOpen();
   };
-  const totalTrackPrize = 10000;
+  const totalTrackPrize = 15000;
   return (
     <>
       <Modal

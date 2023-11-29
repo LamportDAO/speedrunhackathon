@@ -1,16 +1,20 @@
 [
     {
-        "Name": "Bonk",
+        "Name": "BONK",
         "PrizeWorth": 6969,
         "Sponsor": [
             "Bonk"
         ],
         "PrizeUnit": "USDC*",
-        "Description": "Bonk is sponsoring $6969 worth of BONK for BONK Squad",
-        "Requirements": "https://docs.google.com/document/d/1zlGw1M5cAYO2yGdh3k1wmkpfX_BXL0sqAFL9-tjCmfk/edit?usp=sharing",
+        "Description": "Bonk is sponsoring $6969 worth of BONK for BONK Squad. BONKSquad is a game on the Solana blockchain where users can form squads and participate in social tasks to earn BONK tokens. The goal is to create a fun and engaging platform that encourages social interaction and teamwork.",
+        "Requirements": "See the full requirements for BONKSquad in the link below.",
         "Ideas": [],
         "Judges": [],
         "Links": [
+            {
+                "Title": "Requirements",
+                "Link": "https://docs.google.com/document/d/1zlGw1M5cAYO2yGdh3k1wmkpfX_BXL0sqAFL9-tjCmfk/edit?usp=sharing"
+            },
             {
                 "Title": "Website",
                 "Link": "https://bonkcoin.com/"
