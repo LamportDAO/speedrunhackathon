@@ -26,6 +26,28 @@
         ]
     },
     {
+        "Name": "GameShift",
+        "PrizeWorth": 2000,
+        "Sponsor": [
+            "GameShift"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "\uD83D\uDEE0\uFE0F We're calling all creative minds to build a game that harnesses the power of GameShift to deliver a frictionless blockchain experience for players. Integrating the GameShift API will take you only a few simple steps, so you can focus on engaging gameplay rather than blockchain coding.",
+        "Requirements": "See the full requirements for BONKSquad in the link below.",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Requirements",
+                "Link": "https://docs.google.com/document/d/1QAYqroyvrr09QEsn82kQqokYdhOkGfklJFIrFPqq1IQ/edit?usp=sharing"
+            },
+            {
+                "Title": "GameShift",
+                "Link": "https://app.gameshift.dev/"
+            }
+        ]
+    },
+    {
         "Name": "SolBlaze",
         "PrizeWorth": 2.5,
         "Sponsor": [
