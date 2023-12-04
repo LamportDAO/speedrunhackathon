@@ -52,6 +52,7 @@ import {
   Gari,
   MetaCamp,
   SolShield,
+  GameShift,
   Cubik, Gum, Backpack, Raindrops
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
@@ -166,6 +167,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <MetaCamp />;
     case 'Cubik':
       return <Cubik />;
+    case 'GameShift':
+      return <GameShift />;
     case 'Gum':
       return <Gum />;
     default:

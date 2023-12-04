@@ -26,6 +26,28 @@
         ]
     },
     {
+        "Name": "GameShift",
+        "PrizeWorth": 2000,
+        "Sponsor": [
+            "GameShift"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "GameShift is sponsoring a game integrating the GameShift API, to deliver a frictionless blockchain experience for players",
+        "Requirements": "See the full requirements in the link below.",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Requirements",
+                "Link": "https://docs.google.com/document/d/1QAYqroyvrr09QEsn82kQqokYdhOkGfklJFIrFPqq1IQ/edit?usp=sharing"
+            },
+            {
+                "Title": "GameShift",
+                "Link": "https://app.gameshift.dev/"
+            }
+        ]
+    },
+    {
         "Name": "SolBlaze",
         "PrizeWorth": 2.5,
         "Sponsor": [
