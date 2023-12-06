@@ -65,6 +65,23 @@
         ]
     },
     {
+        "Name": "Mobile Track",
+        "PrizeWorth": 1,
+        "Sponsor": [
+            "Solana Mobile"
+        ],
+        "PrizeUnit": "SAGA",
+        "Description": "Solana Mobile is sponsoring 1 Saga for the best game submitted to the Solana dApp Store.",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://solanamobile.com/"
+            }
+        ]
+    },
+    {
         "Name": "TO BE REVELEAD",
         "PrizeWorth": 0,
         "Sponsor": [
