@@ -48,6 +48,28 @@
         ]
     },
     {
+        "Name": "Eclipse",
+        "PrizeWorth": 1000,
+        "Sponsor": [
+            "Eclipse"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Eclipse is sponsoring a 1k USDC prize for the best on-chain game built on a custom SVM rollup",
+        "Requirements": "See the full requirements in the link below.",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "@EclipseFND",
+                "Link": "https://twitter.com/EclipseFND"
+            },
+            {
+                "Title": "Website",
+                "Link": "https://www.eclipse.builders/"
+            }
+        ]
+    },
+    {
         "Name": "SolBlaze",
         "PrizeWorth": 2.5,
         "Sponsor": [
