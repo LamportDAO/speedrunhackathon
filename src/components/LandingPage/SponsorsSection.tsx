@@ -4,11 +4,14 @@ import {Inktrap, Pixel} from '../FontFamily';
 import Sponsor from './Sponsor';
 
 const sponsorNames = [
-    // 'Phantom',
-    'Magicblock',
+    'Bonk',
+    'GameShift',
+    'SolBlaze',
+    'Solana Mobile',
     'Solana Foundation',
     'Lamport DAO',
     'MetaCamp',
+    'Magicblock',
 ];
 const SponsorsSection = () => {
     return (
