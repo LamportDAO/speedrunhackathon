@@ -1,5 +1,27 @@
 [
     {
+        "Name": "Metaplex",
+        "PrizeWorth": 300000,
+        "Sponsor": [
+            "Metaplex"
+        ],
+        "PrizeUnit": "MPLX",
+        "Description": "The Metaplex Foundation will be granting 150,000 $MPLX to the top three projects that leverage the Metaplex protocol.\n\n\t\t1st - 75,000 MPLX - 2nd - 50,000 MPLX - 3rd - 25,000 MPLX",
+        "Requirements": "Projects will be evaluated on the following factors: \n\nFun gameplay, engaging and novel mechanics, creative use of the Metaplex Program Library",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://www.metaplex.com/"
+            },
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/metaplex"
+            }
+        ]
+    },
+    {
         "Name": "BONK",
         "PrizeWorth": 6969,
         "Sponsor": [
