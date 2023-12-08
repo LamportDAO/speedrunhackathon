@@ -49,13 +49,12 @@
     },
     {
         "Name": "Eclipse",
-        "PrizeWorth": 1000,
+        "PrizeWorth": 1500,
         "Sponsor": [
             "Eclipse"
         ],
         "PrizeUnit": "USDC",
-        "Description": "Eclipse is sponsoring a 1k USDC prize for the best on-chain game built on a custom SVM rollup",
-        "Requirements": "See the full requirements in the link below.",
+        "Description": "Eclipse is sponsoring a 1.5k USDC prize for the best on-chain game built on Eclipse SVM rollup",
         "Ideas": [],
         "Judges": [],
         "Links": [
