@@ -53,7 +53,7 @@ import {
   MetaCamp,
   SolShield,
   GameShift,
-  Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex
+  Cubik, Gum, Backpack, Raindrops, SolanaMobile, Nokiamon, Metaplex, Turbo
 } from '../assets/sponsors/icons';
 const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
   switch (sponserName) {
@@ -177,6 +177,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <Gum />;
     case 'Nokiamon':
       return <Nokiamon />;
+    case 'Turbo':
+      return <Turbo />;
     default:
       return <></>;
   }
