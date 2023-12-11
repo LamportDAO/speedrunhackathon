@@ -7,6 +7,7 @@ const sponsorNames = [
     'Bonk',
     'GameShift',
     'SolBlaze',
+    'Nokiamon',
     'Solana Mobile',
     'Solana Foundation',
     'Lamport DAO',
