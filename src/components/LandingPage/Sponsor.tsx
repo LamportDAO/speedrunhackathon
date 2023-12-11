@@ -175,6 +175,8 @@ const Sponsor = ({ sponsorName: sponserName }: { sponsorName: String }) => {
       return <SolanaMobile />;
     case 'Gum':
       return <Gum />;
+    case 'Nokiamon':
+      return <Nokiamon />;
     default:
       return <></>;
   }
