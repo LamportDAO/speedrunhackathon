@@ -831,6 +831,14 @@ const Bonk = () => {
   );
 };
 
+const Metaplex = () => {
+    return (
+        <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/metaplex.png' alt='speedrun' width={800} height={800} />
+        </Center>
+    );
+}
+
 const Raindrops = () => {
   return (
       <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3166,6 +3174,7 @@ export {
   Multicoin,
   MetaCamp,
   Frakt,
+  Metaplex,
   Orca,
   Reciprocal,
   Civic,
