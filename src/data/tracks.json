@@ -181,23 +181,36 @@
         ]
     },
     {
-        "Name": "TO BE REVEALED",
-        "PrizeWorth": 0,
+        "Name": "Magicblock",
+        "PrizeWorth": 2500,
         "Sponsor": [
             "Magicblock"
         ],
-        "PrizeUnit": "",
-        "Description": "Sponsored tracks will be announced soon. Stay tuned!",
+        "PrizeUnit": "USDC",
+        "Description": "Magicblock is sponsoring $1500 to the best fully on-chain game built using Bolt and $1000 to the best fully on-chain game integrating Soar for on-chain leaderboards or achievements.",
         "Ideas": [],
         "Judges": [],
+        "Requirements": "Any game using the Bolt framework is eligible, whether on mainnet or devnet. Games integrating Soar must be deployed on mainnet to be eligible.",
         "Links": [
-            {
-                "Title": "@magicblock",
-                "Link": "https://twitter.com/magicblock"
-            },
             {
                 "Title": "Website",
                 "Link": "https://www.magicblock.gg/"
+            },
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/magicblock"
+            },
+            {
+                "Title": "Soar",
+                "Link": "https://docs.magicblock.gg/Open-source%20programs/SOAR"
+            },
+            {
+                "Title": "Soar with Unity",
+                "Link": "https://solana.unity-sdk.gg/docs/soar"
+            },
+            {
+                "Title": "Bolt",
+                "Link": "https://book.boltengine.gg/"
             }
         ]
     }
