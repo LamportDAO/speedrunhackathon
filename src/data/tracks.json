@@ -1,7 +1,7 @@
 [
     {
         "Name": "Metaplex",
-        "PrizeWorth": 300000,
+        "PrizeWorth": 150000,
         "Sponsor": [
             "Metaplex"
         ],
@@ -11,6 +11,10 @@
         "Ideas": [],
         "Judges": [],
         "Links": [
+            {
+                "Title": "Requirements",
+                "Link": "https://docs.google.com/document/d/1aUFma8htRdzTOQ4gLrDpSAglXsaCdMzn2nVwLYJwOVw/edit?usp=sharing"
+            },
             {
                 "Title": "Website",
                 "Link": "https://www.metaplex.com/"
