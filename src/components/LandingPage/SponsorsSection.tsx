@@ -10,6 +10,7 @@ const sponsorNames = [
     'Nokiamon',
     'Solana Mobile',
     'Solana Foundation',
+    'Metaplex',
     'Lamport DAO',
     'MetaCamp',
     'Magicblock',
