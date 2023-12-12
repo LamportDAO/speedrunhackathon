@@ -71,7 +71,7 @@ const HeadingTotalPrize = () => {
           fontFamily={Pixel.style.fontFamily}
           textAlign='center'
         >
-          The theme will be revealed before the event <Text fontSize={{ base: '4xl', md: '7xl' }}>🕹️</Text>
+          The GameJam theme is: <br/><br/> <Text fontSize={{ base: '4xl', md: '6xl' }}> 💀 Death is Temporary 💙 </Text>
         </Heading>
         <br/>
         <br/>
