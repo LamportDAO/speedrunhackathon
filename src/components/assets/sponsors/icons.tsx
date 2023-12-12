@@ -823,6 +823,13 @@ const Nokiamon = () => {
   );
 };
 
+const Turbo = () => {
+  return (
+      <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
+        <Image src='/turbo.png' alt='speedrun' width={200} height={400} />
+      </Center>
+  );
+};
 const Bonk = () => {
   return (
     <Center h={{ base: '2rem', md: '4rem' }} w={{ base: '3rem', md: '12rem' }}>
@@ -3200,5 +3207,6 @@ export {
   Backpack,
   Raindrops,
   GameShift,
-  SolanaMobile
+  SolanaMobile,
+  Turbo
 };

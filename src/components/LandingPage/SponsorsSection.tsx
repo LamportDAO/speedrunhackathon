@@ -9,6 +9,7 @@ const sponsorNames = [
     'SolBlaze',
     'Nokiamon',
     'Solana Mobile',
+    'Turbo',
     'Solana Foundation',
     'Metaplex',
     'Lamport DAO',

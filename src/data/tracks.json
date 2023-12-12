@@ -159,6 +159,28 @@
         ]
     },
     {
+        "Name": "Turbo",
+        "PrizeWorth": 1000,
+        "Sponsor": [
+            "Turbo"
+        ],
+        "PrizeUnit": "USDC",
+        "Description": "Turbo is sponsoring $500 for the best game that uses the Turbo engine and $500 for the best Turbo game in the following categories: Weirdest, Cutest, Most infuriating, Best writing and Nerdsnipiest.",
+        "Requirements": "Any game made with the Turbo engine is eligible",
+        "Ideas": [],
+        "Judges": [],
+        "Links": [
+            {
+                "Title": "Website",
+                "Link": "https://turbo.computer/"
+            },
+            {
+                "Title": "Twitter",
+                "Link": "https://twitter.com/makegamesfast"
+            }
+        ]
+    },
+    {
         "Name": "TO BE REVEALED",
         "PrizeWorth": 0,
         "Sponsor": [
