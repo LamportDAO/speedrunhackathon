@@ -94,10 +94,10 @@ export default function Home() {
               variant='gradient'
              // onClick={handleClickScroll}
               as='a'
-              href='https://lu.ma/d6564wbw'
+              href='https://dorahacks.io/hackathon/solanaspeedrun/detail'
               target={'_blank'}
             >
-              Register
+              Submit
             </Button>
             <Button
               as='a'

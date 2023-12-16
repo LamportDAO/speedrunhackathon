@@ -30,10 +30,10 @@ export default function Header() {
         alignItems='start'
         height={{ base: '2.2rem', md: '2.5rem' }}
         fontSize={{ base: '14px', md: '18px' }}
-        href="https://lu.ma/d6564wbw"
+        href="https://dorahacks.io/hackathon/solanaspeedrun/detail"
         className="luma-checkout--button"
       >
-        Register
+        Submit
       </Button>
     </Flex>
   );
